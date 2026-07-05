@@ -304,7 +304,7 @@ fetch('graph-data.json').then(r => r.json()).then(data => {
     .data(nodesCopy)
     .join('circle')
     .attr('class', 'node-circle')
-    .attr('r', d => isAW(d) ? Math.max(6, 4 + d._degree * 0.8) : Math.max(4, 3 + d._degree * 0.6))
+    .attr('r', d => Math.min(14, Math.max(4, 3 + Math.log2(1 + d._degree) * 3)))
     .attr('fill', d => getColor(d))
     .attr('stroke', d => getColor(d))
     .attr('stroke-width', 0.5)
@@ -327,16 +327,16 @@ fetch('graph-data.json').then(r => r.json()).then(data => {
         event.subject.fy = null;
       }));
 
-  // Labels — show on agentworld nodes or high-degree KG nodes
+  // Labels — all nodes, scaled by degree
   const labels = g.append('g')
     .selectAll('text')
-    .data(nodesCopy.filter(d => isAW(d) || d._degree >= 3))
+    .data(nodesCopy)
     .join('text')
     .text(d => truncLabel(prettifyName(d.id), 28))
-    .attr('font-size', d => isAW(d) ? '9px' : '8px')
+    .attr('font-size', d => d._degree >= 5 ? '9px' : d._degree >= 2 ? '8px' : '7px')
     .attr('fill', d => getColor(d))
-    .attr('fill-opacity', d => isAW(d) ? 0.85 : 0.5)
-    .attr('dx', d => Math.max(6, 4 + (d._degree || 0) * 0.6) + 4)
+    .attr('fill-opacity', d => d._degree >= 5 ? 0.9 : d._degree >= 2 ? 0.65 : 0.45)
+    .attr('dx', d => Math.min(14, Math.max(4, 3 + Math.log2(1 + d._degree) * 3)) + 4)
     .attr('dy', 3)
     .attr('font-family', "'Inter', sans-serif")
     .attr('pointer-events', 'none');
@@ -396,8 +396,8 @@ fetch('graph-data.json').then(r => r.json()).then(data => {
     if (event.target === svg.node()) {
       document.getElementById('info-panel').style.display = 'none';
       node.attr('opacity', 1);
-      link.attr('stroke-opacity', d => d.edge_type === 'bridge' ? 0.5 : 0.2);
-      labels.attr('fill-opacity', d => isAW(d) ? 0.85 : 0.5);
+      link.attr('stroke-opacity', d => d.edge_type === 'bridge' ? 0.5 : 0.3);
+      labels.attr('fill-opacity', d => d._degree >= 5 ? 0.9 : d._degree >= 2 ? 0.65 : 0.45);
     }
   });
 
@@ -425,8 +425,8 @@ fetch('graph-data.json').then(r => r.json()).then(data => {
   document.getElementById('btn-reset').addEventListener('click', () => {
     document.getElementById('info-panel').style.display = 'none';
     node.attr('opacity', 1);
-    link.attr('stroke-opacity', d => d.edge_type === 'bridge' ? 0.5 : 0.2);
-    labels.attr('fill-opacity', d => isAW(d) ? 0.85 : 0.5);
+    link.attr('stroke-opacity', d => d.edge_type === 'bridge' ? 0.5 : 0.3);
+    labels.attr('fill-opacity', d => d._degree >= 5 ? 0.9 : d._degree >= 2 ? 0.65 : 0.45);
   });
 });
 </script>
