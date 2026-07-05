@@ -253,14 +253,15 @@ fetch('graph-data.json').then(r => r.json()).then(data => {
   Object.entries(COLORS).forEach(([key, color]) => {
     const filter = defs.append('filter')
       .attr('id', 'glow-' + key)
-      .attr('x', '-50%').attr('y', '-50%')
-      .attr('width', '200%').attr('height', '200%');
+      .attr('x', '-80%').attr('y', '-80%')
+      .attr('width', '260%').attr('height', '260%');
     filter.append('feGaussianBlur')
-      .attr('stdDeviation', 3.5)
+      .attr('in', 'SourceGraphic')
+      .attr('stdDeviation', 6)
       .attr('result', 'blur');
     filter.append('feFlood')
       .attr('flood-color', color)
-      .attr('flood-opacity', 0.6)
+      .attr('flood-opacity', 0.8)
       .attr('result', 'color');
     filter.append('feComposite')
       .attr('in', 'color')
@@ -268,6 +269,7 @@ fetch('graph-data.json').then(r => r.json()).then(data => {
       .attr('operator', 'in')
       .attr('result', 'colorBlur');
     const merge = filter.append('feMerge');
+    merge.append('feMergeNode').attr('in', 'colorBlur');
     merge.append('feMergeNode').attr('in', 'colorBlur');
     merge.append('feMergeNode').attr('in', 'SourceGraphic');
   });
@@ -304,9 +306,9 @@ fetch('graph-data.json').then(r => r.json()).then(data => {
     .selectAll('line')
     .data(edgesCopy)
     .join('line')
-    .attr('stroke', d => d.edge_type === 'bridge' ? '#e8b84d' : 'rgba(150,160,180,0.3)')
-    .attr('stroke-width', d => d.edge_type === 'bridge' ? 1.5 : 0.8)
-    .attr('stroke-opacity', d => d.edge_type === 'bridge' ? 0.5 : 0.2);
+    .attr('stroke', d => d.edge_type === 'bridge' ? '#e8b84d' : 'rgba(150,160,180,0.4)')
+    .attr('stroke-width', d => d.edge_type === 'bridge' ? 1.5 : 1)
+    .attr('stroke-opacity', d => d.edge_type === 'bridge' ? 0.6 : 0.3);
 
   // Nodes
   const node = g.append('g')
