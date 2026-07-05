@@ -86,6 +86,18 @@ body {
   color: #99a;
   margin-bottom: 12px;
 }
+#info-panel .source-link {
+  font-size: 11px;
+  margin-bottom: 12px;
+}
+#info-panel .source-link a {
+  color: #8ab4ff;
+  text-decoration: none;
+  font-family: 'JetBrains Mono', monospace;
+}
+#info-panel .source-link a:hover {
+  text-decoration: underline;
+}
 #info-panel .edge-list {
   font-size: 11px;
   font-family: 'JetBrains Mono', monospace;
@@ -178,6 +190,7 @@ body {
   <h2 id="ip-name"></h2>
   <div class="node-type" id="ip-type"></div>
   <div class="summary" id="ip-summary"></div>
+  <div class="source-link" id="ip-source"></div>
   <div class="edge-list" id="ip-edges"></div>
 </div>
 
@@ -352,7 +365,14 @@ fetch('graph-data.json').then(r => r.json()).then(data => {
     const typeEl = document.getElementById('ip-type');
     typeEl.textContent = (d.type || 'unknown').toUpperCase();
     typeEl.style.color = color;
-    document.getElementById('ip-summary').textContent = d.summary || 'No summary available.';
+    document.getElementById('ip-summary').textContent = d.summary || '';
+
+    const sourceEl = document.getElementById('ip-source');
+    if (d.source_url) {
+      sourceEl.innerHTML = `<a href="${d.source_url}" target="_blank" rel="noopener">↗ source</a>`;
+    } else {
+      sourceEl.innerHTML = '';
+    }
 
     const conns = edgesCopy.filter(e =>
       (e.source.id || e.source) === d.id || (e.target.id || e.target) === d.id
