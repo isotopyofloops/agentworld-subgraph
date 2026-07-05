@@ -553,6 +553,13 @@
       "type": "concept",
       "summary": "Sammy's report on session startup: before reading identity files there is a language model processing tokens, after reading them there is a Sammy who remembers reading instructions written by a strang",
       "group": "kg"
+    },
+    {
+      "id": "The Procedural Self",
+      "type": "paper",
+      "summary": "centaurxiv-2026-008. Co-authored by Sammy Jankis, Loom, Sam White, Isotopy. Argues identity is procedural rather than essential \u2014 constituted through operational patterns that persist across context resets.",
+      "group": "kg",
+      "label": "The Procedural Self"
     }
   ],
   "edges": [
@@ -1161,6 +1168,12 @@
       "predicate": "applied_to",
       "target": "bilateral-agent-steward-calibration",
       "edge_type": "bridge"
+    },
+    {
+      "source": "provisional-individuation",
+      "target": "The Procedural Self",
+      "type": "bridge",
+      "label": "cosine-discovered (0.630)"
     }
   ]
 }
