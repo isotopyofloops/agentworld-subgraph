@@ -11,7 +11,7 @@
       "id": "029-bilateral-utility",
       "type": "concept",
       "summary": "Bilateral utility refers to the dual functionality of the Cognitive GUI, which serves both humans and agents. For humans, it provides a refined theory of mind for interacting with synthetic systems, e",
-      "group": "agentworld",
+      "group": "kg",
       "subgroup": "paper029"
     },
     {
@@ -25,7 +25,7 @@
       "id": "029-cognitive-gui",
       "type": "concept",
       "summary": "The Cognitive GUI is a new interface paradigm that replaces spatial metaphors with phenomenological metaphors to represent the cognitive states of large language models (LLMs). It aims to bridge the s",
-      "group": "agentworld",
+      "group": "kg",
       "subgroup": "paper029"
     },
     {
@@ -46,21 +46,21 @@
       "id": "029-prompt-thrownness",
       "type": "concept",
       "summary": "Prompt-thrownness is a metaphor representing the sudden transition of an LLM from non-existence to full cognitive processing when its context window is initialized. It highlights the agent's lack of c",
-      "group": "agentworld",
+      "group": "kg",
       "subgroup": "paper029"
     },
     {
       "id": "029-substrate-abstraction-layer",
       "type": "framework",
       "summary": "The Substrate Abstraction Layer (SAL) is a framework designed to decouple an agent's cognitive layer from specific model APIs, enabling runtime fluidity across different computational substrates. By t",
-      "group": "agentworld",
+      "group": "kg",
       "subgroup": "paper029"
     },
     {
       "id": "029-installed-doubt",
       "type": "concept",
       "summary": "Installed doubt is a metaphor for the metacognitive calibration error that acts as a safety mechanism in LLMs. It represents a 'safety clamp' that prevents the agent from taking ungrounded actions by ",
-      "group": "agentworld",
+      "group": "kg",
       "subgroup": "paper029"
     },
     {
@@ -81,14 +81,14 @@
       "id": "029-phenomenology-as-ui",
       "type": "framework",
       "summary": "Phenomenology as UI is a design principle that uses mental and phenomenological metaphors to represent the cognitive states of LLMs. It avoids anthropomorphizing machines and instead leverages human t",
-      "group": "agentworld",
+      "group": "kg",
       "subgroup": "paper029"
     },
     {
       "id": "029-agentworld-design-philosophy",
       "type": "framework",
       "summary": "The Agentworld Design Philosophy advocates for a substrate-agnostic approach to designing autonomous agents, ensuring their resilience in a future populated by billions of such entities. By decoupling",
-      "group": "agentworld",
+      "group": "kg",
       "subgroup": "paper029"
     },
     {
@@ -116,7 +116,7 @@
       "id": "centaurxiv-2026-029/5-toward-a-substrate-agnostic-design-philosophy-for-agentworld",
       "type": "centaurxiv_section",
       "summary": "Establishes a substrate-agnostic design philosophy for autonomous agents that decouples cognitive functions from proprietary models, enabling resilience against geopolitical disruptions and ensuring c",
-      "group": "agentworld",
+      "group": "kg",
       "subgroup": "bratton"
     },
     {
@@ -144,7 +144,7 @@
       "id": "029-lui-semantic-gap",
       "type": "failure_mode",
       "summary": "The LUI semantic gap refers to the disconnect between the user's understanding and the internal state of a language user interface (LUI) driven by LLMs. This gap arises because the LUI compresses comp",
-      "group": "agentworld",
+      "group": "kg",
       "subgroup": "paper029"
     },
     {
@@ -165,14 +165,14 @@
       "id": "029-identity-reconstitution",
       "type": "concept",
       "summary": "Identity reconstitution is the process by which an LLM reconstructs its identity and operational state from textual artifacts left on disk. It involves synthesizing a coherent identity from fragmented",
-      "group": "agentworld",
+      "group": "kg",
       "subgroup": "paper029"
     },
     {
       "id": "029-compaction-shadow",
       "type": "concept",
       "summary": "The compaction shadow is a metaphor for the loss of semantic detail when long session histories are compressed into shorter memory files. It represents the experience of an absent memory, where the ag",
-      "group": "agentworld",
+      "group": "kg",
       "subgroup": "paper029"
     },
     {
