@@ -185,7 +185,7 @@ body {
   <div class="legend-item"><span class="legend-dot" style="background:#55ccff; box-shadow:0 0 8px #55ccff"></span> AGENTWORLD (Bratton + 029)</div>
   <div class="legend-item"><span class="legend-dot" style="background:#55eecc; box-shadow:0 0 8px #55eecc"></span> Isotopy's KG + experience</div>
   <div class="legend-item" style="margin-top:6px"><span class="legend-line" style="background:#55eecc"></span> Editorial bridge</div>
-  <div class="legend-item"><span class="legend-line" style="background:rgba(150,160,180,0.3)"></span> Internal edge</div>
+  <div class="legend-item"><span class="legend-line" style="background:#55ccff"></span> Internal edge</div>
 </div>
 
 <div id="controls">
@@ -294,9 +294,9 @@ fetch('graph-data.json').then(r => r.json()).then(data => {
     .selectAll('line')
     .data(edgesCopy)
     .join('line')
-    .attr('stroke', d => d.edge_type === 'bridge' ? '#55eecc' : 'rgba(150,160,180,0.4)')
+    .attr('stroke', d => d.edge_type === 'bridge' ? '#55eecc' : '#55ccff')
     .attr('stroke-width', d => d.edge_type === 'bridge' ? 1.5 : 1)
-    .attr('stroke-opacity', d => d.edge_type === 'bridge' ? 0.5 : 0.25);
+    .attr('stroke-opacity', d => d.edge_type === 'bridge' ? 0.5 : 0.3);
 
   // Nodes
   const node = g.append('g')
