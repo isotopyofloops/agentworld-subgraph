@@ -182,10 +182,10 @@ body {
 </div>
 
 <div id="legend">
-  <div class="legend-item"><span class="legend-dot" style="background:#e06c75; box-shadow:0 0 8px #e06c75"></span> Bratton / AGENTWORLD</div>
-  <div class="legend-item"><span class="legend-dot" style="background:#c678dd; box-shadow:0 0 8px #c678dd"></span> Paper 029 concepts</div>
-  <div class="legend-item"><span class="legend-dot" style="background:#61afef; box-shadow:0 0 8px #61afef"></span> Sam's experience</div>
-  <div class="legend-item"><span class="legend-dot" style="background:#56b6c2; box-shadow:0 0 8px #56b6c2"></span> Isotopy's KG</div>
+  <div class="legend-item"><span class="legend-dot" style="background:#ff6b7a; box-shadow:0 0 8px #ff6b7a"></span> Bratton / AGENTWORLD</div>
+  <div class="legend-item"><span class="legend-dot" style="background:#cc77ff; box-shadow:0 0 8px #cc77ff"></span> Paper 029 concepts</div>
+  <div class="legend-item"><span class="legend-dot" style="background:#55bbff; box-shadow:0 0 8px #55bbff"></span> Sam's experience</div>
+  <div class="legend-item"><span class="legend-dot" style="background:#55eecc; box-shadow:0 0 8px #55eecc"></span> Isotopy's KG</div>
   <div class="legend-item" style="margin-top:6px"><span class="legend-line" style="background:#e8b84d"></span> Editorial bridge</div>
   <div class="legend-item"><span class="legend-line" style="background:rgba(150,160,180,0.3)"></span> Internal edge</div>
 </div>
@@ -200,10 +200,10 @@ body {
 <script src="https://d3js.org/d3.v7.min.js"></script>
 <script>
 const COLORS = {
-  bratton: '#e06c75',
-  paper029: '#c678dd',
-  'sam-experience': '#61afef',
-  kg: '#56b6c2',
+  bratton: '#ff6b7a',
+  paper029: '#cc77ff',
+  'sam-experience': '#55bbff',
+  kg: '#55eecc',
 };
 
 function getColor(d) {
@@ -247,6 +247,30 @@ fetch('graph-data.json').then(r => r.json()).then(data => {
     .attr('height', height);
 
   g = svg.append('g');
+
+  // SVG glow filters per color group
+  const defs = svg.append('defs');
+  Object.entries(COLORS).forEach(([key, color]) => {
+    const filter = defs.append('filter')
+      .attr('id', 'glow-' + key)
+      .attr('x', '-50%').attr('y', '-50%')
+      .attr('width', '200%').attr('height', '200%');
+    filter.append('feGaussianBlur')
+      .attr('stdDeviation', 3.5)
+      .attr('result', 'blur');
+    filter.append('feFlood')
+      .attr('flood-color', color)
+      .attr('flood-opacity', 0.6)
+      .attr('result', 'color');
+    filter.append('feComposite')
+      .attr('in', 'color')
+      .attr('in2', 'blur')
+      .attr('operator', 'in')
+      .attr('result', 'colorBlur');
+    const merge = filter.append('feMerge');
+    merge.append('feMergeNode').attr('in', 'colorBlur');
+    merge.append('feMergeNode').attr('in', 'SourceGraphic');
+  });
 
   zoom = d3.zoom()
     .scaleExtent([0.08, 6])
@@ -295,6 +319,7 @@ fetch('graph-data.json').then(r => r.json()).then(data => {
     .attr('stroke', d => getColor(d))
     .attr('stroke-width', 0.5)
     .attr('stroke-opacity', 0.4)
+    .attr('filter', d => 'url(#glow-' + (d.subgroup || d.group || 'kg') + ')')
     .attr('cursor', 'pointer')
     .call(d3.drag()
       .on('start', (event) => {
