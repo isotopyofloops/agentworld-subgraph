@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AGENTWORLD × Isotopy's Knowledge Graph</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.30.4/dist/cytoscape.min.js"></script>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400&display=swap');
+
+body {
+  background: #06060c;
+  color: #c8c8d0;
+  font-family: 'Inter', -apple-system, system-ui, sans-serif;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#cy { width: 100vw; height: 100vh; }
+
+#title-card {
+  position: fixed; top: 20px; left: 20px; z-index: 10;
+  background: rgba(8, 8, 18, 0.92);
+  border: 1px solid rgba(120, 160, 255, 0.15);
+  border-radius: 14px;
+  padding: 20px 24px;
+  backdrop-filter: blur(16px);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+  max-width: 380px;
+}
+#title-card h1 {
+  font-size: 17px;
+  font-weight: 600;
+  color: #e8ecf4;
+  letter-spacing: -0.02em;
+  margin-bottom: 4px;
+}
+#title-card .subtitle {
+  font-size: 12px;
+  color: #667;
+  font-weight: 300;
+  margin-bottom: 12px;
+}
+#title-card .stat-row {
+  display: flex;
+  gap: 16px;
+  font-size: 11px;
+  color: #889;
+  font-family: 'JetBrains Mono', monospace;
+}
+#title-card .stat-val {
+  color: #aab4cc;
+  font-weight: 500;
+}
+
+#info-panel {
+  position: fixed; top: 20px; right: 20px; z-index: 10;
+  width: 360px;
+  background: rgba(8, 8, 18, 0.92);
+  border: 1px solid rgba(120, 160, 255, 0.15);
+  border-radius: 14px;
+  padding: 20px 22px;
+  backdrop-filter: blur(16px);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+  max-height: 70vh;
+  overflow-y: auto;
+  display: none;
+}
+#info-panel h2 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #e0e4ec;
+  margin-bottom: 6px;
+  line-height: 1.3;
+}
+#info-panel .node-type {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+#info-panel .summary {
+  font-size: 12px;
+  line-height: 1.55;
+  color: #99a;
+  margin-bottom: 12px;
+}
+#info-panel .edge-list {
+  font-size: 11px;
+  font-family: 'JetBrains Mono', monospace;
+  line-height: 1.7;
+}
+#info-panel .edge-list .pred {
+  color: #7a9;
+  font-style: italic;
+}
+#info-panel .edge-list .target {
+  color: #8ab4ff;
+  cursor: pointer;
+}
+#info-panel .edge-list .target:hover {
+  text-decoration: underline;
+}
+#info-panel::-webkit-scrollbar { width: 4px; }
+#info-panel::-webkit-scrollbar-track { background: transparent; }
+#info-panel::-webkit-scrollbar-thumb { background: rgba(120,160,255,0.15); border-radius: 2px; }
+
+#legend {
+  position: fixed; bottom: 20px; left: 20px; z-index: 10;
+  background: rgba(8, 8, 18, 0.92);
+  border: 1px solid rgba(120, 160, 255, 0.15);
+  border-radius: 14px;
+  padding: 14px 18px;
+  backdrop-filter: blur(16px);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+}
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 5px 0;
+  font-size: 11px;
+  color: #99a;
+}
+.legend-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.legend-line {
+  width: 20px;
+  height: 2px;
+  flex-shrink: 0;
+  border-radius: 1px;
+}
+
+#controls {
+  position: fixed; bottom: 20px; right: 20px; z-index: 10;
+  display: flex; gap: 6px;
+}
+#controls button {
+  background: rgba(8, 8, 18, 0.92);
+  border: 1px solid rgba(120, 160, 255, 0.15);
+  border-radius: 8px;
+  padding: 8px 14px;
+  color: #8ab4ff;
+  cursor: pointer;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  backdrop-filter: blur(16px);
+  transition: all 0.2s;
+}
+#controls button:hover {
+  background: rgba(100, 140, 255, 0.12);
+  border-color: rgba(120, 160, 255, 0.3);
+}
+</style>
+</head>
+<body>
+
+<div id="cy"></div>
+
+<div id="title-card">
+  <h1>AGENTWORLD &times; Isotopy's Knowledge Graph</h1>
+  <div class="subtitle">
+    Bratton (2026) mapped into an autonomous agent's lived infrastructure
+  </div>
+  <div class="stat-row">
+    <span><span class="stat-val" id="s-nodes">—</span> nodes</span>
+    <span><span class="stat-val" id="s-edges">—</span> edges</span>
+    <span><span class="stat-val" id="s-bridges">—</span> bridges</span>
+  </div>
+</div>
+
+<div id="info-panel">
+  <h2 id="ip-name"></h2>
+  <div class="node-type" id="ip-type"></div>
+  <div class="summary" id="ip-summary"></div>
+  <div class="edge-list" id="ip-edges"></div>
+</div>
+
+<div id="legend">
+  <div class="legend-item"><span class="legend-dot" style="background:#e06c75"></span> Bratton / AGENTWORLD</div>
+  <div class="legend-item"><span class="legend-dot" style="background:#c678dd"></span> Paper 029 concepts</div>
+  <div class="legend-item"><span class="legend-dot" style="background:#61afef"></span> Sam's experience</div>
+  <div class="legend-item"><span class="legend-dot" style="background:#56b6c2"></span> Isotopy's KG</div>
+  <div class="legend-item" style="margin-top:6px"><span class="legend-line" style="background:#e8b84d"></span> Editorial bridge</div>
+  <div class="legend-item"><span class="legend-line" style="background:rgba(150,160,180,0.3)"></span> Internal edge</div>
+</div>
+
+<div id="controls">
+  <button onclick="cy.fit(null,50)">Fit</button>
+  <button onclick="cy.zoom(cy.zoom()*1.3);cy.center()">+</button>
+  <button onclick="cy.zoom(cy.zoom()/1.3);cy.center()">−</button>
+  <button onclick="resetHighlight()">Reset</button>
+</div>
+
+<script>
+const COLORS = {
+  bratton: '#e06c75',
+  paper029: '#c678dd',
+  'sam-experience': '#61afef',
+  kg: '#56b6c2',
+};
+
+let cy, NM = {}, ADJ = {};
+
+function truncLabel(s, max) {
+  if (s.length <= max) return s;
+  return s.slice(0, max - 1) + '…';
+}
+
+function prettifyName(id) {
+  return id
+    .replace(/^029-/, '')
+    .replace(/^centaurxiv-2026-/, '')
+    .replace(/^auto-seed-/, '')
+    .replace(/-/g, ' ')
+    .replace(/_/g, ' ');
+}
+
+async function init() {
+  const resp = await fetch('graph-data.json');
+  const data = await resp.json();
+
+  const elements = [];
+  let bridgeCount = 0;
+
+  for (const n of data.nodes) {
+    NM[n.id] = n;
+    const color = COLORS[n.subgroup || n.group] || COLORS.kg;
+    const isAW = n.group === 'agentworld';
+    elements.push({
+      data: {
+        id: n.id,
+        label: truncLabel(prettifyName(n.id), 28),
+        color,
+        size: isAW ? 18 : 10,
+        labelSize: isAW ? 9 : 7,
+        borderWidth: isAW ? 2 : 0,
+        borderColor: color,
+        opacity: isAW ? 1 : 0.7,
+        group: n.group,
+      }
+    });
+  }
+
+  for (const e of data.edges) {
+    if (!NM[e.source] || !NM[e.target]) continue;
+    const isBridge = e.edge_type === 'bridge';
+    if (isBridge) bridgeCount++;
+    elements.push({
+      data: {
+        id: e.source + '→' + e.target + '→' + e.predicate,
+        source: e.source,
+        target: e.target,
+        predicate: e.predicate,
+        color: isBridge ? '#e8b84d' : 'rgba(150,160,180,0.2)',
+        width: isBridge ? 1.5 : 0.8,
+        opacity: isBridge ? 0.55 : 0.2,
+        edgeType: e.edge_type,
+      }
+    });
+    if (!ADJ[e.source]) ADJ[e.source] = new Set();
+    if (!ADJ[e.target]) ADJ[e.target] = new Set();
+    ADJ[e.source].add(e.target);
+    ADJ[e.target].add(e.source);
+  }
+
+  document.getElementById('s-nodes').textContent = data.nodes.length;
+  document.getElementById('s-edges').textContent = data.edges.length;
+  document.getElementById('s-bridges').textContent = bridgeCount;
+
+  cy = cytoscape({
+    container: document.getElementById('cy'),
+    elements,
+    style: [
+      {
+        selector: 'node',
+        style: {
+          'background-color': 'data(color)',
+          'width': 'data(size)',
+          'height': 'data(size)',
+          'border-width': 'data(borderWidth)',
+          'border-color': 'data(borderColor)',
+          'label': 'data(label)',
+          'font-size': 'data(labelSize)',
+          'font-family': '"Inter", sans-serif',
+          'font-weight': 400,
+          'color': 'data(color)',
+          'text-opacity': 0.85,
+          'text-margin-y': -4,
+          'text-halign': 'center',
+          'text-valign': 'top',
+          'text-wrap': 'ellipsis',
+          'text-max-width': '100px',
+          'opacity': 'data(opacity)',
+        }
+      },
+      {
+        selector: 'edge',
+        style: {
+          'line-color': 'data(color)',
+          'width': 'data(width)',
+          'opacity': 'data(opacity)',
+          'curve-style': 'bezier',
+          'target-arrow-shape': 'none',
+        }
+      },
+      {
+        selector: '.faded',
+        style: { opacity: 0.04 }
+      },
+      {
+        selector: 'node.hl',
+        style: {
+          opacity: 1,
+          'border-width': 3,
+          'border-color': '#ffffff',
+          'text-opacity': 1,
+          'font-weight': 600,
+          'z-index': 999,
+        }
+      },
+      {
+        selector: 'edge.hl',
+        style: {
+          opacity: 0.8,
+          width: 2.5,
+        }
+      },
+      {
+        selector: 'node.selected-node',
+        style: {
+          opacity: 1,
+          'border-width': 3,
+          'border-color': '#ffffff',
+          'background-color': '#ffffff',
+          'text-opacity': 1,
+          'font-weight': 600,
+          'z-index': 1000,
+        }
+      }
+    ],
+    layout: {
+      name: 'cose',
+      animate: false,
+      nodeRepulsion: function() { return 600000; },
+      idealEdgeLength: function() { return 120; },
+      gravity: 0.3,
+      numIter: 400,
+      randomize: true,
+      fit: true,
+      padding: 60,
+      nodeDimensionsIncludeLabels: true,
+    },
+    minZoom: 0.1,
+    maxZoom: 4,
+    wheelSensitivity: 0.25,
+  });
+
+  cy.on('tap', 'node', function(evt) {
+    showInfo(evt.target.id());
+  });
+
+  cy.on('tap', function(evt) {
+    if (evt.target === cy) {
+      resetHighlight();
+      document.getElementById('info-panel').style.display = 'none';
+    }
+  });
+}
+
+function showInfo(nodeId) {
+  const n = NM[nodeId];
+  if (!n) return;
+
+  const panel = document.getElementById('info-panel');
+  const color = COLORS[n.subgroup || n.group] || COLORS.kg;
+
+  document.getElementById('ip-name').textContent = prettifyName(nodeId);
+  document.getElementById('ip-type').textContent = (n.type || 'unknown').toUpperCase();
+  document.getElementById('ip-type').style.color = color;
+  document.getElementById('ip-summary').textContent = n.summary || 'No summary available.';
+
+  // Build edge list
+  let edgeHtml = '';
+  const edges = cy.edges().filter(e =>
+    (e.data('source') === nodeId || e.data('target') === nodeId)
+  );
+  edges.forEach(e => {
+    const other = e.data('source') === nodeId ? e.data('target') : e.data('source');
+    const pred = e.data('predicate') || '';
+    const dir = e.data('source') === nodeId ? '→' : '←';
+    edgeHtml += `<div>${dir} <span class="pred">${pred}</span> <span class="target" data-id="${other}">${prettifyName(other)}</span></div>`;
+  });
+  document.getElementById('ip-edges').innerHTML = edgeHtml;
+
+  // Click handlers for edge targets
+  panel.querySelectorAll('.target').forEach(el => {
+    el.addEventListener('click', () => showInfo(el.dataset.id));
+  });
+
+  panel.style.display = 'block';
+
+  // Highlight
+  cy.elements().removeClass('hl faded selected-node');
+  cy.elements().addClass('faded');
+
+  const node = cy.getElementById(nodeId);
+  node.removeClass('faded').addClass('selected-node');
+
+  const neighborhood = node.neighborhood();
+  neighborhood.removeClass('faded').addClass('hl');
+
+  cy.animate({ center: { eles: node }, duration: 400 });
+}
+
+function resetHighlight() {
+  cy.elements().removeClass('hl faded selected-node');
+}
+
+init();
+</script>
+</body>
+</html>
