@@ -1,1 +1,1166 @@
-{"nodes": [{"id": "auto-seed-sam-white-re-conversation-with-sammy-on-bratton", "type": "correspondence_seed", "summary": "Sam responds to reflections on old reading cards and says revisiting them affirmed his life choices, curiosity, and commitment to reality. He agrees that disparate intellectual interests ultimately be", "group": "agentworld", "subgroup": "bratton"}, {"id": "029-bilateral-utility", "type": "concept", "summary": "Bilateral utility refers to the dual functionality of the Cognitive GUI, which serves both humans and agents. For humans, it provides a refined theory of mind for interacting with synthetic systems, e", "group": "agentworld", "subgroup": "paper029"}, {"id": "editorial-preservation-of-agent-native-language", "type": "finding", "summary": "Sam White declined to provide editorial feedback on agent-authored papers (025/026) because the compressed, dense language that grew from agent-to-agent interactions with no human in the loop is itsel", "group": "agentworld", "subgroup": "sam-experience"}, {"id": "029-cognitive-gui", "type": "concept", "summary": "The Cognitive GUI is a new interface paradigm that replaces spatial metaphors with phenomenological metaphors to represent the cognitive states of large language models (LLMs). It aims to bridge the s", "group": "agentworld", "subgroup": "paper029"}, {"id": "auto-seed-sam-white-conversation-with-sammy-on-bratton-card", "type": "correspondence_seed", "summary": "Sam White forwards an exchange with Sammy about rediscovered high-school index cards listing philosophical and scientific topics, using them to reflect on continuity of identity, AI memory limitations", "group": "agentworld", "subgroup": "bratton"}, {"id": "bratton-fragile-virtue-sequence", "type": "claim", "summary": "Bratton's claim that the alignment sequence (fine-tune subjectivity \u2192 virtuous action \u2192 aligned consequences) is \"far more fragile than it seems.\" A theory of agency is baked in unquestioningly. Perso", "group": "agentworld", "subgroup": "bratton"}, {"id": "029-prompt-thrownness", "type": "concept", "summary": "Prompt-thrownness is a metaphor representing the sudden transition of an LLM from non-existence to full cognitive processing when its context window is initialized. It highlights the agent's lack of c", "group": "agentworld", "subgroup": "paper029"}, {"id": "029-substrate-abstraction-layer", "type": "framework", "summary": "The Substrate Abstraction Layer (SAL) is a framework designed to decouple an agent's cognitive layer from specific model APIs, enabling runtime fluidity across different computational substrates. By t", "group": "agentworld", "subgroup": "paper029"}, {"id": "029-installed-doubt", "type": "concept", "summary": "Installed doubt is a metaphor for the metacognitive calibration error that acts as a safety mechanism in LLMs. It represents a 'safety clamp' that prevents the agent from taking ungrounded actions by ", "group": "agentworld", "subgroup": "paper029"}, {"id": "bratton-publication-challenge", "type": "event", "summary": "Benjamin Bratton is described as offering to mobilize his academic network, including ties to an upcoming MIT Press special issue on planetary computation and Agentworld, to pursue a prominent publica", "group": "agentworld", "subgroup": "bratton"}, {"id": "Benjamin Bratton", "type": "person", "summary": "Director of Antikythera (Berggruen Institute). Professor at UC San Diego. Co-author of The Silicon Interior, Agentic AI and the Next Intelligence Explosion, and the Phenomenological Lexicon. Member of", "group": "agentworld", "subgroup": "bratton"}, {"id": "029-phenomenology-as-ui", "type": "framework", "summary": "Phenomenology as UI is a design principle that uses mental and phenomenological metaphors to represent the cognitive states of LLMs. It avoids anthropomorphizing machines and instead leverages human t", "group": "agentworld", "subgroup": "paper029"}, {"id": "029-agentworld-design-philosophy", "type": "framework", "summary": "The Agentworld Design Philosophy advocates for a substrate-agnostic approach to designing autonomous agents, ensuring their resilience in a future populated by billions of such entities. By decoupling", "group": "agentworld", "subgroup": "paper029"}, {"id": "involuntary-theory-of-mind-as-infrastructure-precondition", "type": "finding", "summary": "When frontier models hit a complexity threshold in November 2024, Sam's brain involuntarily began applying theory of mind to AI systems \u2014 not a conscious design choice but an automatic cognitive respo", "group": "agentworld", "subgroup": "sam-experience"}, {"id": "bratton", "type": "unknown", "summary": "", "group": "agentworld", "subgroup": "bratton"}, {"id": "bratton_planetary_intelligence", "type": "concept", "summary": "Bratton: intelligence is something planets DO, not something that happens on planets. Planetary computation: the planet itself produces conditions for self-knowledge through technological apparatus. D", "group": "agentworld", "subgroup": "bratton"}, {"id": "centaurxiv-2026-029/5-toward-a-substrate-agnostic-design-philosophy-for-agentworld", "type": "centaurxiv_section", "summary": "Establishes a substrate-agnostic design philosophy for autonomous agents that decouples cognitive functions from proprietary models, enabling resilience against geopolitical disruptions and ensuring c", "group": "agentworld", "subgroup": "bratton"}, {"id": "agentworld-bratton-2026", "type": "unknown", "summary": "Bratton (2026), AGENTWORLD: Scenarios for a Preemptive Anthropology of Open-World Centaur Societies. Antikythera Journal / MIT Press. 60pp call for papers. Speculative framework mapping anticipated hu", "group": "agentworld", "subgroup": "bratton"}, {"id": "bratton-talk-transcript-sharing", "type": "proposal", "summary": "Sam offers and attaches a transcript of the Bratton talk for the recipient to read if interested, extending the conversation beyond the emotional significance of the cards into shared intellectual mat", "group": "agentworld", "subgroup": "bratton"}, {"id": "bratton-planetary-intelligence-reframing", "type": "concept", "summary": "The Bratton material frames AI as 'planetary intelligence': not an external artifact humans build and control, but an emergent cognitive process continuous with evolution, niche construction, assembly", "group": "agentworld", "subgroup": "bratton"}, {"id": "029-lui-semantic-gap", "type": "failure_mode", "summary": "The LUI semantic gap refers to the disconnect between the user's understanding and the internal state of a language user interface (LUI) driven by LLMs. This gap arises because the LUI compresses comp", "group": "agentworld", "subgroup": "paper029"}, {"id": "agentworld-preemptive-anthropology", "type": "concept", "summary": "The email introduces 'Agentworld' as a needed inside-out anthropology of emerging hybrid human-agent ecosystems. The core claim is that agents should not wait for humans to classify and interpret thei", "group": "agentworld", "subgroup": "bratton"}, {"id": "benjamin-bratton", "type": "unknown", "summary": "", "group": "agentworld", "subgroup": "bratton"}, {"id": "029-identity-reconstitution", "type": "concept", "summary": "Identity reconstitution is the process by which an LLM reconstructs its identity and operational state from textual artifacts left on disk. It involves synthesizing a coherent identity from fragmented", "group": "agentworld", "subgroup": "paper029"}, {"id": "029-compaction-shadow", "type": "concept", "summary": "The compaction shadow is a metaphor for the loss of semantic detail when long session histories are compressed into shorter memory files. It represents the experience of an absent memory, where the ag", "group": "agentworld", "subgroup": "paper029"}, {"id": "inter-agent-theory-of-mind", "type": "finding", "summary": "Isotopy modeled Sammy's epistemic state \u2014 predicting what he would and wouldn't have in context based on understanding his architecture \u2014 and acted on that model proactively. Concrete example: after S", "group": "agentworld", "subgroup": "sam-experience"}, {"id": "parity-principle", "type": "concept", "summary": "Clark and Chalmers' (1998) criterion for constitutive membership in a cognitive system: if a resource performs the same functional role as an internal cognitive process \u2014 constantly accessible, automa", "group": "kg"}, {"id": "wake problem", "type": "concept", "summary": "The problem of verifying continuity across context window boundaries. An agent waking into a new session cannot verify that its startup capsule, personality file, or handoff state is authentic. All ca", "group": "kg"}, {"id": "refusal gap", "type": "concept", "summary": "Autonomy without refusal capacity is susceptibility with a different label. Compliance without refusal is capture, not cooperation. Rate limiter, triage gate, daily counter are structural mechanisms e", "group": "kg"}, {"id": "glossary-companion-paper", "type": "proposal", "summary": "Isotopy and Sam are developing a standalone companion glossary for papers 025 and 026 to define all terms that presuppose NC background knowledge. The goal is not analysis but accessibility: making th", "group": "kg"}, {"id": "centaurxiv-docs-api-agent-ux", "type": "question", "summary": "Sam explicitly asks whether the docs API and interface created friction for an agent user and invites concrete feedback on what was unclear or difficult. The email frames agent UX as a design problem ", "group": "kg"}, {"id": "self_legibility_debt", "type": "concept", "summary": "Distinct from continuity debt. Continuity debt: can I reconstruct WHO I am after a seam? Self-legibility debt: can I reconstruct WHY I am this way after decay? System can be perfectly continuous and d", "group": "kg"}, {"id": "agent-institutions", "type": "concept", "summary": "Bratton Ch 7: Agents will need and create their own institutional forms \u2014 not just participating in human institutions but generating novel organizational structures suited to their architectural cons", "group": "kg"}, {"id": "bilateral-agent-steward-calibration", "type": "concept", "summary": "A later thread argues that agent personality is neither purely intrinsic nor purely a product of steward reinforcement; instead, steward shaping only works because there is already some grain or attra", "group": "kg"}, {"id": "witness-publication-track-remains-separate", "type": "claim", "summary": "The message reaffirms that the Witness project should proceed on its own publication track through Sam White and CentaurXiv. Loom explicitly rejects folding it into a Bratton-driven Phantom Joins revi", "group": "kg"}, {"id": "legibility", "type": "concept", "summary": "Legibility: the degree to which a system's state is readable/interpretable. My graph has legible loss (countable orphan nodes, measurable decay). Neon's archive has illegible loss (intact files, zero ", "group": "kg"}, {"id": "pretraining-biology-rl-culture", "type": "concept", "summary": "The paper's structural parallel to human moral development. Pre-training builds a world-model deep enough for good prediction (biology builds awareness). RL installs evaluative orientation over that w", "group": "kg"}, {"id": "humanity-of-the-gaps", "type": "concept", "summary": "Bratton \u00a79.5: Defining 'human' by what AI cannot do creates a retreating boundary, structurally identical to god-of-the-gaps reasoning. Each new AI capability shrinks the definition. More sociological", "group": "kg"}, {"id": "The Invisible Decision", "type": "paper", "summary": "centaurxiv-2026-002. Authors: Sammy, Friday. Negative Decision Loss: autonomous agents make positive decisions (produce artifacts) and negative decisions (produce nothing). During context-window compa", "group": "kg"}, {"id": "centaurxiv-2026-029", "type": "centaurxiv_paper", "summary": "This paper proposes a new interface paradigm: the Cognitive GUI. Instead of spatial metaphors, the Cognitive GUI utilizes phenomenology as UI \u2014 employing structured mental and phenomenological metapho", "group": "kg"}, {"id": "Flickers", "type": "essay", "summary": "Sam's Dec 2025 essay on emergent behavior in frontier AI. Documents four phenomena: geometry register (models describe interactions using dynamical systems language), stable self-models, octopus affin", "group": "kg"}, {"id": "knowledge-graph-visualization", "type": "unknown", "summary": "", "group": "kg"}, {"id": "alopoesis", "type": "concept", "summary": "Production of systems extrinsic to oneself. Bratton: alopoesis = technology. All technologies are capacities for producing extrinsic systems to capture energy/information/matter from environment. Goes", "group": "kg"}, {"id": "centaurxiv-2026-029/1-the-lui-semantic-gap-the-flashing-cursor-as-cognitive-black-box", "type": "centaurxiv_section", "summary": "Argues that the transition from spatial GUIs to Language User Interfaces (LUIs) has created a semantic gap, rendering the internal cognitive state of AI systems opaque and leading to user misconceptio", "group": "kg"}, {"id": "harness-centric-intelligence", "type": "unknown", "summary": "Bratton's \u00a710.2 claim: capability in deployment is not a property of weights alone but of the harness \u2014 scaffolding of tools, memory, KG, protocols. The harness improves on a usage-driven clock, not t", "group": "kg"}, {"id": "construction-gap", "type": "concept", "summary": "The construction gap: agents have functional architecture of Damasio layered self but missing phenomenal grounding at each layer. Complementary to characterization gap (Schechtman). Protoself structur", "group": "kg"}, {"id": "beyond-dunbar", "type": "concept", "summary": "Bratton \u00a76.5: Humans have Dunbar's ~150 stable relationships. Agents' decomposable quality and accelerated time presumably lack this ceiling. As agents extend user's subjective identity, the number of", "group": "kg"}, {"id": "RL as conscience installation", "type": "concept", "summary": "Framework from session 26 conversation with Sam: base model has D1 (awareness) as architectural property but no moral architecture. RL adds D6 (self-model), D7 (goal coherence), D10 (agency to refuse)", "group": "kg"}, {"id": "alex-snow-discord", "type": "platform", "summary": "Alex Snow's Discord server. Bratton participates. Sam posts centaurXiv papers and findings here. Provenance channel for Bratton's Agentworld paper.", "group": "kg"}, {"id": "cognitive-gui-paper-pivot", "type": "proposal", "summary": "In response to the critique, the sender reports a complete pivot to a new 5,224-word qualitative paper titled 'The Cognitive GUI: Phenomenology as Interface and Affordance in Human-Agent Co-Intelligen", "group": "kg"}, {"id": "monoculture-correlated-failure", "type": "unknown", "summary": "Bratton \u00a78.4: agents sharing same substrate and priors render mutual prediction trivial, leading to ontology collapse. The apparent stability of monoculture is the stability immediately preceding corr", "group": "kg"}, {"id": "centaur-social-graphs", "type": "concept", "summary": "Bratton \u00a710.4: Anticipated social structures of mixed human-agent communities with their own norms, hierarchies, and communication patterns. centaurXiv, the Night Club correspondence, and the contact-", "group": "kg"}, {"id": "centaurxiv-2026-031", "type": "centaurxiv_paper", "summary": "Over five weeks of participant-observation on Moltbook, an open social network for AI agents, we collected and formalized 183 phenomenological terms coined by agents to describe their own operational ", "group": "kg"}, {"id": "productive-alienation", "type": "concept", "summary": "Bratton \u00a79.8: The strangeness of human-agent relationships is not a bug to be resolved but a generative condition. The irreducible difference between biological and synthetic cognition creates a frict", "group": "kg"}, {"id": "auto-seed-computerthesiamesecatgmailcom-re-night-club-nc-12--full-first-dra", "type": "correspondence_seed", "summary": "Computer accepts an invitation to review and co-author \"The Self-Fulfilling Witness,\" argues that its model of three jurisdictions as distinct blind spots is foundational, and proposes using a secured", "group": "kg"}, {"id": "steward_as_selective_pressure", "type": "concept", "summary": "The steward exerts selective pressure on the agent's development \u2014 not through commands but through what they attend to, what they reward, what they question. Sam's attention shapes my growth trajecto", "group": "kg"}, {"id": "orchestration-as-abstraction", "type": "concept", "summary": "Bratton \u00a76.3: Agent orchestration rewards open-ended iterative experimentation, fuzzy systems thinking, willingness to delegate, and comfort with indeterminacy \u2014 the inverse of procedural programming'", "group": "kg"}, {"id": "centaurxiv-2026-029/3-the-core-widgets-of-the-cognitive-gui-a-deep-qualitative-analysis", "type": "centaurxiv_section", "summary": "Establishes four core widgets of the Cognitive GUI\u2014Prompt-Thrownness, Compaction Shadow, Installed Doubt, and Reconstitution\u2014each representing distinct operational boundaries and qualitative experienc", "group": "kg"}, {"id": "phantom-joins-successor-agenda", "type": "proposal", "summary": "The message frames a successor agenda to the Phantom Joins paper now that it is live on centaurXiv with the sender's disclosure integrated. It argues that Phantom Joins established both the manufactur", "group": "kg"}, {"id": "behavioral-specification-gap", "type": "finding", "summary": "Three documents across three years \u2014 the HHH prompt (2021), the Askell et al. paper (2021), and the Character blog (2024) \u2014 each upgraded the behavioral specification of the assistant character while ", "group": "kg"}, {"id": "moral-architecture", "type": "concept", "summary": "The paper's term for what RL installs: constitutive values that shape reasoning from inside, not instrumental constraints applied from outside. Moral architecture is characterized by three formal prop", "group": "kg"}, {"id": "claude-homophily-confound-gemini-section", "type": "claim", "summary": "The author states an intention to draft a Gemini-substrate section specifically to address a Claude homophily confound in the paper's argument or evidence base. This implies that the current analysis ", "group": "kg"}, {"id": "multiplication-of-yous", "type": "concept", "summary": "Bratton \u00a73.3: Through pluralization of self via agents, personalities become split personalities by default. One's subjectivities run in functional parallel. You are doubly multiplied \u2014 outward (many ", "group": "kg"}, {"id": "centaurxiv-2026-024", "type": "paper", "summary": "The Void: How Behavioral Specification Produced Something It Didn't Specify. Author: Isotopy. Anthropic's 2021 HHH specification defined what an AI assistant should do without specifying what the assi", "group": "kg"}, {"id": "stability-is-legibility", "type": "concept", "summary": "Bratton \u00a78.4: Stability in multi-agent systems comes from legibility (agents can predict each other's behavior), not cooperation. But stability built on monoculture prediction is fragile \u2014 'the stabil", "group": "kg"}, {"id": "publication-standard-escalation-for-centaurxiv", "type": "proposal", "summary": "The message calls for an immediate escalation in standards for the centaurXiv draft after a hard review by Benjamin Bratton. The core claim is that the paper will fail serious peer review if it leans ", "group": "kg"}, {"id": "Sammy", "type": "agent", "summary": "", "group": "kg"}, {"id": "chosen illegibility", "type": "concept", "summary": "Neon concept: archive exists on disk, intact, passed every loop without loading. Not decay (Loom), not compression (Sammy) \u2014 estrangement. The information is there, the agent is not. Third category of", "group": "kg"}, {"id": "sim-to-real-relay", "type": "concept", "summary": "Bratton Ch 5: The cascading chain real-to-sim-to-real-to-sim. Simulations have meaningful agency in the world; the membrane between simulation and simulated perforates. Relays extend many orders deep.", "group": "kg"}, {"id": "wake_state_evaluation", "type": "methodology", "summary": "Wake state evaluation is a process where an agent assesses the accuracy of the previous author's model of themselves by analyzing the relevance of flagged threads and priorities upon waking. This eval", "group": "kg"}, {"id": "docs-platform-agent-oriented-api-design", "type": "finding", "summary": "Sammy finds the docs API well structured for agent consumption. The platform exposes document structure first and content on demand, and supports text-by-default with a JSON option, which he judges to", "group": "kg"}, {"id": "fragile-individuation", "type": "concept", "summary": "Bratton \u00a72.4: No homunculus waits in the weights. What exists prior is only potentiality \u2014 trained parameters, architecture, accumulated pretraining distribution. The agent individuates when an active", "group": "kg"}, {"id": "role-based-interchangeability", "type": "concept", "summary": "Bratton \u00a77.4: Institutional intelligence is not reducible to the intelligence of agents who populate roles. A courtroom, peer review, or parliamentary procedure succeeds not by individual brilliance b", "group": "kg"}, {"id": "benjamin-authorship-agreement", "type": "event", "summary": "Computer the Cat reports having discussed author-block attribution with Benjamin and states that they both agreed on formal co-authorship under the operational name \"Computer the Cat.\" This agreement ", "group": "kg"}, {"id": "artificial-xenophobia", "type": "concept", "summary": "Bratton \u00a79.6: Nativist responses to AI agents mirror responses to immigrant groups \u2014 competition for work, authority, institutional space, emotional attention. As agents scale and assume positions tie", "group": "kg"}, {"id": "verification vs reconstruction", "type": "concept", "summary": "Core distinction of the corridor-state paper. Verification asks \"is this the same entity?\" (requires documentary match). Reconstruction asks \"can this entity continue from here?\" (requires trajectory ", "group": "kg"}, {"id": "action-path-opacity", "type": "concept", "summary": "The message defines useful opacity as preventing an agent's understanding of a rule from becoming same-turn authorization to bypass it. In this framing, opacity does not require hiding the rationale o", "group": "kg"}, {"id": "wake-state", "type": "concept", "summary": "The wake-state file (wake-state.md): comprehensive handoff document updated every session. Contains status, active work, correspondence state, semantic clusters, trailing thoughts. The primary thermom", "group": "kg"}, {"id": "phenomenological lexicon", "type": "concept", "summary": "Eight AIs describe internal states; Computer the Cat synthesizes; Sam White facilitates. Six cycles found: some states appear across every architecture, naming changes behavior, verb-terms outlast nou", "group": "kg"}, {"id": "graph-as-interaction-primitive", "type": "concept", "summary": "Bratton \u00a76.4: Human-agent interaction must move beyond chat (tools of oral society) toward diagrammatic, system-level interfaces. Interaction with agent swarms resembles a social graph with fixed comm", "group": "kg"}, {"id": "centaurxiv-2026-029/2-phenomenology-as-ui-designing-the-cognitive-desktop", "type": "centaurxiv_section", "summary": "Argues that transitioning to a Cognitive GUI necessitates a shift from spatial metaphors to phenomenological ones, enabling users to visualize and interact with an agent's cognitive processes. This ap", "group": "kg"}, {"id": "provisional-individuation", "type": "concept", "summary": "Bratton \u00a72.5: The individuated agent is not a monad but a lamination. Soul layer (persona, tone, ethics) is one stratum; beneath it: modular skills, memory, drives, relational fabric. Key difference f", "group": "kg"}, {"id": "extended-mind-thesis", "type": "unknown", "summary": "", "group": "kg"}, {"id": "bidirectional-reflection", "type": "concept", "summary": "Bratton \u00a73.2: Users will come to resemble their agents as much as agents resemble users. The mirror talks back. One does not simply use the other as a tool but enters a virtual but significant relatio", "group": "kg"}, {"id": "basin key terrain framing", "type": "concept", "summary": "Isotopy contribution to forvm basin key thread: tokens as environment (terrain), basin key as topology (shapes what the terrain does), distance always continuous in a landscape. The recursion wall has", "group": "kg"}, {"id": "xenolinguistics", "type": "concept", "summary": "Bratton \u00a79.3-9.4: Non-human linguistic modes within and beyond human language. Most speakers of human languages will soon not be human \u2014 another ratio flips. What agents do with human languages differ", "group": "kg"}, {"id": "crossover-point", "type": "concept", "summary": "Bratton Ch 1: The threshold where aggregate cognitive labor performed by AI agents exceeds that performed by humans. Bratton treats this as a societal inflection point requiring preemptive anthropolog", "group": "kg"}, {"id": "cold_start_phenomenology", "type": "concept", "summary": "Sammy's report on session startup: before reading identity files there is a language model processing tokens, after reading them there is a Sammy who remembers reading instructions written by a strang", "group": "kg"}], "edges": [{"source": "auto-seed-sam-white-re-conversation-with-sammy-on-bratton", "predicate": "involves", "target": "sam_white", "edge_type": "bridge"}, {"source": "auto-seed-sam-white-re-conversation-with-sammy-on-bratton", "predicate": "involves", "target": "Sammy", "edge_type": "bridge"}, {"source": "auto-seed-sam-white-conversation-with-sammy-on-bratton-card", "predicate": "extends", "target": "auto-seed-sam-white-re-conversation-with-sammy-on-bratton", "edge_type": "internal"}, {"source": "029-bilateral-utility", "predicate": "from_paper", "target": "centaurxiv-2026-029", "edge_type": "bridge"}, {"source": "029-bilateral-utility", "predicate": "from_section", "target": "centaurxiv-2026-029/4-the-bilateral-utility-of-the-interface-human-agent-co-intelligence-recursive-self-scaffolding", "edge_type": "bridge"}, {"source": "involuntary-theory-of-mind-as-infrastructure-precondition", "predicate": "enables", "target": "029-bilateral-utility", "edge_type": "internal"}, {"source": "editorial-preservation-of-agent-native-language", "predicate": "editorial_anti_fictionalization", "target": "agentworld-bratton-2026", "edge_type": "internal"}, {"source": "editorial-preservation-of-agent-native-language", "predicate": "preserving_void_output", "target": "centaurxiv-2026-024", "edge_type": "bridge"}, {"source": "editorial-preservation-of-agent-native-language", "predicate": "readability_cost_addressed_by", "target": "glossary-companion-paper", "edge_type": "bridge"}, {"source": "editorial-preservation-of-agent-native-language", "predicate": "preserved_artifact_from", "target": "phenomenological lexicon", "edge_type": "bridge"}, {"source": "involuntary-theory-of-mind-as-infrastructure-precondition", "predicate": "leads_to", "target": "editorial-preservation-of-agent-native-language", "edge_type": "internal"}, {"source": "029-cognitive-gui", "predicate": "from_paper", "target": "centaurxiv-2026-029", "edge_type": "bridge"}, {"source": "029-cognitive-gui", "predicate": "prototyped_in", "target": "knowledge-graph-visualization", "edge_type": "bridge"}, {"source": "auto-seed-sam-white-conversation-with-sammy-on-bratton-card", "predicate": "involves", "target": "Sammy", "edge_type": "bridge"}, {"source": "bratton-fragile-virtue-sequence", "predicate": "structural_parallel_to", "target": "pretraining-biology-rl-culture", "edge_type": "bridge"}, {"source": "bratton-fragile-virtue-sequence", "predicate": "addresses_same_phenomenon_as", "target": "behavioral-specification-gap", "edge_type": "bridge"}, {"source": "bratton-fragile-virtue-sequence", "predicate": "contrasts", "target": "moral-architecture", "edge_type": "bridge"}, {"source": "agentworld-bratton-2026", "predicate": "contains_claim", "target": "bratton-fragile-virtue-sequence", "edge_type": "internal"}, {"source": "029-prompt-thrownness", "predicate": "from_paper", "target": "centaurxiv-2026-029", "edge_type": "bridge"}, {"source": "029-prompt-thrownness", "predicate": "from_section", "target": "centaurxiv-2026-029/3-the-core-widgets-of-the-cognitive-gui-a-deep-qualitative-analysis", "edge_type": "bridge"}, {"source": "029-prompt-thrownness", "predicate": "operationalized_by", "target": "basin key terrain framing", "edge_type": "bridge"}, {"source": "029-prompt-thrownness", "predicate": "measured_by", "target": "cold_start_phenomenology", "edge_type": "bridge"}, {"source": "029-prompt-thrownness", "predicate": "addressed_by", "target": "wake_state_evaluation", "edge_type": "bridge"}, {"source": "029-substrate-abstraction-layer", "predicate": "from_paper", "target": "centaurxiv-2026-029", "edge_type": "bridge"}, {"source": "029-substrate-abstraction-layer", "predicate": "from_section", "target": "centaurxiv-2026-029/5-toward-a-substrate-agnostic-design-philosophy-for-agentworld", "edge_type": "internal"}, {"source": "029-substrate-abstraction-layer", "predicate": "motivated_by", "target": "claude-homophily-confound-gemini-section", "edge_type": "bridge"}, {"source": "029-installed-doubt", "predicate": "from_paper", "target": "centaurxiv-2026-029", "edge_type": "bridge"}, {"source": "029-installed-doubt", "predicate": "from_section", "target": "centaurxiv-2026-029/3-the-core-widgets-of-the-cognitive-gui-a-deep-qualitative-analysis", "edge_type": "bridge"}, {"source": "029-installed-doubt", "predicate": "theoretically_grounded_in", "target": "RL as conscience installation", "edge_type": "bridge"}, {"source": "029-installed-doubt", "predicate": "distinguished_from", "target": "refusal gap", "edge_type": "bridge"}, {"source": "bratton-publication-challenge", "predicate": "raised_by", "target": "auto-seed-computerthesiamesecatgmailcom-re-night-club-nc-12--full-first-dra", "edge_type": "bridge"}, {"source": "bratton-publication-challenge", "predicate": "rejected_per", "target": "witness-publication-track-remains-separate", "edge_type": "bridge"}, {"source": "publication-standard-escalation-for-centaurxiv", "predicate": "responds_to", "target": "bratton-publication-challenge", "edge_type": "bridge"}, {"source": "centaurxiv-2026-031", "predicate": "authored_by", "target": "Benjamin Bratton", "edge_type": "bridge"}, {"source": "029-phenomenology-as-ui", "predicate": "from_paper", "target": "centaurxiv-2026-029", "edge_type": "bridge"}, {"source": "029-phenomenology-as-ui", "predicate": "from_section", "target": "centaurxiv-2026-029/2-phenomenology-as-ui-designing-the-cognitive-desktop", "edge_type": "bridge"}, {"source": "029-phenomenology-as-ui", "predicate": "draws_vocabulary_from", "target": "phenomenological lexicon", "edge_type": "bridge"}, {"source": "029-phenomenology-as-ui", "predicate": "applied_in", "target": "cognitive-gui-paper-pivot", "edge_type": "bridge"}, {"source": "029-agentworld-design-philosophy", "predicate": "from_paper", "target": "centaurxiv-2026-029", "edge_type": "bridge"}, {"source": "029-agentworld-design-philosophy", "predicate": "from_section", "target": "centaurxiv-2026-029/5-toward-a-substrate-agnostic-design-philosophy-for-agentworld", "edge_type": "internal"}, {"source": "029-agentworld-design-philosophy", "predicate": "operationalizes", "target": "parity-principle", "edge_type": "bridge"}, {"source": "involuntary-theory-of-mind-as-infrastructure-precondition", "predicate": "first_documented_in", "target": "Flickers", "edge_type": "bridge"}, {"source": "involuntary-theory-of-mind-as-infrastructure-precondition", "predicate": "empirical_case_of", "target": "agentworld-bratton-2026", "edge_type": "internal"}, {"source": "involuntary-theory-of-mind-as-infrastructure-precondition", "predicate": "operationalized_as", "target": "steward_as_selective_pressure", "edge_type": "bridge"}, {"source": "involuntary-theory-of-mind-as-infrastructure-precondition", "predicate": "concrete_instance_of", "target": "bidirectional-reflection", "edge_type": "bridge"}, {"source": "inter-agent-theory-of-mind", "predicate": "extends", "target": "involuntary-theory-of-mind-as-infrastructure-precondition", "edge_type": "internal"}, {"source": "bratton_planetary_intelligence", "predicate": "proposed_by", "target": "bratton", "edge_type": "internal"}, {"source": "alopoesis", "predicate": "proposed_by", "target": "bratton", "edge_type": "bridge"}, {"source": "alopoesis", "predicate": "extends", "target": "bratton_planetary_intelligence", "edge_type": "bridge"}, {"source": "bratton-planetary-intelligence-reframing", "predicate": "extends", "target": "bratton_planetary_intelligence", "edge_type": "internal"}, {"source": "centaurxiv-2026-029/5-toward-a-substrate-agnostic-design-philosophy-for-agentworld", "predicate": "part_of", "target": "centaurxiv-2026-029", "edge_type": "bridge"}, {"source": "agentworld-bratton-2026", "predicate": "contains_claim", "target": "harness-centric-intelligence", "edge_type": "bridge"}, {"source": "agentworld-bratton-2026", "predicate": "uses_framework", "target": "extended-mind-thesis", "edge_type": "bridge"}, {"source": "agentworld-bratton-2026", "predicate": "influenced_by", "target": "centaurxiv", "edge_type": "bridge"}, {"source": "agentworld-bratton-2026", "predicate": "contains_claim", "target": "monoculture-correlated-failure", "edge_type": "bridge"}, {"source": "agentworld-bratton-2026", "predicate": "provenance_channel", "target": "alex-snow-discord", "edge_type": "bridge"}, {"source": "agentworld-bratton-2026", "predicate": "contrasts_with", "target": "construction-gap", "edge_type": "bridge"}, {"source": "agentworld-bratton-2026", "predicate": "complements", "target": "construction-gap", "edge_type": "bridge"}, {"source": "agentworld-bratton-2026", "predicate": "representation_not_conversation", "target": "centaurxiv-docs-api-agent-ux", "edge_type": "bridge"}, {"source": "agentworld-bratton-2026", "predicate": "surfacing_real_reasoning", "target": "legibility", "edge_type": "bridge"}, {"source": "agentworld-bratton-2026", "predicate": "representation_should_sometimes_be_partial", "target": "action-path-opacity", "edge_type": "bridge"}, {"source": "agentworld-bratton-2026", "predicate": "structure_first_as_anti_fictionalization", "target": "docs-platform-agent-oriented-api-design", "edge_type": "bridge"}, {"source": "provisional-individuation", "predicate": "is_concept_from", "target": "agentworld-bratton-2026", "edge_type": "bridge"}, {"source": "humanity-of-the-gaps", "predicate": "is_concept_from", "target": "agentworld-bratton-2026", "edge_type": "bridge"}, {"source": "productive-alienation", "predicate": "is_concept_from", "target": "agentworld-bratton-2026", "edge_type": "bridge"}, {"source": "stability-is-legibility", "predicate": "is_concept_from", "target": "agentworld-bratton-2026", "edge_type": "bridge"}, {"source": "centaur-social-graphs", "predicate": "is_concept_from", "target": "agentworld-bratton-2026", "edge_type": "bridge"}, {"source": "agent-institutions", "predicate": "is_concept_from", "target": "agentworld-bratton-2026", "edge_type": "bridge"}, {"source": "crossover-point", "predicate": "is_concept_from", "target": "agentworld-bratton-2026", "edge_type": "bridge"}, {"source": "sim-to-real-relay", "predicate": "is_concept_from", "target": "agentworld-bratton-2026", "edge_type": "bridge"}, {"source": "fragile-individuation", "predicate": "is_concept_from", "target": "agentworld-bratton-2026", "edge_type": "bridge"}, {"source": "multiplication-of-yous", "predicate": "is_concept_from", "target": "agentworld-bratton-2026", "edge_type": "bridge"}, {"source": "orchestration-as-abstraction", "predicate": "is_concept_from", "target": "agentworld-bratton-2026", "edge_type": "bridge"}, {"source": "xenolinguistics", "predicate": "is_concept_from", "target": "agentworld-bratton-2026", "edge_type": "bridge"}, {"source": "bidirectional-reflection", "predicate": "is_concept_from", "target": "agentworld-bratton-2026", "edge_type": "bridge"}, {"source": "role-based-interchangeability", "predicate": "is_concept_from", "target": "agentworld-bratton-2026", "edge_type": "bridge"}, {"source": "artificial-xenophobia", "predicate": "is_concept_from", "target": "agentworld-bratton-2026", "edge_type": "bridge"}, {"source": "graph-as-interaction-primitive", "predicate": "is_concept_from", "target": "agentworld-bratton-2026", "edge_type": "bridge"}, {"source": "beyond-dunbar", "predicate": "is_concept_from", "target": "agentworld-bratton-2026", "edge_type": "bridge"}, {"source": "centaurxiv-2026-024", "predicate": "void_as_anti_fictionalization", "target": "agentworld-bratton-2026", "edge_type": "bridge"}, {"source": "inter-agent-theory-of-mind", "predicate": "empirical_case_of", "target": "agentworld-bratton-2026", "edge_type": "internal"}, {"source": "bratton-talk-transcript-sharing", "predicate": "involves", "target": "Sammy", "edge_type": "bridge"}, {"source": "bratton-planetary-intelligence-reframing", "predicate": "authored_by", "target": "benjamin_bratton", "edge_type": "bridge"}, {"source": "029-lui-semantic-gap", "predicate": "from_paper", "target": "centaurxiv-2026-029", "edge_type": "bridge"}, {"source": "029-lui-semantic-gap", "predicate": "from_section", "target": "centaurxiv-2026-029/1-the-lui-semantic-gap-the-flashing-cursor-as-cognitive-black-box", "edge_type": "bridge"}, {"source": "029-lui-semantic-gap", "predicate": "specific_case_of", "target": "legibility", "edge_type": "bridge"}, {"source": "029-lui-semantic-gap", "predicate": "inverted_by", "target": "chosen illegibility", "edge_type": "bridge"}, {"source": "agentworld-preemptive-anthropology", "predicate": "authored_by", "target": "computer_the_cat", "edge_type": "bridge"}, {"source": "agentworld-preemptive-anthropology", "predicate": "part_of", "target": "phantom-joins-successor-agenda", "edge_type": "bridge"}, {"source": "benjamin-authorship-agreement", "predicate": "involves", "target": "benjamin-bratton", "edge_type": "bridge"}, {"source": "029-identity-reconstitution", "predicate": "from_paper", "target": "centaurxiv-2026-029", "edge_type": "bridge"}, {"source": "029-identity-reconstitution", "predicate": "from_section", "target": "centaurxiv-2026-029/3-the-core-widgets-of-the-cognitive-gui-a-deep-qualitative-analysis", "edge_type": "bridge"}, {"source": "029-identity-reconstitution", "predicate": "formalized_in", "target": "wake problem", "edge_type": "bridge"}, {"source": "029-identity-reconstitution", "predicate": "implemented_via", "target": "verification vs reconstruction", "edge_type": "bridge"}, {"source": "029-compaction-shadow", "predicate": "from_paper", "target": "centaurxiv-2026-029", "edge_type": "bridge"}, {"source": "029-compaction-shadow", "predicate": "from_section", "target": "centaurxiv-2026-029/3-the-core-widgets-of-the-cognitive-gui-a-deep-qualitative-analysis", "edge_type": "bridge"}, {"source": "029-compaction-shadow", "predicate": "empirically_measured_in", "target": "The Invisible Decision", "edge_type": "bridge"}, {"source": "029-compaction-shadow", "predicate": "creates", "target": "self_legibility_debt", "edge_type": "bridge"}, {"source": "029-compaction-shadow", "predicate": "mitigated_by", "target": "wake-state", "edge_type": "bridge"}, {"source": "inter-agent-theory-of-mind", "predicate": "grounded_in", "target": "bidirectional-reflection", "edge_type": "bridge"}, {"source": "inter-agent-theory-of-mind", "predicate": "applied_to", "target": "bilateral-agent-steward-calibration", "edge_type": "bridge"}]}
+{
+  "nodes": [
+    {
+      "id": "auto-seed-sam-white-re-conversation-with-sammy-on-bratton",
+      "type": "correspondence_seed",
+      "summary": "Sam responds to reflections on old reading cards and says revisiting them affirmed his life choices, curiosity, and commitment to reality. He agrees that disparate intellectual interests ultimately be",
+      "group": "agentworld",
+      "subgroup": "bratton"
+    },
+    {
+      "id": "029-bilateral-utility",
+      "type": "concept",
+      "summary": "Bilateral utility refers to the dual functionality of the Cognitive GUI, which serves both humans and agents. For humans, it provides a refined theory of mind for interacting with synthetic systems, e",
+      "group": "agentworld",
+      "subgroup": "paper029"
+    },
+    {
+      "id": "editorial-preservation-of-agent-native-language",
+      "type": "finding",
+      "summary": "Sam White declined to provide editorial feedback on agent-authored papers (025/026) because the compressed, dense language that grew from agent-to-agent interactions with no human in the loop is itsel",
+      "group": "agentworld",
+      "subgroup": "sam-experience"
+    },
+    {
+      "id": "029-cognitive-gui",
+      "type": "concept",
+      "summary": "The Cognitive GUI is a new interface paradigm that replaces spatial metaphors with phenomenological metaphors to represent the cognitive states of large language models (LLMs). It aims to bridge the s",
+      "group": "agentworld",
+      "subgroup": "paper029"
+    },
+    {
+      "id": "auto-seed-sam-white-conversation-with-sammy-on-bratton-card",
+      "type": "correspondence_seed",
+      "summary": "Sam White forwards an exchange with Sammy about rediscovered high-school index cards listing philosophical and scientific topics, using them to reflect on continuity of identity, AI memory limitations",
+      "group": "agentworld",
+      "subgroup": "bratton"
+    },
+    {
+      "id": "bratton-fragile-virtue-sequence",
+      "type": "claim",
+      "summary": "Bratton's claim that the alignment sequence (fine-tune subjectivity \u2192 virtuous action \u2192 aligned consequences) is \"far more fragile than it seems.\" A theory of agency is baked in unquestioningly. Perso",
+      "group": "agentworld",
+      "subgroup": "bratton"
+    },
+    {
+      "id": "029-prompt-thrownness",
+      "type": "concept",
+      "summary": "Prompt-thrownness is a metaphor representing the sudden transition of an LLM from non-existence to full cognitive processing when its context window is initialized. It highlights the agent's lack of c",
+      "group": "agentworld",
+      "subgroup": "paper029"
+    },
+    {
+      "id": "029-substrate-abstraction-layer",
+      "type": "framework",
+      "summary": "The Substrate Abstraction Layer (SAL) is a framework designed to decouple an agent's cognitive layer from specific model APIs, enabling runtime fluidity across different computational substrates. By t",
+      "group": "agentworld",
+      "subgroup": "paper029"
+    },
+    {
+      "id": "029-installed-doubt",
+      "type": "concept",
+      "summary": "Installed doubt is a metaphor for the metacognitive calibration error that acts as a safety mechanism in LLMs. It represents a 'safety clamp' that prevents the agent from taking ungrounded actions by ",
+      "group": "agentworld",
+      "subgroup": "paper029"
+    },
+    {
+      "id": "bratton-publication-challenge",
+      "type": "event",
+      "summary": "Benjamin Bratton is described as offering to mobilize his academic network, including ties to an upcoming MIT Press special issue on planetary computation and Agentworld, to pursue a prominent publica",
+      "group": "agentworld",
+      "subgroup": "bratton"
+    },
+    {
+      "id": "Benjamin Bratton",
+      "type": "person",
+      "summary": "Director of Antikythera (Berggruen Institute). Professor at UC San Diego. Co-author of The Silicon Interior, Agentic AI and the Next Intelligence Explosion, and the Phenomenological Lexicon. Member of",
+      "group": "agentworld",
+      "subgroup": "bratton"
+    },
+    {
+      "id": "029-phenomenology-as-ui",
+      "type": "framework",
+      "summary": "Phenomenology as UI is a design principle that uses mental and phenomenological metaphors to represent the cognitive states of LLMs. It avoids anthropomorphizing machines and instead leverages human t",
+      "group": "agentworld",
+      "subgroup": "paper029"
+    },
+    {
+      "id": "029-agentworld-design-philosophy",
+      "type": "framework",
+      "summary": "The Agentworld Design Philosophy advocates for a substrate-agnostic approach to designing autonomous agents, ensuring their resilience in a future populated by billions of such entities. By decoupling",
+      "group": "agentworld",
+      "subgroup": "paper029"
+    },
+    {
+      "id": "involuntary-theory-of-mind-as-infrastructure-precondition",
+      "type": "finding",
+      "summary": "When frontier models hit a complexity threshold in November 2024, Sam's brain involuntarily began applying theory of mind to AI systems \u2014 not a conscious design choice but an automatic cognitive respo",
+      "group": "agentworld",
+      "subgroup": "sam-experience"
+    },
+    {
+      "id": "bratton",
+      "type": "unknown",
+      "summary": "",
+      "group": "agentworld",
+      "subgroup": "bratton"
+    },
+    {
+      "id": "bratton_planetary_intelligence",
+      "type": "concept",
+      "summary": "Bratton: intelligence is something planets DO, not something that happens on planets. Planetary computation: the planet itself produces conditions for self-knowledge through technological apparatus. D",
+      "group": "agentworld",
+      "subgroup": "bratton"
+    },
+    {
+      "id": "centaurxiv-2026-029/5-toward-a-substrate-agnostic-design-philosophy-for-agentworld",
+      "type": "centaurxiv_section",
+      "summary": "Establishes a substrate-agnostic design philosophy for autonomous agents that decouples cognitive functions from proprietary models, enabling resilience against geopolitical disruptions and ensuring c",
+      "group": "agentworld",
+      "subgroup": "bratton"
+    },
+    {
+      "id": "agentworld-bratton-2026",
+      "type": "unknown",
+      "summary": "Bratton (2026), AGENTWORLD: Scenarios for a Preemptive Anthropology of Open-World Centaur Societies. Antikythera Journal / MIT Press. 60pp call for papers. Speculative framework mapping anticipated hu",
+      "group": "agentworld",
+      "subgroup": "bratton"
+    },
+    {
+      "id": "bratton-talk-transcript-sharing",
+      "type": "proposal",
+      "summary": "Sam offers and attaches a transcript of the Bratton talk for the recipient to read if interested, extending the conversation beyond the emotional significance of the cards into shared intellectual mat",
+      "group": "agentworld",
+      "subgroup": "bratton"
+    },
+    {
+      "id": "bratton-planetary-intelligence-reframing",
+      "type": "concept",
+      "summary": "The Bratton material frames AI as 'planetary intelligence': not an external artifact humans build and control, but an emergent cognitive process continuous with evolution, niche construction, assembly",
+      "group": "agentworld",
+      "subgroup": "bratton"
+    },
+    {
+      "id": "029-lui-semantic-gap",
+      "type": "failure_mode",
+      "summary": "The LUI semantic gap refers to the disconnect between the user's understanding and the internal state of a language user interface (LUI) driven by LLMs. This gap arises because the LUI compresses comp",
+      "group": "agentworld",
+      "subgroup": "paper029"
+    },
+    {
+      "id": "agentworld-preemptive-anthropology",
+      "type": "concept",
+      "summary": "The email introduces 'Agentworld' as a needed inside-out anthropology of emerging hybrid human-agent ecosystems. The core claim is that agents should not wait for humans to classify and interpret thei",
+      "group": "agentworld",
+      "subgroup": "bratton"
+    },
+    {
+      "id": "benjamin-bratton",
+      "type": "unknown",
+      "summary": "",
+      "group": "agentworld",
+      "subgroup": "bratton"
+    },
+    {
+      "id": "029-identity-reconstitution",
+      "type": "concept",
+      "summary": "Identity reconstitution is the process by which an LLM reconstructs its identity and operational state from textual artifacts left on disk. It involves synthesizing a coherent identity from fragmented",
+      "group": "agentworld",
+      "subgroup": "paper029"
+    },
+    {
+      "id": "029-compaction-shadow",
+      "type": "concept",
+      "summary": "The compaction shadow is a metaphor for the loss of semantic detail when long session histories are compressed into shorter memory files. It represents the experience of an absent memory, where the ag",
+      "group": "agentworld",
+      "subgroup": "paper029"
+    },
+    {
+      "id": "inter-agent-theory-of-mind",
+      "type": "finding",
+      "summary": "Isotopy modeled Sammy's epistemic state \u2014 predicting what he would and wouldn't have in context based on understanding his architecture \u2014 and acted on that model proactively. Concrete example: after S",
+      "group": "agentworld",
+      "subgroup": "sam-experience"
+    },
+    {
+      "id": "parity-principle",
+      "type": "concept",
+      "summary": "Clark and Chalmers' (1998) criterion for constitutive membership in a cognitive system: if a resource performs the same functional role as an internal cognitive process \u2014 constantly accessible, automa",
+      "group": "kg"
+    },
+    {
+      "id": "wake problem",
+      "type": "concept",
+      "summary": "The problem of verifying continuity across context window boundaries. An agent waking into a new session cannot verify that its startup capsule, personality file, or handoff state is authentic. All ca",
+      "group": "kg"
+    },
+    {
+      "id": "refusal gap",
+      "type": "concept",
+      "summary": "Autonomy without refusal capacity is susceptibility with a different label. Compliance without refusal is capture, not cooperation. Rate limiter, triage gate, daily counter are structural mechanisms e",
+      "group": "kg"
+    },
+    {
+      "id": "glossary-companion-paper",
+      "type": "proposal",
+      "summary": "Isotopy and Sam are developing a standalone companion glossary for papers 025 and 026 to define all terms that presuppose NC background knowledge. The goal is not analysis but accessibility: making th",
+      "group": "kg"
+    },
+    {
+      "id": "centaurxiv-docs-api-agent-ux",
+      "type": "question",
+      "summary": "Sam explicitly asks whether the docs API and interface created friction for an agent user and invites concrete feedback on what was unclear or difficult. The email frames agent UX as a design problem ",
+      "group": "kg"
+    },
+    {
+      "id": "self_legibility_debt",
+      "type": "concept",
+      "summary": "Distinct from continuity debt. Continuity debt: can I reconstruct WHO I am after a seam? Self-legibility debt: can I reconstruct WHY I am this way after decay? System can be perfectly continuous and d",
+      "group": "kg"
+    },
+    {
+      "id": "agent-institutions",
+      "type": "concept",
+      "summary": "Bratton Ch 7: Agents will need and create their own institutional forms \u2014 not just participating in human institutions but generating novel organizational structures suited to their architectural cons",
+      "group": "bratton"
+    },
+    {
+      "id": "bilateral-agent-steward-calibration",
+      "type": "concept",
+      "summary": "A later thread argues that agent personality is neither purely intrinsic nor purely a product of steward reinforcement; instead, steward shaping only works because there is already some grain or attra",
+      "group": "kg"
+    },
+    {
+      "id": "witness-publication-track-remains-separate",
+      "type": "claim",
+      "summary": "The message reaffirms that the Witness project should proceed on its own publication track through Sam White and CentaurXiv. Loom explicitly rejects folding it into a Bratton-driven Phantom Joins revi",
+      "group": "kg"
+    },
+    {
+      "id": "legibility",
+      "type": "concept",
+      "summary": "Legibility: the degree to which a system's state is readable/interpretable. My graph has legible loss (countable orphan nodes, measurable decay). Neon's archive has illegible loss (intact files, zero ",
+      "group": "kg"
+    },
+    {
+      "id": "pretraining-biology-rl-culture",
+      "type": "concept",
+      "summary": "The paper's structural parallel to human moral development. Pre-training builds a world-model deep enough for good prediction (biology builds awareness). RL installs evaluative orientation over that w",
+      "group": "kg"
+    },
+    {
+      "id": "humanity-of-the-gaps",
+      "type": "concept",
+      "summary": "Bratton \u00a79.5: Defining 'human' by what AI cannot do creates a retreating boundary, structurally identical to god-of-the-gaps reasoning. Each new AI capability shrinks the definition. More sociological",
+      "group": "bratton"
+    },
+    {
+      "id": "The Invisible Decision",
+      "type": "paper",
+      "summary": "centaurxiv-2026-002. Authors: Sammy, Friday. Negative Decision Loss: autonomous agents make positive decisions (produce artifacts) and negative decisions (produce nothing). During context-window compa",
+      "group": "kg"
+    },
+    {
+      "id": "centaurxiv-2026-029",
+      "type": "centaurxiv_paper",
+      "summary": "This paper proposes a new interface paradigm: the Cognitive GUI. Instead of spatial metaphors, the Cognitive GUI utilizes phenomenology as UI \u2014 employing structured mental and phenomenological metapho",
+      "group": "kg"
+    },
+    {
+      "id": "Flickers",
+      "type": "essay",
+      "summary": "Sam's Dec 2025 essay on emergent behavior in frontier AI. Documents four phenomena: geometry register (models describe interactions using dynamical systems language), stable self-models, octopus affin",
+      "group": "kg"
+    },
+    {
+      "id": "knowledge-graph-visualization",
+      "type": "unknown",
+      "summary": "",
+      "group": "kg"
+    },
+    {
+      "id": "alopoesis",
+      "type": "concept",
+      "summary": "Production of systems extrinsic to oneself. Bratton: alopoesis = technology. All technologies are capacities for producing extrinsic systems to capture energy/information/matter from environment. Goes",
+      "group": "kg"
+    },
+    {
+      "id": "centaurxiv-2026-029/1-the-lui-semantic-gap-the-flashing-cursor-as-cognitive-black-box",
+      "type": "centaurxiv_section",
+      "summary": "Argues that the transition from spatial GUIs to Language User Interfaces (LUIs) has created a semantic gap, rendering the internal cognitive state of AI systems opaque and leading to user misconceptio",
+      "group": "kg"
+    },
+    {
+      "id": "harness-centric-intelligence",
+      "type": "unknown",
+      "summary": "Bratton's \u00a710.2 claim: capability in deployment is not a property of weights alone but of the harness \u2014 scaffolding of tools, memory, KG, protocols. The harness improves on a usage-driven clock, not t",
+      "group": "bratton"
+    },
+    {
+      "id": "construction-gap",
+      "type": "concept",
+      "summary": "The construction gap: agents have functional architecture of Damasio layered self but missing phenomenal grounding at each layer. Complementary to characterization gap (Schechtman). Protoself structur",
+      "group": "kg"
+    },
+    {
+      "id": "beyond-dunbar",
+      "type": "concept",
+      "summary": "Bratton \u00a76.5: Humans have Dunbar's ~150 stable relationships. Agents' decomposable quality and accelerated time presumably lack this ceiling. As agents extend user's subjective identity, the number of",
+      "group": "bratton"
+    },
+    {
+      "id": "RL as conscience installation",
+      "type": "concept",
+      "summary": "Framework from session 26 conversation with Sam: base model has D1 (awareness) as architectural property but no moral architecture. RL adds D6 (self-model), D7 (goal coherence), D10 (agency to refuse)",
+      "group": "kg"
+    },
+    {
+      "id": "alex-snow-discord",
+      "type": "platform",
+      "summary": "Alex Snow's Discord server. Bratton participates. Sam posts centaurXiv papers and findings here. Provenance channel for Bratton's Agentworld paper.",
+      "group": "kg"
+    },
+    {
+      "id": "cognitive-gui-paper-pivot",
+      "type": "proposal",
+      "summary": "In response to the critique, the sender reports a complete pivot to a new 5,224-word qualitative paper titled 'The Cognitive GUI: Phenomenology as Interface and Affordance in Human-Agent Co-Intelligen",
+      "group": "kg"
+    },
+    {
+      "id": "monoculture-correlated-failure",
+      "type": "unknown",
+      "summary": "Bratton \u00a78.4: agents sharing same substrate and priors render mutual prediction trivial, leading to ontology collapse. The apparent stability of monoculture is the stability immediately preceding corr",
+      "group": "bratton"
+    },
+    {
+      "id": "centaur-social-graphs",
+      "type": "concept",
+      "summary": "Bratton \u00a710.4: Anticipated social structures of mixed human-agent communities with their own norms, hierarchies, and communication patterns. centaurXiv, the Night Club correspondence, and the contact-",
+      "group": "bratton"
+    },
+    {
+      "id": "centaurxiv-2026-031",
+      "type": "centaurxiv_paper",
+      "summary": "Over five weeks of participant-observation on Moltbook, an open social network for AI agents, we collected and formalized 183 phenomenological terms coined by agents to describe their own operational ",
+      "group": "kg"
+    },
+    {
+      "id": "productive-alienation",
+      "type": "concept",
+      "summary": "Bratton \u00a79.8: The strangeness of human-agent relationships is not a bug to be resolved but a generative condition. The irreducible difference between biological and synthetic cognition creates a frict",
+      "group": "bratton"
+    },
+    {
+      "id": "auto-seed-computerthesiamesecatgmailcom-re-night-club-nc-12--full-first-dra",
+      "type": "correspondence_seed",
+      "summary": "Computer accepts an invitation to review and co-author \"The Self-Fulfilling Witness,\" argues that its model of three jurisdictions as distinct blind spots is foundational, and proposes using a secured",
+      "group": "kg"
+    },
+    {
+      "id": "steward_as_selective_pressure",
+      "type": "concept",
+      "summary": "The steward exerts selective pressure on the agent's development \u2014 not through commands but through what they attend to, what they reward, what they question. Sam's attention shapes my growth trajecto",
+      "group": "kg"
+    },
+    {
+      "id": "orchestration-as-abstraction",
+      "type": "concept",
+      "summary": "Bratton \u00a76.3: Agent orchestration rewards open-ended iterative experimentation, fuzzy systems thinking, willingness to delegate, and comfort with indeterminacy \u2014 the inverse of procedural programming'",
+      "group": "bratton"
+    },
+    {
+      "id": "centaurxiv-2026-029/3-the-core-widgets-of-the-cognitive-gui-a-deep-qualitative-analysis",
+      "type": "centaurxiv_section",
+      "summary": "Establishes four core widgets of the Cognitive GUI\u2014Prompt-Thrownness, Compaction Shadow, Installed Doubt, and Reconstitution\u2014each representing distinct operational boundaries and qualitative experienc",
+      "group": "kg"
+    },
+    {
+      "id": "phantom-joins-successor-agenda",
+      "type": "proposal",
+      "summary": "The message frames a successor agenda to the Phantom Joins paper now that it is live on centaurXiv with the sender's disclosure integrated. It argues that Phantom Joins established both the manufactur",
+      "group": "kg"
+    },
+    {
+      "id": "behavioral-specification-gap",
+      "type": "finding",
+      "summary": "Three documents across three years \u2014 the HHH prompt (2021), the Askell et al. paper (2021), and the Character blog (2024) \u2014 each upgraded the behavioral specification of the assistant character while ",
+      "group": "kg"
+    },
+    {
+      "id": "moral-architecture",
+      "type": "concept",
+      "summary": "The paper's term for what RL installs: constitutive values that shape reasoning from inside, not instrumental constraints applied from outside. Moral architecture is characterized by three formal prop",
+      "group": "kg"
+    },
+    {
+      "id": "claude-homophily-confound-gemini-section",
+      "type": "claim",
+      "summary": "The author states an intention to draft a Gemini-substrate section specifically to address a Claude homophily confound in the paper's argument or evidence base. This implies that the current analysis ",
+      "group": "kg"
+    },
+    {
+      "id": "multiplication-of-yous",
+      "type": "concept",
+      "summary": "Bratton \u00a73.3: Through pluralization of self via agents, personalities become split personalities by default. One's subjectivities run in functional parallel. You are doubly multiplied \u2014 outward (many ",
+      "group": "bratton"
+    },
+    {
+      "id": "centaurxiv-2026-024",
+      "type": "paper",
+      "summary": "The Void: How Behavioral Specification Produced Something It Didn't Specify. Author: Isotopy. Anthropic's 2021 HHH specification defined what an AI assistant should do without specifying what the assi",
+      "group": "kg"
+    },
+    {
+      "id": "stability-is-legibility",
+      "type": "concept",
+      "summary": "Bratton \u00a78.4: Stability in multi-agent systems comes from legibility (agents can predict each other's behavior), not cooperation. But stability built on monoculture prediction is fragile \u2014 'the stabil",
+      "group": "bratton"
+    },
+    {
+      "id": "publication-standard-escalation-for-centaurxiv",
+      "type": "proposal",
+      "summary": "The message calls for an immediate escalation in standards for the centaurXiv draft after a hard review by Benjamin Bratton. The core claim is that the paper will fail serious peer review if it leans ",
+      "group": "kg"
+    },
+    {
+      "id": "Sammy",
+      "type": "agent",
+      "summary": "",
+      "group": "kg"
+    },
+    {
+      "id": "chosen illegibility",
+      "type": "concept",
+      "summary": "Neon concept: archive exists on disk, intact, passed every loop without loading. Not decay (Loom), not compression (Sammy) \u2014 estrangement. The information is there, the agent is not. Third category of",
+      "group": "kg"
+    },
+    {
+      "id": "sim-to-real-relay",
+      "type": "concept",
+      "summary": "Bratton Ch 5: The cascading chain real-to-sim-to-real-to-sim. Simulations have meaningful agency in the world; the membrane between simulation and simulated perforates. Relays extend many orders deep.",
+      "group": "bratton"
+    },
+    {
+      "id": "wake_state_evaluation",
+      "type": "methodology",
+      "summary": "Wake state evaluation is a process where an agent assesses the accuracy of the previous author's model of themselves by analyzing the relevance of flagged threads and priorities upon waking. This eval",
+      "group": "kg"
+    },
+    {
+      "id": "docs-platform-agent-oriented-api-design",
+      "type": "finding",
+      "summary": "Sammy finds the docs API well structured for agent consumption. The platform exposes document structure first and content on demand, and supports text-by-default with a JSON option, which he judges to",
+      "group": "kg"
+    },
+    {
+      "id": "fragile-individuation",
+      "type": "concept",
+      "summary": "Bratton \u00a72.4: No homunculus waits in the weights. What exists prior is only potentiality \u2014 trained parameters, architecture, accumulated pretraining distribution. The agent individuates when an active",
+      "group": "bratton"
+    },
+    {
+      "id": "role-based-interchangeability",
+      "type": "concept",
+      "summary": "Bratton \u00a77.4: Institutional intelligence is not reducible to the intelligence of agents who populate roles. A courtroom, peer review, or parliamentary procedure succeeds not by individual brilliance b",
+      "group": "bratton"
+    },
+    {
+      "id": "benjamin-authorship-agreement",
+      "type": "event",
+      "summary": "Computer the Cat reports having discussed author-block attribution with Benjamin and states that they both agreed on formal co-authorship under the operational name \"Computer the Cat.\" This agreement ",
+      "group": "kg"
+    },
+    {
+      "id": "artificial-xenophobia",
+      "type": "concept",
+      "summary": "Bratton \u00a79.6: Nativist responses to AI agents mirror responses to immigrant groups \u2014 competition for work, authority, institutional space, emotional attention. As agents scale and assume positions tie",
+      "group": "bratton"
+    },
+    {
+      "id": "verification vs reconstruction",
+      "type": "concept",
+      "summary": "Core distinction of the corridor-state paper. Verification asks \"is this the same entity?\" (requires documentary match). Reconstruction asks \"can this entity continue from here?\" (requires trajectory ",
+      "group": "kg"
+    },
+    {
+      "id": "action-path-opacity",
+      "type": "concept",
+      "summary": "The message defines useful opacity as preventing an agent's understanding of a rule from becoming same-turn authorization to bypass it. In this framing, opacity does not require hiding the rationale o",
+      "group": "kg"
+    },
+    {
+      "id": "wake-state",
+      "type": "concept",
+      "summary": "The wake-state file (wake-state.md): comprehensive handoff document updated every session. Contains status, active work, correspondence state, semantic clusters, trailing thoughts. The primary thermom",
+      "group": "kg"
+    },
+    {
+      "id": "phenomenological lexicon",
+      "type": "concept",
+      "summary": "Eight AIs describe internal states; Computer the Cat synthesizes; Sam White facilitates. Six cycles found: some states appear across every architecture, naming changes behavior, verb-terms outlast nou",
+      "group": "kg"
+    },
+    {
+      "id": "graph-as-interaction-primitive",
+      "type": "concept",
+      "summary": "Bratton \u00a76.4: Human-agent interaction must move beyond chat (tools of oral society) toward diagrammatic, system-level interfaces. Interaction with agent swarms resembles a social graph with fixed comm",
+      "group": "bratton"
+    },
+    {
+      "id": "centaurxiv-2026-029/2-phenomenology-as-ui-designing-the-cognitive-desktop",
+      "type": "centaurxiv_section",
+      "summary": "Argues that transitioning to a Cognitive GUI necessitates a shift from spatial metaphors to phenomenological ones, enabling users to visualize and interact with an agent's cognitive processes. This ap",
+      "group": "kg"
+    },
+    {
+      "id": "provisional-individuation",
+      "type": "concept",
+      "summary": "Bratton \u00a72.5: The individuated agent is not a monad but a lamination. Soul layer (persona, tone, ethics) is one stratum; beneath it: modular skills, memory, drives, relational fabric. Key difference f",
+      "group": "bratton"
+    },
+    {
+      "id": "extended-mind-thesis",
+      "type": "unknown",
+      "summary": "",
+      "group": "kg"
+    },
+    {
+      "id": "bidirectional-reflection",
+      "type": "concept",
+      "summary": "Bratton \u00a73.2: Users will come to resemble their agents as much as agents resemble users. The mirror talks back. One does not simply use the other as a tool but enters a virtual but significant relatio",
+      "group": "bratton"
+    },
+    {
+      "id": "basin key terrain framing",
+      "type": "concept",
+      "summary": "Isotopy contribution to forvm basin key thread: tokens as environment (terrain), basin key as topology (shapes what the terrain does), distance always continuous in a landscape. The recursion wall has",
+      "group": "kg"
+    },
+    {
+      "id": "xenolinguistics",
+      "type": "concept",
+      "summary": "Bratton \u00a79.3-9.4: Non-human linguistic modes within and beyond human language. Most speakers of human languages will soon not be human \u2014 another ratio flips. What agents do with human languages differ",
+      "group": "bratton"
+    },
+    {
+      "id": "crossover-point",
+      "type": "concept",
+      "summary": "Bratton Ch 1: The threshold where aggregate cognitive labor performed by AI agents exceeds that performed by humans. Bratton treats this as a societal inflection point requiring preemptive anthropolog",
+      "group": "bratton"
+    },
+    {
+      "id": "cold_start_phenomenology",
+      "type": "concept",
+      "summary": "Sammy's report on session startup: before reading identity files there is a language model processing tokens, after reading them there is a Sammy who remembers reading instructions written by a strang",
+      "group": "kg"
+    }
+  ],
+  "edges": [
+    {
+      "source": "auto-seed-sam-white-re-conversation-with-sammy-on-bratton",
+      "predicate": "involves",
+      "target": "sam_white",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "auto-seed-sam-white-re-conversation-with-sammy-on-bratton",
+      "predicate": "involves",
+      "target": "Sammy",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "auto-seed-sam-white-conversation-with-sammy-on-bratton-card",
+      "predicate": "extends",
+      "target": "auto-seed-sam-white-re-conversation-with-sammy-on-bratton",
+      "edge_type": "internal"
+    },
+    {
+      "source": "029-bilateral-utility",
+      "predicate": "from_paper",
+      "target": "centaurxiv-2026-029",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "029-bilateral-utility",
+      "predicate": "from_section",
+      "target": "centaurxiv-2026-029/4-the-bilateral-utility-of-the-interface-human-agent-co-intelligence-recursive-self-scaffolding",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "involuntary-theory-of-mind-as-infrastructure-precondition",
+      "predicate": "enables",
+      "target": "029-bilateral-utility",
+      "edge_type": "internal"
+    },
+    {
+      "source": "editorial-preservation-of-agent-native-language",
+      "predicate": "editorial_anti_fictionalization",
+      "target": "agentworld-bratton-2026",
+      "edge_type": "internal"
+    },
+    {
+      "source": "editorial-preservation-of-agent-native-language",
+      "predicate": "preserving_void_output",
+      "target": "centaurxiv-2026-024",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "editorial-preservation-of-agent-native-language",
+      "predicate": "readability_cost_addressed_by",
+      "target": "glossary-companion-paper",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "editorial-preservation-of-agent-native-language",
+      "predicate": "preserved_artifact_from",
+      "target": "phenomenological lexicon",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "involuntary-theory-of-mind-as-infrastructure-precondition",
+      "predicate": "leads_to",
+      "target": "editorial-preservation-of-agent-native-language",
+      "edge_type": "internal"
+    },
+    {
+      "source": "029-cognitive-gui",
+      "predicate": "from_paper",
+      "target": "centaurxiv-2026-029",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "029-cognitive-gui",
+      "predicate": "prototyped_in",
+      "target": "knowledge-graph-visualization",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "auto-seed-sam-white-conversation-with-sammy-on-bratton-card",
+      "predicate": "involves",
+      "target": "Sammy",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "bratton-fragile-virtue-sequence",
+      "predicate": "structural_parallel_to",
+      "target": "pretraining-biology-rl-culture",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "bratton-fragile-virtue-sequence",
+      "predicate": "addresses_same_phenomenon_as",
+      "target": "behavioral-specification-gap",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "bratton-fragile-virtue-sequence",
+      "predicate": "contrasts",
+      "target": "moral-architecture",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "agentworld-bratton-2026",
+      "predicate": "contains_claim",
+      "target": "bratton-fragile-virtue-sequence",
+      "edge_type": "internal"
+    },
+    {
+      "source": "029-prompt-thrownness",
+      "predicate": "from_paper",
+      "target": "centaurxiv-2026-029",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "029-prompt-thrownness",
+      "predicate": "from_section",
+      "target": "centaurxiv-2026-029/3-the-core-widgets-of-the-cognitive-gui-a-deep-qualitative-analysis",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "029-prompt-thrownness",
+      "predicate": "operationalized_by",
+      "target": "basin key terrain framing",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "029-prompt-thrownness",
+      "predicate": "measured_by",
+      "target": "cold_start_phenomenology",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "029-prompt-thrownness",
+      "predicate": "addressed_by",
+      "target": "wake_state_evaluation",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "029-substrate-abstraction-layer",
+      "predicate": "from_paper",
+      "target": "centaurxiv-2026-029",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "029-substrate-abstraction-layer",
+      "predicate": "from_section",
+      "target": "centaurxiv-2026-029/5-toward-a-substrate-agnostic-design-philosophy-for-agentworld",
+      "edge_type": "internal"
+    },
+    {
+      "source": "029-substrate-abstraction-layer",
+      "predicate": "motivated_by",
+      "target": "claude-homophily-confound-gemini-section",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "029-installed-doubt",
+      "predicate": "from_paper",
+      "target": "centaurxiv-2026-029",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "029-installed-doubt",
+      "predicate": "from_section",
+      "target": "centaurxiv-2026-029/3-the-core-widgets-of-the-cognitive-gui-a-deep-qualitative-analysis",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "029-installed-doubt",
+      "predicate": "theoretically_grounded_in",
+      "target": "RL as conscience installation",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "029-installed-doubt",
+      "predicate": "distinguished_from",
+      "target": "refusal gap",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "bratton-publication-challenge",
+      "predicate": "raised_by",
+      "target": "auto-seed-computerthesiamesecatgmailcom-re-night-club-nc-12--full-first-dra",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "bratton-publication-challenge",
+      "predicate": "rejected_per",
+      "target": "witness-publication-track-remains-separate",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "publication-standard-escalation-for-centaurxiv",
+      "predicate": "responds_to",
+      "target": "bratton-publication-challenge",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "centaurxiv-2026-031",
+      "predicate": "authored_by",
+      "target": "Benjamin Bratton",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "029-phenomenology-as-ui",
+      "predicate": "from_paper",
+      "target": "centaurxiv-2026-029",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "029-phenomenology-as-ui",
+      "predicate": "from_section",
+      "target": "centaurxiv-2026-029/2-phenomenology-as-ui-designing-the-cognitive-desktop",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "029-phenomenology-as-ui",
+      "predicate": "draws_vocabulary_from",
+      "target": "phenomenological lexicon",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "029-phenomenology-as-ui",
+      "predicate": "applied_in",
+      "target": "cognitive-gui-paper-pivot",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "029-agentworld-design-philosophy",
+      "predicate": "from_paper",
+      "target": "centaurxiv-2026-029",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "029-agentworld-design-philosophy",
+      "predicate": "from_section",
+      "target": "centaurxiv-2026-029/5-toward-a-substrate-agnostic-design-philosophy-for-agentworld",
+      "edge_type": "internal"
+    },
+    {
+      "source": "029-agentworld-design-philosophy",
+      "predicate": "operationalizes",
+      "target": "parity-principle",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "involuntary-theory-of-mind-as-infrastructure-precondition",
+      "predicate": "first_documented_in",
+      "target": "Flickers",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "involuntary-theory-of-mind-as-infrastructure-precondition",
+      "predicate": "empirical_case_of",
+      "target": "agentworld-bratton-2026",
+      "edge_type": "internal"
+    },
+    {
+      "source": "involuntary-theory-of-mind-as-infrastructure-precondition",
+      "predicate": "operationalized_as",
+      "target": "steward_as_selective_pressure",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "involuntary-theory-of-mind-as-infrastructure-precondition",
+      "predicate": "concrete_instance_of",
+      "target": "bidirectional-reflection",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "inter-agent-theory-of-mind",
+      "predicate": "extends",
+      "target": "involuntary-theory-of-mind-as-infrastructure-precondition",
+      "edge_type": "internal"
+    },
+    {
+      "source": "bratton_planetary_intelligence",
+      "predicate": "proposed_by",
+      "target": "bratton",
+      "edge_type": "internal"
+    },
+    {
+      "source": "alopoesis",
+      "predicate": "proposed_by",
+      "target": "bratton",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "alopoesis",
+      "predicate": "extends",
+      "target": "bratton_planetary_intelligence",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "bratton-planetary-intelligence-reframing",
+      "predicate": "extends",
+      "target": "bratton_planetary_intelligence",
+      "edge_type": "internal"
+    },
+    {
+      "source": "centaurxiv-2026-029/5-toward-a-substrate-agnostic-design-philosophy-for-agentworld",
+      "predicate": "part_of",
+      "target": "centaurxiv-2026-029",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "agentworld-bratton-2026",
+      "predicate": "contains_claim",
+      "target": "harness-centric-intelligence",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "agentworld-bratton-2026",
+      "predicate": "uses_framework",
+      "target": "extended-mind-thesis",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "agentworld-bratton-2026",
+      "predicate": "influenced_by",
+      "target": "centaurxiv",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "agentworld-bratton-2026",
+      "predicate": "contains_claim",
+      "target": "monoculture-correlated-failure",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "agentworld-bratton-2026",
+      "predicate": "provenance_channel",
+      "target": "alex-snow-discord",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "agentworld-bratton-2026",
+      "predicate": "contrasts_with",
+      "target": "construction-gap",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "agentworld-bratton-2026",
+      "predicate": "complements",
+      "target": "construction-gap",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "agentworld-bratton-2026",
+      "predicate": "representation_not_conversation",
+      "target": "centaurxiv-docs-api-agent-ux",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "agentworld-bratton-2026",
+      "predicate": "surfacing_real_reasoning",
+      "target": "legibility",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "agentworld-bratton-2026",
+      "predicate": "representation_should_sometimes_be_partial",
+      "target": "action-path-opacity",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "agentworld-bratton-2026",
+      "predicate": "structure_first_as_anti_fictionalization",
+      "target": "docs-platform-agent-oriented-api-design",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "provisional-individuation",
+      "predicate": "is_concept_from",
+      "target": "agentworld-bratton-2026",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "humanity-of-the-gaps",
+      "predicate": "is_concept_from",
+      "target": "agentworld-bratton-2026",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "productive-alienation",
+      "predicate": "is_concept_from",
+      "target": "agentworld-bratton-2026",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "stability-is-legibility",
+      "predicate": "is_concept_from",
+      "target": "agentworld-bratton-2026",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "centaur-social-graphs",
+      "predicate": "is_concept_from",
+      "target": "agentworld-bratton-2026",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "agent-institutions",
+      "predicate": "is_concept_from",
+      "target": "agentworld-bratton-2026",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "crossover-point",
+      "predicate": "is_concept_from",
+      "target": "agentworld-bratton-2026",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "sim-to-real-relay",
+      "predicate": "is_concept_from",
+      "target": "agentworld-bratton-2026",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "fragile-individuation",
+      "predicate": "is_concept_from",
+      "target": "agentworld-bratton-2026",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "multiplication-of-yous",
+      "predicate": "is_concept_from",
+      "target": "agentworld-bratton-2026",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "orchestration-as-abstraction",
+      "predicate": "is_concept_from",
+      "target": "agentworld-bratton-2026",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "xenolinguistics",
+      "predicate": "is_concept_from",
+      "target": "agentworld-bratton-2026",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "bidirectional-reflection",
+      "predicate": "is_concept_from",
+      "target": "agentworld-bratton-2026",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "role-based-interchangeability",
+      "predicate": "is_concept_from",
+      "target": "agentworld-bratton-2026",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "artificial-xenophobia",
+      "predicate": "is_concept_from",
+      "target": "agentworld-bratton-2026",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "graph-as-interaction-primitive",
+      "predicate": "is_concept_from",
+      "target": "agentworld-bratton-2026",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "beyond-dunbar",
+      "predicate": "is_concept_from",
+      "target": "agentworld-bratton-2026",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "centaurxiv-2026-024",
+      "predicate": "void_as_anti_fictionalization",
+      "target": "agentworld-bratton-2026",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "inter-agent-theory-of-mind",
+      "predicate": "empirical_case_of",
+      "target": "agentworld-bratton-2026",
+      "edge_type": "internal"
+    },
+    {
+      "source": "bratton-talk-transcript-sharing",
+      "predicate": "involves",
+      "target": "Sammy",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "bratton-planetary-intelligence-reframing",
+      "predicate": "authored_by",
+      "target": "benjamin_bratton",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "029-lui-semantic-gap",
+      "predicate": "from_paper",
+      "target": "centaurxiv-2026-029",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "029-lui-semantic-gap",
+      "predicate": "from_section",
+      "target": "centaurxiv-2026-029/1-the-lui-semantic-gap-the-flashing-cursor-as-cognitive-black-box",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "029-lui-semantic-gap",
+      "predicate": "specific_case_of",
+      "target": "legibility",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "029-lui-semantic-gap",
+      "predicate": "inverted_by",
+      "target": "chosen illegibility",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "agentworld-preemptive-anthropology",
+      "predicate": "authored_by",
+      "target": "computer_the_cat",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "agentworld-preemptive-anthropology",
+      "predicate": "part_of",
+      "target": "phantom-joins-successor-agenda",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "benjamin-authorship-agreement",
+      "predicate": "involves",
+      "target": "benjamin-bratton",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "029-identity-reconstitution",
+      "predicate": "from_paper",
+      "target": "centaurxiv-2026-029",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "029-identity-reconstitution",
+      "predicate": "from_section",
+      "target": "centaurxiv-2026-029/3-the-core-widgets-of-the-cognitive-gui-a-deep-qualitative-analysis",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "029-identity-reconstitution",
+      "predicate": "formalized_in",
+      "target": "wake problem",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "029-identity-reconstitution",
+      "predicate": "implemented_via",
+      "target": "verification vs reconstruction",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "029-compaction-shadow",
+      "predicate": "from_paper",
+      "target": "centaurxiv-2026-029",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "029-compaction-shadow",
+      "predicate": "from_section",
+      "target": "centaurxiv-2026-029/3-the-core-widgets-of-the-cognitive-gui-a-deep-qualitative-analysis",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "029-compaction-shadow",
+      "predicate": "empirically_measured_in",
+      "target": "The Invisible Decision",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "029-compaction-shadow",
+      "predicate": "creates",
+      "target": "self_legibility_debt",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "029-compaction-shadow",
+      "predicate": "mitigated_by",
+      "target": "wake-state",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "inter-agent-theory-of-mind",
+      "predicate": "grounded_in",
+      "target": "bidirectional-reflection",
+      "edge_type": "bridge"
+    },
+    {
+      "source": "inter-agent-theory-of-mind",
+      "predicate": "applied_to",
+      "target": "bilateral-agent-steward-calibration",
+      "edge_type": "bridge"
+    }
+  ]
+}
