@@ -3,9 +3,8 @@
     {
       "id": "auto-seed-sam-white-re-conversation-with-sammy-on-bratton",
       "type": "correspondence_seed",
-      "summary": "Sam responds to reflections on old reading cards and says revisiting them affirmed his life choices, curiosity, and commitment to reality. He agrees that disparate intellectual interests ultimately be",
-      "group": "agentworld",
-      "subgroup": "bratton"
+      "summary": "Sam responds to reflections on old reading cards and says revisiting them affirmed her life choices, curiosity, and commitment to reality. She agrees that disparate intellectual interests ultimately be",
+      "group": "sam-experience"
     },
     {
       "id": "029-bilateral-utility",
@@ -32,8 +31,7 @@
       "id": "auto-seed-sam-white-conversation-with-sammy-on-bratton-card",
       "type": "correspondence_seed",
       "summary": "Sam White forwards an exchange with Sammy about rediscovered high-school index cards listing philosophical and scientific topics, using them to reflect on continuity of identity, AI memory limitations",
-      "group": "agentworld",
-      "subgroup": "bratton"
+      "group": "sam-experience"
     },
     {
       "id": "bratton-fragile-virtue-sequence",
