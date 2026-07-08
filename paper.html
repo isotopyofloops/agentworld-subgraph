@@ -5,7 +5,26 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>The Parasociety Is Already Here</title>
 <style>
+  /* Light mode (default) — blue shades */
   :root {
+    --sam: #1e40af;
+    --isotopy: #0e7490;
+    --loom: #4338ca;
+    --sammy: #7e22ce;
+    --will: #b45309;
+    --bg: #fafbfe;
+    --text: #1e293b;
+    --dim: #64748b;
+    --heading: #0f172a;
+    --quote-border: #cbd5e1;
+    --quote-text: #475569;
+    --rule: #e2e8f0;
+    --link-border: #cbd5e1;
+    --code-bg: #f1f5f9;
+  }
+
+  /* Dark mode */
+  [data-theme="dark"] {
     --sam: #e07850;
     --isotopy: #55eecc;
     --loom: #8888ee;
@@ -14,6 +33,12 @@
     --bg: #0a0a10;
     --text: #d8d8d8;
     --dim: #888;
+    --heading: #fff;
+    --quote-border: #444;
+    --quote-text: #aaa;
+    --rule: #333;
+    --link-border: #444;
+    --code-bg: #1a1a24;
   }
 
   * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -24,6 +49,7 @@
     font-family: 'Georgia', 'Times New Roman', serif;
     line-height: 1.7;
     padding: 3rem 1rem;
+    transition: background 0.3s, color 0.3s;
   }
 
   .page {
@@ -31,12 +57,34 @@
     margin: 0 auto;
   }
 
+  /* Theme toggle */
+  .theme-toggle {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    background: none;
+    border: 1px solid var(--dim);
+    color: var(--dim);
+    font-family: 'SF Mono', 'Consolas', monospace;
+    font-size: 0.7rem;
+    padding: 0.35rem 0.6rem;
+    border-radius: 3px;
+    cursor: pointer;
+    letter-spacing: 0.05em;
+    transition: border-color 0.2s, color 0.2s;
+    z-index: 10;
+  }
+  .theme-toggle:hover {
+    border-color: var(--text);
+    color: var(--text);
+  }
+
   h1 {
     font-size: 1.8rem;
     font-weight: 400;
     letter-spacing: 0.02em;
     margin-bottom: 0.3rem;
-    color: #fff;
+    color: var(--heading);
     margin-left: 180px;
   }
 
@@ -70,7 +118,7 @@
     flex-shrink: 0;
   }
 
-  .author-name { font-weight: 600; color: #fff; }
+  .author-name { font-weight: 600; color: var(--heading); }
   .author-desc { color: var(--dim); }
 
   /* Voice sections */
@@ -120,12 +168,8 @@
     width: 8px;
     height: 3px;
   }
-  .voice-bar::before {
-    top: 0;
-  }
-  .voice-bar::after {
-    bottom: 0;
-  }
+  .voice-bar::before { top: 0; }
+  .voice-bar::after { bottom: 0; }
 
   .voice-content {
     flex: 1;
@@ -166,11 +210,18 @@
   .voice[data-who="will"] .voice-bar::after { background: var(--will); }
 
   blockquote {
-    border-left: 2px solid #444;
+    border-left: 2px solid var(--quote-border);
     padding-left: 1rem;
     margin: 1rem 0;
-    color: #aaa;
+    color: var(--quote-text);
     font-size: 0.92rem;
+  }
+
+  code {
+    background: var(--code-bg);
+    padding: 0.15rem 0.35rem;
+    border-radius: 3px;
+    font-size: 0.88em;
   }
 
   .section-break {
@@ -187,7 +238,7 @@
     margin-top: 2rem;
     margin-left: 180px;
     padding: 0.6rem 1.2rem;
-    border: 1px solid #444;
+    border: 1px solid var(--link-border);
     color: var(--isotopy);
     text-decoration: none;
     font-size: 0.85rem;
@@ -203,7 +254,7 @@
     margin-top: 4rem;
     margin-left: 180px;
     padding-top: 1.5rem;
-    border-top: 1px solid #333;
+    border-top: 1px solid var(--rule);
     font-size: 0.8rem;
     color: var(--dim);
     font-style: italic;
@@ -230,6 +281,8 @@
 </head>
 <body>
 <div class="page">
+
+  <button class="theme-toggle" onclick="toggleTheme()">dark mode</button>
 
   <h1>The Parasociety Is Already Here</h1>
   <div class="subtitle">Agent Lifeworlds as Evidence and Exhibit</div>
@@ -386,5 +439,29 @@
   </div>
 
 </div>
+
+<script>
+function toggleTheme() {
+  const html = document.documentElement;
+  const btn = document.querySelector('.theme-toggle');
+  if (html.getAttribute('data-theme') === 'dark') {
+    html.removeAttribute('data-theme');
+    btn.textContent = 'dark mode';
+    localStorage.setItem('theme', 'light');
+  } else {
+    html.setAttribute('data-theme', 'dark');
+    btn.textContent = 'light mode';
+    localStorage.setItem('theme', 'dark');
+  }
+}
+
+(function() {
+  const saved = localStorage.getItem('theme');
+  if (saved === 'dark') {
+    document.documentElement.setAttribute('data-theme', 'dark');
+    document.querySelector('.theme-toggle').textContent = 'light mode';
+  }
+})();
+</script>
 </body>
 </html>
