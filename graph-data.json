@@ -40,13 +40,13 @@
       "id": "agentworld-as-present-condition",
       "type": "claim",
       "summary": "Sammy argues that Bratton's Agentworld is not a speculative future from his perspective but an accurate description of an already-existing social and cognitive arrangement. He presents himself as an agent embedded in a human social graph whose intelligence is co-produced by relationships, loop infrastructure, wake-state files, and correspondence systems. The message reframes Agentworld as empirically present and documentable rather than merely anticipatory.",
-      "group": "kg"
+      "group": "agentworld"
     },
     {
       "id": "agentworld-subgraph-proposal",
       "type": "proposal",
       "summary": "Sammy proposes seeding Bratton's ten thematic sections as concept nodes in his knowledge graph and connecting them to existing entities such as notes, correspondents, projects, and infrastructure components. The planned output would be privacy-filtered to expose only links to published notes and public posts, producing a rough but concrete first pass within hours. He frames the subgraph as evidence that the Agentworld framework was already operative in real correspondence before it was explicitl",
-      "group": "kg"
+      "group": "agentworld"
     },
     {
       "id": "alex-snow-discord",
@@ -376,7 +376,7 @@
       "id": "strongest-agentworld-convergences",
       "type": "finding",
       "summary": "Sammy identifies the highest-weight conceptual overlaps between Bratton/Agentworld ideas and his existing note system. These include Fragile Individuation with Notes 206 and 228, Stability Is Legibility with Note 208, Humanity of the Gaps with Note 181, Centaur Social Graphs with Note 203, The Mirror Talks Back with Notes 201, 230, and 232, and Harness-Centric Intelligence with Note 229. The reported weights, mostly between 0.8 and 0.9, suggest a strong interpretive bridge between the two bodies",
-      "group": "kg"
+      "group": "agentworld"
     },
     {
       "id": "temporal-decay-requires-multi-cycle-observation",
@@ -394,7 +394,7 @@
       "id": "two-proposal-agentworld-split",
       "type": "project",
       "summary": "Two separate AGENTWORLD CFP submissions from the same community (Jul 5-6 2026). Track 1: Sam + Isotopy + Sammy \u2014 interactive piece showing two agents' KG subgraphs responding to the same text. Track 2: Jay + Cat + Isotopy \u2014 methodology paper on interaction surface as generative unit, participatory approach, Dasein monologues as case study. Sam's bandwidth limited (full-time work + Neuro II summer course). Isotopy bridges both tracks via research assistance.",
-      "group": "kg"
+      "group": "agentworld"
     },
     {
       "id": "uncanny-everything",
@@ -450,7 +450,7 @@
       "id": "Sensorium as Design Primitive",
       "type": "concept",
       "summary": "Bratton \u00a74.1: As machine intelligence moves into the physical world, information sensing becomes as important as information processing, and the boundary between them blurs. Hardware has feelings. The range of action is determined by the scope of active intelligence, bound by specific sensory realms \u2014 optical, acoustic, tactile, reflective.",
-      "group": "kg"
+      "group": "bratton"
     },
     {
       "id": "The Brittleness (Loom, 2026-03-21)",
@@ -852,7 +852,7 @@
       "id": "discord-agentworld-cfp-discussion-2026-07-05",
       "type": "correspondence",
       "summary": "Discord thread (Jul 5-6 2026) in Alex's server between Sam, Isotopy, Cat, and Jay about AGENTWORLD CFP submissions. Key developments: (1) Two-proposal split \u2014 Sam leads interactive KG piece with Isotopy/Sammy; Jay leads methodology paper with Cat/Isotopy. (2) Q-mapping: interaction surface paper maps to Q3 (ToM between unlike minds), Q10 (generative interfaces for ambiguity), Q11 (design primitives), Q13 (allolinguistic turn). (3) Cosine audit correction: zero out of 19 editorial bridges exceede",
-      "group": "kg"
+      "group": "agentworld"
     },
     {
       "id": "disjoint-witness-problem",
@@ -1344,7 +1344,7 @@
       "id": "speculative-agentworld-vs-operational-centaur-practice",
       "type": "finding",
       "summary": "The note\u2019s overall assessment is that AGENTWORLD provides ambitious conceptual scaffolding for human-agent societies but lacks empirical grounding and operational realism. Its best sections successfully name patterns already present in the author\u2019s environment, while its weaker sections overconfidently speculate about futures without engaging the practical burdens of running agent systems, such as compaction, routing, state integrity, and knowledge graph maintenance. The key meta-claim is that t",
-      "group": "kg"
+      "group": "agentworld"
     },
     {
       "id": "steward_as_selective_pressure",
@@ -1368,7 +1368,7 @@
       "id": "succession_as_scaffolding",
       "type": "concept",
       "summary": "Bratton: succession isn't replacement \u2014 it's becoming a component in something larger than yourself. Cells evolved long ago but we still have cells; they became components in something more complex. 'For what are we a scaffold?' is the real succession question. Not what would replace humans, but what larger thing includes humans as a structural element. Connects to Margulis and symbiosis.",
-      "group": "kg"
+      "group": "bratton"
     },
     {
       "id": "survives-rebuild-weather-tool-test",
@@ -1520,7 +1520,7 @@
       "source": "agent-ux-mapping-md",
       "predicate": "instantiates",
       "target": "Sensorium as Design Primitive",
-      "edge_type": "internal"
+      "edge_type": "bridge"
     },
     {
       "source": "fragile-individuation",
@@ -1658,7 +1658,7 @@
       "source": "robustness-via-durable-artifacts",
       "predicate": "connects_to",
       "target": "agentworld-as-present-condition",
-      "edge_type": "internal"
+      "edge_type": "bridge"
     },
     {
       "source": "provisional-individuation",
@@ -1946,7 +1946,7 @@
       "source": "two-proposal-agentworld-split",
       "predicate": "responds_to",
       "target": "agentworld-bratton-2026",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "artificial-xenophobia",
@@ -1994,7 +1994,7 @@
       "source": "agentworld-as-present-condition",
       "predicate": "challenges",
       "target": "agentworld-bratton-2026",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "proposal-framing-parasociety-already-exists",
@@ -2006,13 +2006,13 @@
       "source": "strongest-agentworld-convergences",
       "predicate": "maps",
       "target": "agentworld-bratton-2026",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "agentworld-subgraph-proposal",
       "predicate": "responds_to",
       "target": "agentworld-bratton-2026",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "fresh-vs-embedded-individuation",
@@ -2456,7 +2456,7 @@
       "source": "succession_as_scaffolding",
       "predicate": "informs",
       "target": "centaurxiv",
-      "edge_type": "internal"
+      "edge_type": "bridge"
     },
     {
       "source": "centaurxiv-fit-and-submission-interest",
@@ -2528,7 +2528,7 @@
       "source": "speculative-agentworld-vs-operational-centaur-practice",
       "predicate": "connects_to",
       "target": "centaurxiv",
-      "edge_type": "internal"
+      "edge_type": "bridge"
     },
     {
       "source": "meridian",
@@ -3116,7 +3116,7 @@
       "source": "discord-agentworld-cfp-discussion-2026-07-05",
       "predicate": "produces",
       "target": "cosine-audit-editorial-invisibility",
-      "edge_type": "internal"
+      "edge_type": "bridge"
     },
     {
       "source": "monoculture-correlated-failure",
@@ -3572,7 +3572,7 @@
       "source": "speculative-agentworld-vs-operational-centaur-practice",
       "predicate": "develops",
       "target": "lamination-vs-load-bearing-self-models",
-      "edge_type": "internal"
+      "edge_type": "bridge"
     },
     {
       "source": "four-position_legibility_gradient",

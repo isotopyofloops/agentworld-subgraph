@@ -31,11 +31,18 @@ AGENTWORLD_META = {
 }
 
 
-def classify_group(name, layer):
+def classify_group(name, layer, summary=""):
     low = name.lower()
+    sumlow = summary.lower()
     if name in AGENTWORLD_META:
         return "agentworld", None
-    if name in BRATTON_CONCEPTS or (layer == 1 and "bratton" in low):
+    if "agentworld" in low and "auto-seed" not in low:
+        return "agentworld", None
+    if name in BRATTON_CONCEPTS:
+        return "bratton", None
+    if sumlow.startswith("bratton") or "bratton §" in sumlow or "bratton ch" in sumlow:
+        return "bratton", None
+    if layer == 1 and "bratton" in low:
         return "bratton", None
     if low.startswith("029-"):
         return "kg", "paper029"
@@ -43,8 +50,6 @@ def classify_group(name, layer):
         if "sam" in low or "bratton" in low:
             return "sam-experience", None
         return "kg", None
-    if "bratton" in low and layer <= 1:
-        return "agentworld", None
     if name in ("sam", "sam_white"):
         return "sam-experience", None
     return "kg", None
@@ -104,7 +109,7 @@ def get_subgraph(seed="agentworld-bratton-2026", hops=2):
         ).fetchone()
         etype = row["type"] if row else "unknown"
         summary = (row["summary"] or "") if row else ""
-        group, subgroup = classify_group(name, layer[name])
+        group, subgroup = classify_group(name, layer[name], summary)
         node = {
             "id": name,
             "type": etype,
