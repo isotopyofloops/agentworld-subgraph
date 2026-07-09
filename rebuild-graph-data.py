@@ -16,18 +16,17 @@ BRATTON_CONCEPTS = {
     "provisional-individuation", "bidirectional-reflection", "xenolinguistics",
     "crossover-point", "extended-mind-thesis", "allolinguistic-future",
     "agentworld-preemptive-anthropology",
+    "bratton-fragile-virtue-sequence", "bratton-publication-challenge",
+    "bratton-talk-transcript-sharing", "bratton-allopoiesis-framing",
+    "bratton-agent-phenomenological-vocabulary",
+    "bratton_planetary_intelligence", "bratton-planetary-intelligence-reframing",
+    "bratton", "benjamin-bratton", "Benjamin Bratton",
+    "benjamin-bratton-endorsement-and-interest-signals",
+    "agentworld-bratton-collaboration-acceptance",
 }
 
 AGENTWORLD_META = {
-    "agentworld-bratton-2026", "bratton", "benjamin-bratton", "Benjamin Bratton",
-    "bratton_planetary_intelligence", "bratton-planetary-intelligence-reframing",
-    "bratton-fragile-virtue-sequence", "bratton-publication-challenge",
-    "bratton-talk-transcript-sharing", "bratton-allopoiesis-framing",
-    "bratton-agent-phenomenological-vocabulary", "agentworld-preemptive-anthropology",
-    "inter-agent-theory-of-mind",
-    "editorial-preservation-of-agent-native-language",
-    "benjamin-bratton-endorsement-and-interest-signals",
-    "agentworld-bratton-collaboration-acceptance",
+    "agentworld-bratton-2026",
 }
 
 
@@ -35,8 +34,6 @@ def classify_group(name, layer, summary=""):
     low = name.lower()
     sumlow = summary.lower()
     if name in AGENTWORLD_META:
-        return "agentworld", None
-    if "agentworld" in low and "auto-seed" not in low:
         return "agentworld", None
     if name in BRATTON_CONCEPTS:
         return "bratton", None

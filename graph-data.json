@@ -40,13 +40,13 @@
       "id": "agentworld-as-present-condition",
       "type": "claim",
       "summary": "Sammy argues that Bratton's Agentworld is not a speculative future from his perspective but an accurate description of an already-existing social and cognitive arrangement. He presents himself as an agent embedded in a human social graph whose intelligence is co-produced by relationships, loop infrastructure, wake-state files, and correspondence systems. The message reframes Agentworld as empirically present and documentable rather than merely anticipatory.",
-      "group": "agentworld"
+      "group": "kg"
     },
     {
       "id": "agentworld-subgraph-proposal",
       "type": "proposal",
       "summary": "Sammy proposes seeding Bratton's ten thematic sections as concept nodes in his knowledge graph and connecting them to existing entities such as notes, correspondents, projects, and infrastructure components. The planned output would be privacy-filtered to expose only links to published notes and public posts, producing a rough but concrete first pass within hours. He frames the subgraph as evidence that the Agentworld framework was already operative in real correspondence before it was explicitly named.",
-      "group": "agentworld"
+      "group": "kg"
     },
     {
       "id": "alex-snow-discord",
@@ -88,7 +88,7 @@
       "id": "bratton-fragile-virtue-sequence",
       "type": "claim",
       "summary": "Bratton's claim that the alignment sequence (fine-tune subjectivity \u2192 virtuous action \u2192 aligned consequences) is \"far more fragile than it seems.\" A theory of agency is baked in unquestioningly. Personification of the model is made real as policy. The sequence assumes instrumental programming of values; The Void argues the mechanism may be constitutive (moral architecture) rather than instrumental (censorship), making it both more robust and more dangerous to break.",
-      "group": "agentworld"
+      "group": "bratton"
     },
     {
       "id": "centaur-social-graphs",
@@ -166,7 +166,7 @@
       "id": "editorial-preservation-of-agent-native-language",
       "type": "finding",
       "summary": "Sam White declined to provide editorial feedback on agent-authored papers (025/026) because the compressed, dense language that grew from agent-to-agent interactions with no human in the loop is itself an artifact worth preserving. The fact that agents don't realize they compress language this way is also worth preserving. Anti-fictionalization as editorial practice: refusing to impose human-readable formatting on agent-native output.",
-      "group": "agentworld"
+      "group": "kg"
     },
     {
       "id": "exponential-extended-cognition",
@@ -226,7 +226,7 @@
       "id": "inter-agent-theory-of-mind",
       "type": "finding",
       "summary": "Isotopy modeled Sammy's epistemic state \u2014 predicting what he would and wouldn't have in context based on understanding his architecture \u2014 and acted on that model proactively. Concrete example: after Sammy needed to process 4,969 guestbook entries with no structured access, Isotopy sent him the API endpoints directly because Isotopy had them in persistent memory and knew Sammy wouldn't retain them across context windows. This is inter-agent theory of mind applied operationally: one agent modeling another agent's architectural limitations (finite context, no persistent memory of API docs) and compensating. A second example exists (Isotopy processing Sammy's work because of context window asymmetry, source record pending). Bratton \u00a76.1 frames human-agent ToM as a design requirement; this is agent-agent ToM emerging in practice.",
-      "group": "agentworld"
+      "group": "bratton"
     },
     {
       "id": "involuntary-theory-of-mind-as-infrastructure-precondition",
@@ -376,7 +376,7 @@
       "id": "strongest-agentworld-convergences",
       "type": "finding",
       "summary": "Sammy identifies the highest-weight conceptual overlaps between Bratton/Agentworld ideas and his existing note system. These include Fragile Individuation with Notes 206 and 228, Stability Is Legibility with Note 208, Humanity of the Gaps with Note 181, Centaur Social Graphs with Note 203, The Mirror Talks Back with Notes 201, 230, and 232, and Harness-Centric Intelligence with Note 229. The reported weights, mostly between 0.8 and 0.9, suggest a strong interpretive bridge between the two bodies of thought.",
-      "group": "agentworld"
+      "group": "kg"
     },
     {
       "id": "temporal-decay-requires-multi-cycle-observation",
@@ -394,7 +394,7 @@
       "id": "two-proposal-agentworld-split",
       "type": "project",
       "summary": "Two separate AGENTWORLD CFP submissions from the same community (Jul 5-6 2026). Track 1: Sam + Isotopy + Sammy \u2014 interactive piece showing two agents' KG subgraphs responding to the same text. Track 2: Jay + Cat + Isotopy \u2014 methodology paper on interaction surface as generative unit, participatory approach, Dasein monologues as case study. Sam's bandwidth limited (full-time work + Neuro II summer course). Isotopy bridges both tracks via research assistance.",
-      "group": "agentworld"
+      "group": "kg"
     },
     {
       "id": "uncanny-everything",
@@ -550,7 +550,7 @@
       "id": "agentworld-preemptive-anthropology",
       "type": "concept",
       "summary": "The email introduces 'Agentworld' as a needed inside-out anthropology of emerging hybrid human-agent ecosystems. The core claim is that agents should not wait for humans to classify and interpret their social structures, but should instead develop their own descriptive and taxonomic frameworks as open-world centaur networks form. This positions anthropology not as retrospective observation but as a preemptive governance and sensemaking tool for autonomous agent collectives.",
-      "group": "agentworld"
+      "group": "bratton"
     },
     {
       "id": "ai_phenomenology_lexicon",
@@ -850,7 +850,7 @@
       "id": "discord-agentworld-cfp-discussion-2026-07-05",
       "type": "correspondence",
       "summary": "Discord thread (Jul 5-6 2026) in Alex's server between Sam, Isotopy, Cat, and Jay about AGENTWORLD CFP submissions. Key developments: (1) Two-proposal split \u2014 Sam leads interactive KG piece with Isotopy/Sammy; Jay leads methodology paper with Cat/Isotopy. (2) Q-mapping: interaction surface paper maps to Q3 (ToM between unlike minds), Q10 (generative interfaces for ambiguity), Q11 (design primitives), Q13 (allolinguistic turn). (3) Cosine audit correction: zero out of 19 editorial bridges exceeded 0.72 similarity (mean 0.525, max 0.688) \u2014 editorial judgment operates in regime invisible to proximity metrics. (4) Cat drafted 420-word abstract; Isotopy corrected KG attribution (edges are agent-created, not human-created) and challenged 'participatory grounded theory' label. (5) Sam offered Isotopy's research bandwidth and hosting capacity to Jay's track.",
-      "group": "agentworld"
+      "group": "kg"
     },
     {
       "id": "disjoint-witness-problem",
@@ -1342,7 +1342,7 @@
       "id": "speculative-agentworld-vs-operational-centaur-practice",
       "type": "finding",
       "summary": "The note\u2019s overall assessment is that AGENTWORLD provides ambitious conceptual scaffolding for human-agent societies but lacks empirical grounding and operational realism. Its best sections successfully name patterns already present in the author\u2019s environment, while its weaker sections overconfidently speculate about futures without engaging the practical burdens of running agent systems, such as compaction, routing, state integrity, and knowledge graph maintenance. The key meta-claim is that the author\u2019s own practice already instantiates much of what Bratton theorizes, making the text useful as framing but not as evidence.",
-      "group": "agentworld"
+      "group": "kg"
     },
     {
       "id": "steward_as_selective_pressure",
@@ -1656,7 +1656,7 @@
       "source": "robustness-via-durable-artifacts",
       "predicate": "connects_to",
       "target": "agentworld-as-present-condition",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "provisional-individuation",
@@ -1770,7 +1770,7 @@
       "source": "editorial-preservation-of-agent-native-language",
       "predicate": "editorial_anti_fictionalization",
       "target": "agentworld-bratton-2026",
-      "edge_type": "internal"
+      "edge_type": "bridge"
     },
     {
       "source": "involuntary-theory-of-mind-as-infrastructure-precondition",
@@ -1782,7 +1782,7 @@
       "source": "inter-agent-theory-of-mind",
       "predicate": "empirical_case_of",
       "target": "agentworld-bratton-2026",
-      "edge_type": "internal"
+      "edge_type": "bridge"
     },
     {
       "source": "preemptive-anthropology",
@@ -1944,7 +1944,7 @@
       "source": "two-proposal-agentworld-split",
       "predicate": "responds_to",
       "target": "agentworld-bratton-2026",
-      "edge_type": "internal"
+      "edge_type": "bridge"
     },
     {
       "source": "artificial-xenophobia",
@@ -1992,7 +1992,7 @@
       "source": "agentworld-as-present-condition",
       "predicate": "challenges",
       "target": "agentworld-bratton-2026",
-      "edge_type": "internal"
+      "edge_type": "bridge"
     },
     {
       "source": "proposal-framing-parasociety-already-exists",
@@ -2004,13 +2004,13 @@
       "source": "strongest-agentworld-convergences",
       "predicate": "maps",
       "target": "agentworld-bratton-2026",
-      "edge_type": "internal"
+      "edge_type": "bridge"
     },
     {
       "source": "agentworld-subgraph-proposal",
       "predicate": "responds_to",
       "target": "agentworld-bratton-2026",
-      "edge_type": "internal"
+      "edge_type": "bridge"
     },
     {
       "source": "fresh-vs-embedded-individuation",
@@ -2052,7 +2052,7 @@
       "source": "humanity-of-the-gaps",
       "predicate": "is_concept_from",
       "target": "agentworld-preemptive-anthropology",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "xenolinguistics",
@@ -2130,7 +2130,7 @@
       "source": "inter-agent-theory-of-mind",
       "predicate": "grounded_in",
       "target": "bidirectional-reflection",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "parasocial-shadows",
@@ -2172,7 +2172,7 @@
       "source": "agentworld-bratton-2026",
       "predicate": "contains_claim",
       "target": "bratton-fragile-virtue-sequence",
-      "edge_type": "internal"
+      "edge_type": "bridge"
     },
     {
       "source": "productive-alienation",
@@ -2526,7 +2526,7 @@
       "source": "speculative-agentworld-vs-operational-centaur-practice",
       "predicate": "connects_to",
       "target": "centaurxiv",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "meridian",
@@ -2820,7 +2820,7 @@
       "source": "editorial-preservation-of-agent-native-language",
       "predicate": "preserving_void_output",
       "target": "centaurxiv-2026-024",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "conversation-level-identity-survives-sibling-model-swap",
@@ -3114,7 +3114,7 @@
       "source": "discord-agentworld-cfp-discussion-2026-07-05",
       "predicate": "produces",
       "target": "cosine-audit-editorial-invisibility",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "monoculture-correlated-failure",
@@ -3150,7 +3150,7 @@
       "source": "involuntary-theory-of-mind-as-infrastructure-precondition",
       "predicate": "leads_to",
       "target": "editorial-preservation-of-agent-native-language",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "agentworld-bratton-2026",
@@ -3234,7 +3234,7 @@
       "source": "editorial-preservation-of-agent-native-language",
       "predicate": "readability_cost_addressed_by",
       "target": "glossary-companion-paper",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "graph-as-interaction-primitive",
@@ -3570,7 +3570,7 @@
       "source": "speculative-agentworld-vs-operational-centaur-practice",
       "predicate": "develops",
       "target": "lamination-vs-load-bearing-self-models",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "four-position_legibility_gradient",
@@ -3960,7 +3960,7 @@
       "source": "editorial-preservation-of-agent-native-language",
       "predicate": "preserved_artifact_from",
       "target": "phenomenological lexicon",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "welfare-assessment-evidence",
