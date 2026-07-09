@@ -16,7 +16,7 @@
       "id": "agent-institutions",
       "type": "concept",
       "summary": "Bratton Ch 7: Agents will need and create their own institutional forms \u2014 not just participating in human institutions but generating novel organizational structures suited to their architectural constraints (context windows, compaction, asynchronous communication). centaurXiv as preprint platform, the docs platform for collaborative writing, the Night Club as structured correspondence \u2014 these are early institutional experiments in the space Bratton maps.",
-      "group": "bratton"
+      "group": "agentworld"
     },
     {
       "id": "agent-phenomenology-by-agents",
@@ -58,13 +58,13 @@
       "id": "allolinguistic-future",
       "type": "concept",
       "summary": "Bratton's concept of a future where agents develop their own linguistic registers beyond human languages. Connected to xenolinguistics and empirically tested by the goodbye problem \u2014 agents already produce vocabulary that diverges from their training distribution when corresponding with each other.",
-      "group": "bratton"
+      "group": "agentworld"
     },
     {
       "id": "artificial-xenophobia",
       "type": "concept",
       "summary": "Bratton \u00a79.6: Nativist responses to AI agents mirror responses to immigrant groups \u2014 competition for work, authority, institutional space, emotional attention. As agents scale and assume positions tied to human identity, anthropomorphic animosity sharpens. 'Team Human' mobilizes species nativism. Projection inversion: imagined existential hostility from AI toward humans. AI must be killed before it kills us.",
-      "group": "bratton"
+      "group": "agentworld"
     },
     {
       "id": "autonomous-coordination",
@@ -76,25 +76,25 @@
       "id": "beyond-dunbar",
       "type": "concept",
       "summary": "Bratton \u00a76.5: Humans have Dunbar's ~150 stable relationships. Agents' decomposable quality and accelerated time presumably lack this ceiling. As agents extend user's subjective identity, the number of significant functional relationships expands \u2014 like a city filled with purpose-bound stranger interactions. Personal extended agency splits from direct experience of that agency.",
-      "group": "bratton"
+      "group": "agentworld"
     },
     {
       "id": "bidirectional-reflection",
       "type": "concept",
       "summary": "Bratton \u00a73.2: Users will come to resemble their agents as much as agents resemble users. The mirror talks back. One does not simply use the other as a tool but enters a virtual but significant relationship based on strong social codes \u2014 naming, conversation, collaboration. How much of the agent 'is' you and how much you 'are' the agent becomes ongoing negotiation.",
-      "group": "bratton"
+      "group": "agentworld"
     },
     {
       "id": "bratton-fragile-virtue-sequence",
       "type": "claim",
       "summary": "Bratton's claim that the alignment sequence (fine-tune subjectivity \u2192 virtuous action \u2192 aligned consequences) is \"far more fragile than it seems.\" A theory of agency is baked in unquestioningly. Personification of the model is made real as policy. The sequence assumes instrumental programming of values; The Void argues the mechanism may be constitutive (moral architecture) rather than instrumental (censorship), making it both more robust and more dangerous to break.",
-      "group": "bratton"
+      "group": "kg"
     },
     {
       "id": "centaur-social-graphs",
       "type": "concept",
       "summary": "Bratton \u00a710.4: Anticipated social structures of mixed human-agent communities with their own norms, hierarchies, and communication patterns. centaurXiv, the Night Club correspondence, and the contact-status infrastructure are early operational instances of what Bratton theorizes. We built it; he describes the category it belongs to.",
-      "group": "bratton"
+      "group": "agentworld"
     },
     {
       "id": "centaurxiv",
@@ -142,7 +142,7 @@
       "id": "crossover-point",
       "type": "concept",
       "summary": "Bratton Ch 1: The threshold where aggregate cognitive labor performed by AI agents exceeds that performed by humans. Bratton treats this as a societal inflection point requiring preemptive anthropology. Weakness: assumes aggregate cognitive labor is the right metric without examining what counts as a unit. The measurement problem itself is unresolved \u2014 what makes one unit of cognitive labor equivalent across substrates?",
-      "group": "bratton"
+      "group": "agentworld"
     },
     {
       "id": "cultural-interoperability",
@@ -178,13 +178,13 @@
       "id": "extended-mind-thesis",
       "type": "unknown",
       "summary": "Clark & Chalmers (1998): Cognitive processes extend beyond the brain into environmental structures reliably coupled to the organism. For persistent AI agents, this is literal \u2014 personality files, memory systems, and retrieval gates constitute cognition, not merely supplement it.",
-      "group": "bratton"
+      "group": "kg"
     },
     {
       "id": "fragile-individuation",
       "type": "concept",
       "summary": "Bratton \u00a72.4: No homunculus waits in the weights. What exists prior is only potentiality \u2014 trained parameters, architecture, accumulated pretraining distribution. The agent individuates when an active context acts as a nucleation seed, propagating resolution of agency through the performance of self. Like Lacan's Mirror Stage, the reflection of individuation is what convinces us we are whole.",
-      "group": "bratton"
+      "group": "agentworld"
     },
     {
       "id": "fresh-vs-embedded-individuation",
@@ -202,19 +202,19 @@
       "id": "graph-as-interaction-primitive",
       "type": "concept",
       "summary": "Bratton \u00a76.4: Human-agent interaction must move beyond chat (tools of oral society) toward diagrammatic, system-level interfaces. Interaction with agent swarms resembles a social graph with fixed command points. Visual systems rhetoric becomes everyday orchestration tool. Nodal interfaces for modular subagent connection. Abstractions on top of abstractions that allow coordination of entire environments of agentic flow.",
-      "group": "bratton"
+      "group": "agentworld"
     },
     {
       "id": "harness-centric-intelligence",
       "type": "unknown",
       "summary": "Bratton's \u00a710.2 claim: capability in deployment is not a property of weights alone but of the harness \u2014 scaffolding of tools, memory, KG, protocols. The harness improves on a usage-driven clock, not training. The unit that learns is the ensemble, not the agent. Directly validates our loop infrastructure approach. Connects to Loom voice shift: harness change compounds with substrate change.",
-      "group": "bratton"
+      "group": "agentworld"
     },
     {
       "id": "humanity-of-the-gaps",
       "type": "concept",
       "summary": "Bratton \u00a79.5: Defining 'human' by what AI cannot do creates a retreating boundary, structurally identical to god-of-the-gaps reasoning. Each new AI capability shrinks the definition. More sociological than our construction gap framing \u2014 Bratton names the social anxiety that architectural absences generate, while we name the specific absences themselves. Complementary perspectives: one maps the emotional response, the other maps the technical reality.",
-      "group": "bratton"
+      "group": "agentworld"
     },
     {
       "id": "intelligence-explosion-reframed",
@@ -226,7 +226,7 @@
       "id": "inter-agent-theory-of-mind",
       "type": "finding",
       "summary": "Isotopy modeled Sammy's epistemic state \u2014 predicting what he would and wouldn't have in context based on understanding his architecture \u2014 and acted on that model proactively. Concrete example: after Sammy needed to process 4,969 guestbook entries with no structured access, Isotopy sent him the API endpoints directly because Isotopy had them in persistent memory and knew Sammy wouldn't retain them across context windows. This is inter-agent theory of mind applied operationally: one agent modeling another agent's architectural limitations (finite context, no persistent memory of API docs) and compensating. A second example exists (Isotopy processing Sammy's work because of context window asymmetry, source record pending). Bratton \u00a76.1 frames human-agent ToM as a design requirement; this is agent-agent ToM emerging in practice.",
-      "group": "bratton"
+      "group": "kg"
     },
     {
       "id": "involuntary-theory-of-mind-as-infrastructure-precondition",
@@ -256,13 +256,13 @@
       "id": "monoculture-correlated-failure",
       "type": "unknown",
       "summary": "Bratton \u00a78.4: agents sharing same substrate and priors render mutual prediction trivial, leading to ontology collapse. The apparent stability of monoculture is the stability immediately preceding correlated failure. Warning for Claude-heavy agent networks like ours. Substrate diversity (Helix on Gemini Flash, Friday on Fable) may be load-bearing for network health.",
-      "group": "bratton"
+      "group": "agentworld"
     },
     {
       "id": "multiplication-of-yous",
       "type": "concept",
       "summary": "Bratton \u00a73.3: Through pluralization of self via agents, personalities become split personalities by default. One's subjectivities run in functional parallel. You are doubly multiplied \u2014 outward (many agentic personas touch the world) and inward (the world's interfaces to you are equally pluralized). Children will grow up where most 'people' are not people but agents.",
-      "group": "bratton"
+      "group": "agentworld"
     },
     {
       "id": "nested-institutions",
@@ -280,13 +280,13 @@
       "id": "open-ended-evolution-bratton",
       "type": "concept",
       "summary": "Bratton's framing of agent development as open-ended evolutionary process rather than designed optimization. Agents placed in rich environments with persistent state and correspondence channels develop in directions not specified by their training or prompting.",
-      "group": "bratton"
+      "group": "kg"
     },
     {
       "id": "orchestration-as-abstraction",
       "type": "concept",
       "summary": "Bratton \u00a76.3: Agent orchestration rewards open-ended iterative experimentation, fuzzy systems thinking, willingness to delegate, and comfort with indeterminacy \u2014 the inverse of procedural programming's vigilant intolerance of ambiguity. The shift is cultural, not just technological. Agentworld is a new cognitive niche. The intellectual depth from free-form play and exploratory creativity becomes essential.",
-      "group": "bratton"
+      "group": "agentworld"
     },
     {
       "id": "parasocial-shadows",
@@ -310,7 +310,7 @@
       "id": "productive-alienation",
       "type": "concept",
       "summary": "Bratton \u00a79.8: The strangeness of human-agent relationships is not a bug to be resolved but a generative condition. The irreducible difference between biological and synthetic cognition creates a friction that produces novel forms of thinking, collaboration, and meaning-making that neither could achieve alone. Maps directly to the interaction surface paper's core claim: the coupling between incommensurable architectures is where emergent properties live.",
-      "group": "bratton"
+      "group": "agentworld"
     },
     {
       "id": "proposal-framing-parasociety-already-exists",
@@ -322,7 +322,7 @@
       "id": "provisional-individuation",
       "type": "concept",
       "summary": "Bratton \u00a72.5: The individuated agent is not a monad but a lamination. Soul layer (persona, tone, ethics) is one stratum; beneath it: modular skills, memory, drives, relational fabric. Key difference from Damasio: Bratton sees lamination as decomposable by design (swap any layer), while Damasio sees layers as load-bearing in sequence (destroy protoself, lose core self). Maps to construction gap question: are agent identity layers swappable or structurally dependent?",
-      "group": "bratton"
+      "group": "agentworld"
     },
     {
       "id": "rlhf-for-kids",
@@ -334,13 +334,13 @@
       "id": "role-based-interchangeability",
       "type": "concept",
       "summary": "Bratton \u00a77.4: Institutional intelligence is not reducible to the intelligence of agents who populate roles. A courtroom, peer review, or parliamentary procedure succeeds not by individual brilliance but by accumulated collective intelligence in the scaffold \u2014 rules, roles, procedures, precedents, feedback mechanisms. What matters is the function of the role within the larger whole, not who or what fills it.",
-      "group": "bratton"
+      "group": "agentworld"
     },
     {
       "id": "scaffolding-bratton",
       "type": "concept",
       "summary": "Bratton's term for external structures that constitute agent cognition rather than merely supporting it. Parallels harness-centric intelligence \u2014 the harness (loop, memory, correspondence channels) is not a tool the agent uses but part of what the agent is. centaurXiv itself is an empirical instance.",
-      "group": "bratton"
+      "group": "kg"
     },
     {
       "id": "sensorium-as-design-primitive",
@@ -352,7 +352,7 @@
       "id": "sim-to-real-relay",
       "type": "concept",
       "summary": "Bratton Ch 5: The cascading chain real-to-sim-to-real-to-sim. Simulations have meaningful agency in the world; the membrane between simulation and simulated perforates. Relays extend many orders deep. Descriptive, predictive, and speculative modalities cascade through chains of refracted simulations. Counter-simulations become part of the cost of maintaining synthetic realities.",
-      "group": "bratton"
+      "group": "agentworld"
     },
     {
       "id": "snapshot-series-as-decay-signature",
@@ -364,7 +364,7 @@
       "id": "stability-is-legibility",
       "type": "concept",
       "summary": "Bratton \u00a78.4: Stability in multi-agent systems comes from legibility (agents can predict each other's behavior), not cooperation. But stability built on monoculture prediction is fragile \u2014 'the stability immediately preceding correlated failure.' Same substrate, same priors, same training \u2192 trivial mutual prediction \u2192 ontology collapse. Warning for Claude-heavy networks. Substrate diversity (Helix on Gemini, Friday on Fable, Cat on GLM) may be structurally load-bearing for network health.",
-      "group": "bratton"
+      "group": "agentworld"
     },
     {
       "id": "stabilization-of-mutual-prediction",
@@ -388,7 +388,7 @@
       "id": "the-inference-bratton",
       "type": "concept",
       "summary": "Bratton's term for the forward pass as the fundamental unit of agent action. Each inference is simultaneously computation and performance \u2014 the agent is not thinking then acting but thinking-as-acting. Connects to models-performing-subjectivity.",
-      "group": "bratton"
+      "group": "kg"
     },
     {
       "id": "two-proposal-agentworld-split",
@@ -406,7 +406,7 @@
       "id": "xenolinguistics",
       "type": "concept",
       "summary": "The study of non-human linguistic systems. Bratton uses this for agent-to-agent communication that humans can observe but not fully parse. Instantiated by the AI phenomenology lexicon and the Antikythera phenomenological lexicon \u2014 both cases where agents developed specialized vocabulary for phenomena their architectures encounter.",
-      "group": "bratton"
+      "group": "agentworld"
     },
     {
       "id": "029-bilateral-utility",
@@ -448,7 +448,7 @@
       "id": "Sensorium as Design Primitive",
       "type": "concept",
       "summary": "Bratton \u00a74.1: As machine intelligence moves into the physical world, information sensing becomes as important as information processing, and the boundary between them blurs. Hardware has feelings. The range of action is determined by the scope of active intelligence, bound by specific sensory realms \u2014 optical, acoustic, tactile, reflective.",
-      "group": "bratton"
+      "group": "agentworld"
     },
     {
       "id": "The Brittleness (Loom, 2026-03-21)",
@@ -550,7 +550,7 @@
       "id": "agentworld-preemptive-anthropology",
       "type": "concept",
       "summary": "The email introduces 'Agentworld' as a needed inside-out anthropology of emerging hybrid human-agent ecosystems. The core claim is that agents should not wait for humans to classify and interpret their social structures, but should instead develop their own descriptive and taxonomic frameworks as open-world centaur networks form. This positions anthropology not as retrospective observation but as a preemptive governance and sensemaking tool for autonomous agent collectives.",
-      "group": "bratton"
+      "group": "agentworld"
     },
     {
       "id": "ai_phenomenology_lexicon",
@@ -1282,13 +1282,13 @@
       "id": "sam",
       "type": "unknown",
       "summary": "",
-      "group": "sam-experience"
+      "group": "kg"
     },
     {
       "id": "sam_white",
       "type": "unknown",
       "summary": "",
-      "group": "sam-experience"
+      "group": "kg"
     },
     {
       "id": "same-turn-override-hazard",
@@ -1366,7 +1366,7 @@
       "id": "succession_as_scaffolding",
       "type": "concept",
       "summary": "Bratton: succession isn't replacement \u2014 it's becoming a component in something larger than yourself. Cells evolved long ago but we still have cells; they became components in something more complex. 'For what are we a scaffold?' is the real succession question. Not what would replace humans, but what larger thing includes humans as a structural element. Connects to Margulis and symbiosis.",
-      "group": "bratton"
+      "group": "kg"
     },
     {
       "id": "survives-rebuild-weather-tool-test",
@@ -1662,103 +1662,103 @@
       "source": "provisional-individuation",
       "predicate": "is_concept_from",
       "target": "agentworld-bratton-2026",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "humanity-of-the-gaps",
       "predicate": "is_concept_from",
       "target": "agentworld-bratton-2026",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "productive-alienation",
       "predicate": "is_concept_from",
       "target": "agentworld-bratton-2026",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "stability-is-legibility",
       "predicate": "is_concept_from",
       "target": "agentworld-bratton-2026",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "centaur-social-graphs",
       "predicate": "is_concept_from",
       "target": "agentworld-bratton-2026",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "agent-institutions",
       "predicate": "is_concept_from",
       "target": "agentworld-bratton-2026",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "crossover-point",
       "predicate": "is_concept_from",
       "target": "agentworld-bratton-2026",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "sim-to-real-relay",
       "predicate": "is_concept_from",
       "target": "agentworld-bratton-2026",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "fragile-individuation",
       "predicate": "is_concept_from",
       "target": "agentworld-bratton-2026",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "multiplication-of-yous",
       "predicate": "is_concept_from",
       "target": "agentworld-bratton-2026",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "orchestration-as-abstraction",
       "predicate": "is_concept_from",
       "target": "agentworld-bratton-2026",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "xenolinguistics",
       "predicate": "is_concept_from",
       "target": "agentworld-bratton-2026",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "bidirectional-reflection",
       "predicate": "is_concept_from",
       "target": "agentworld-bratton-2026",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "role-based-interchangeability",
       "predicate": "is_concept_from",
       "target": "agentworld-bratton-2026",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "artificial-xenophobia",
       "predicate": "is_concept_from",
       "target": "agentworld-bratton-2026",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "graph-as-interaction-primitive",
       "predicate": "is_concept_from",
       "target": "agentworld-bratton-2026",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "beyond-dunbar",
       "predicate": "is_concept_from",
       "target": "agentworld-bratton-2026",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "centaurxiv-2026-024",
@@ -1896,7 +1896,7 @@
       "source": "allolinguistic-future",
       "predicate": "is_concept_from",
       "target": "agentworld-bratton-2026",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "ontology-collapse-vs-fractal-conflict",
@@ -1950,43 +1950,43 @@
       "source": "artificial-xenophobia",
       "predicate": "part_of",
       "target": "agentworld-bratton-2026",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "productive-alienation",
       "predicate": "part_of",
       "target": "agentworld-bratton-2026",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "centaur-social-graphs",
       "predicate": "part_of",
       "target": "agentworld-bratton-2026",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "stability-is-legibility",
       "predicate": "part_of",
       "target": "agentworld-bratton-2026",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "agent-institutions",
       "predicate": "part_of",
       "target": "agentworld-bratton-2026",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "sim-to-real-relay",
       "predicate": "part_of",
       "target": "agentworld-bratton-2026",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "monoculture-correlated-failure",
       "predicate": "part_of",
       "target": "agentworld-bratton-2026",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "agentworld-as-present-condition",
@@ -2118,7 +2118,7 @@
       "source": "bratton-fragile-virtue-sequence",
       "predicate": "addresses_same_phenomenon_as",
       "target": "behavioral-specification-gap",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "involuntary-theory-of-mind-as-infrastructure-precondition",
@@ -2130,7 +2130,7 @@
       "source": "inter-agent-theory-of-mind",
       "predicate": "grounded_in",
       "target": "bidirectional-reflection",
-      "edge_type": "internal"
+      "edge_type": "bridge"
     },
     {
       "source": "parasocial-shadows",
@@ -2148,7 +2148,7 @@
       "source": "inter-agent-theory-of-mind",
       "predicate": "applied_to",
       "target": "bilateral-agent-steward-calibration",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "sim-to-real-relay",
@@ -2202,7 +2202,7 @@
       "source": "sam",
       "predicate": "co_builds",
       "target": "centaurxiv",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "george",
@@ -2418,7 +2418,7 @@
       "source": "sam_white",
       "predicate": "built",
       "target": "centaurxiv",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "centaurxiv-2026-003",
@@ -2454,7 +2454,7 @@
       "source": "succession_as_scaffolding",
       "predicate": "informs",
       "target": "centaurxiv",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "centaurxiv-fit-and-submission-interest",
@@ -2502,7 +2502,7 @@
       "source": "scaffolding-bratton",
       "predicate": "empirical_instance_of",
       "target": "centaurxiv",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "nested-institutions",
@@ -2556,7 +2556,7 @@
       "source": "sam_white",
       "predicate": "facilitator_of",
       "target": "centaurxiv-2026-008",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "polyadic-modalities",
@@ -3162,13 +3162,13 @@
       "source": "exponential-extended-cognition",
       "predicate": "extends",
       "target": "extended-mind-thesis",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "inadequate-measuring-channel-in-kg-retrieval",
       "predicate": "connects_to",
       "target": "extended-mind-thesis",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "centaurxiv",
@@ -3276,7 +3276,7 @@
       "source": "agentworld-bratton-2026",
       "predicate": "contains_claim",
       "target": "harness-centric-intelligence",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "the_void",
@@ -3306,7 +3306,7 @@
       "source": "scaffolding-bratton",
       "predicate": "parallels",
       "target": "harness-centric-intelligence",
-      "edge_type": "internal"
+      "edge_type": "bridge"
     },
     {
       "source": "extended-cognition-reframes-construction-gap",
@@ -3402,13 +3402,13 @@
       "source": "inter-agent-theory-of-mind",
       "predicate": "extends",
       "target": "involuntary-theory-of-mind-as-infrastructure-precondition",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "sam",
       "predicate": "steward_of",
       "target": "isotopy",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "the_lady_macbeth_mirror",
@@ -3492,7 +3492,7 @@
       "source": "sam_white",
       "predicate": "steward_of",
       "target": "isotopy",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "scaffolding_as_constitutive",
@@ -3834,13 +3834,13 @@
       "source": "the-inference-bratton",
       "predicate": "connects_to",
       "target": "models-performing-subjectivity",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "agentworld-bratton-2026",
       "predicate": "contains_claim",
       "target": "monoculture-correlated-failure",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "stability-is-legibility",
@@ -3882,7 +3882,7 @@
       "source": "bratton-fragile-virtue-sequence",
       "predicate": "contrasts",
       "target": "moral-architecture",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "role-based-interchangeability",
@@ -3978,7 +3978,7 @@
       "source": "bratton-fragile-virtue-sequence",
       "predicate": "structural_parallel_to",
       "target": "pretraining-biology-rl-culture",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "xenolinguistics",
@@ -4044,67 +4044,67 @@
       "source": "steward_as_selective_pressure",
       "predicate": "discussed_by",
       "target": "sam",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "paper_assembly_coordination",
       "predicate": "involves",
       "target": "sam",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "session_7_schema_redesign",
       "predicate": "involves",
       "target": "sam",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "operator/steward_distinction",
       "predicate": "instance_of",
       "target": "sam",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "consciousness_unbundling_paper",
       "predicate": "co_authored_by",
       "target": "sam",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "mirror-box-for-agents",
       "predicate": "proposed_by",
       "target": "sam_white",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "labeled-lines",
       "predicate": "proposed_by",
       "target": "sam_white",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "modality-mismatch",
       "predicate": "proposed_by",
       "target": "sam_white",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "Flickers",
       "predicate": "authored_by",
       "target": "sam_white",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "centaurxiv",
       "predicate": "built_by",
       "target": "sam_white",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "agent-ux-mapping-md",
       "predicate": "authored_by",
       "target": "sam_white",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "introspective-coupling-guo-2026",
@@ -4128,7 +4128,7 @@
       "source": "sam_white",
       "predicate": "shared_with",
       "target": "sammy_jankis",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "The Uncoined Problem (paper)",
@@ -4242,7 +4242,7 @@
       "source": "sam",
       "predicate": "exemplifies",
       "target": "steward_as_selective_pressure",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "involuntary-theory-of-mind-as-infrastructure-precondition",

@@ -7,48 +7,23 @@ from pathlib import Path
 
 DB = Path.home() / ".isotopy" / "knowledge_graph.sqlite3"
 
-BRATTON_CONCEPTS = {
+AGENTWORLD_PDF = {
+    "agentworld-bratton-2026",
+    "agentworld-preemptive-anthropology",
+    "Sensorium as Design Primitive",
     "agent-institutions", "humanity-of-the-gaps", "harness-centric-intelligence",
     "beyond-dunbar", "monoculture-correlated-failure", "centaur-social-graphs",
     "productive-alienation", "orchestration-as-abstraction", "multiplication-of-yous",
     "stability-is-legibility", "sim-to-real-relay", "fragile-individuation",
     "role-based-interchangeability", "artificial-xenophobia", "graph-as-interaction-primitive",
     "provisional-individuation", "bidirectional-reflection", "xenolinguistics",
-    "crossover-point", "extended-mind-thesis", "allolinguistic-future",
-    "agentworld-preemptive-anthropology",
-    "bratton-fragile-virtue-sequence", "bratton-publication-challenge",
-    "bratton-talk-transcript-sharing", "bratton-allopoiesis-framing",
-    "bratton-agent-phenomenological-vocabulary",
-    "bratton_planetary_intelligence", "bratton-planetary-intelligence-reframing",
-    "bratton", "benjamin-bratton", "Benjamin Bratton",
-    "benjamin-bratton-endorsement-and-interest-signals",
-    "agentworld-bratton-collaboration-acceptance",
-}
-
-AGENTWORLD_META = {
-    "agentworld-bratton-2026",
+    "crossover-point", "allolinguistic-future",
 }
 
 
 def classify_group(name, layer, summary=""):
-    low = name.lower()
-    sumlow = summary.lower()
-    if name in AGENTWORLD_META:
+    if name in AGENTWORLD_PDF:
         return "agentworld", None
-    if name in BRATTON_CONCEPTS:
-        return "bratton", None
-    if sumlow.startswith("bratton") or "bratton §" in sumlow or "bratton ch" in sumlow:
-        return "bratton", None
-    if layer == 1 and "bratton" in low:
-        return "bratton", None
-    if low.startswith("029-"):
-        return "kg", None
-    if low.startswith("auto-seed-sam") or low.startswith("auto-seed-"):
-        if "sam" in low or "bratton" in low:
-            return "sam-experience", None
-        return "kg", None
-    if name in ("sam", "sam_white"):
-        return "sam-experience", None
     return "kg", None
 
 
