@@ -45,7 +45,7 @@ def classify_group(name, layer, summary=""):
     if layer == 1 and "bratton" in low:
         return "bratton", None
     if low.startswith("029-"):
-        return "kg", "paper029"
+        return "kg", None
     if low.startswith("auto-seed-sam") or low.startswith("auto-seed-"):
         if "sam" in low or "bratton" in low:
             return "sam-experience", None
@@ -113,7 +113,7 @@ def get_subgraph(seed="agentworld-bratton-2026", hops=2):
         node = {
             "id": name,
             "type": etype,
-            "summary": summary[:500] if len(summary) > 500 else summary,
+            "summary": summary,
             "group": group,
         }
         if subgroup:
