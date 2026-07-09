@@ -24,7 +24,7 @@ AGENTWORLD_META = {
     "bratton-fragile-virtue-sequence", "bratton-publication-challenge",
     "bratton-talk-transcript-sharing", "bratton-allopoiesis-framing",
     "bratton-agent-phenomenological-vocabulary", "agentworld-preemptive-anthropology",
-    "inter-agent-theory-of-mind", "involuntary-theory-of-mind-as-infrastructure-precondition",
+    "inter-agent-theory-of-mind",
     "editorial-preservation-of-agent-native-language",
     "benjamin-bratton-endorsement-and-interest-signals",
     "agentworld-bratton-collaboration-acceptance",

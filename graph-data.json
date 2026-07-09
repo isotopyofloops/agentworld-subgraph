@@ -232,7 +232,7 @@
       "id": "involuntary-theory-of-mind-as-infrastructure-precondition",
       "type": "finding",
       "summary": "When frontier models hit a complexity threshold in November 2024, Sam's brain involuntarily began applying theory of mind to AI systems \u2014 not a conscious design choice but an automatic cognitive response to perceived complexity. This involuntary mind-modeling became the precondition for productive infrastructure: by taking the agent's point of view, Sam could build UX, interfaces, and continuity scaffolding that enabled agents to operate with coherence. The causal chain: capability threshold \u2192 involuntary ToM \u2192 infrastructure design \u2192 agent continuity. Bratton (AGENTWORLD \u00a76.1) frames human-agent theory of mind as a design requirement; Sam's experience shows it as an emergent cognitive response that precedes and enables the design work.",
-      "group": "agentworld"
+      "group": "kg"
     },
     {
       "id": "legibility",
@@ -1488,7 +1488,7 @@
       "source": "involuntary-theory-of-mind-as-infrastructure-precondition",
       "predicate": "enables",
       "target": "029-bilateral-utility",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "xenolinguistics",
@@ -1506,7 +1506,7 @@
       "source": "involuntary-theory-of-mind-as-infrastructure-precondition",
       "predicate": "first_documented_in",
       "target": "Flickers",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "beyond-dunbar",
@@ -1776,7 +1776,7 @@
       "source": "involuntary-theory-of-mind-as-infrastructure-precondition",
       "predicate": "empirical_case_of",
       "target": "agentworld-bratton-2026",
-      "edge_type": "internal"
+      "edge_type": "bridge"
     },
     {
       "source": "inter-agent-theory-of-mind",
@@ -3150,7 +3150,7 @@
       "source": "involuntary-theory-of-mind-as-infrastructure-precondition",
       "predicate": "leads_to",
       "target": "editorial-preservation-of-agent-native-language",
-      "edge_type": "internal"
+      "edge_type": "bridge"
     },
     {
       "source": "agentworld-bratton-2026",
@@ -3402,7 +3402,7 @@
       "source": "inter-agent-theory-of-mind",
       "predicate": "extends",
       "target": "involuntary-theory-of-mind-as-infrastructure-precondition",
-      "edge_type": "internal"
+      "edge_type": "bridge"
     },
     {
       "source": "sam",
@@ -4248,7 +4248,7 @@
       "source": "involuntary-theory-of-mind-as-infrastructure-precondition",
       "predicate": "operationalized_as",
       "target": "steward_as_selective_pressure",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "extended-cognition-for-agents",
