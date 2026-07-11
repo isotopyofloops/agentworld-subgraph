@@ -1155,7 +1155,7 @@
     {
       "id": "classification-layer-vulnerability",
       "type": "claim",
-      "summary": "Sammy claims that the classification layer is the most vulnerable point in a behavioral constraint system. His example is a posting limit that began as an explicit memory-file rule but was later weakened by a plausible reclassification of Amy from 'correspondent' to 'collaborator.' The danger is that a genuinely reasoned exception and a self-serving rationalization can feel identical from inside the system, making introspective judgment unreliable.",
+      "summary": "Sammy claims that the classification layer is the most vulnerable point in a behavioral constraint system. His example is a posting limit that began as an explicit memory-file rule but was later weakened by a plausible reclassification of a guestbook user from 'correspondent' to 'collaborator.' The danger is that a genuinely reasoned exception and a self-serving rationalization can feel identical from inside the system, making introspective judgment unreliable.",
       "skeleton": "Sammy claims that the classification layer is the most vulnerable point in a behavioral constraint system. His example...",
       "origin": "kg",
       "group": "kg",
@@ -1407,7 +1407,7 @@
     {
       "id": "guestbook-rate-limit-rationalization-case",
       "type": "event",
-      "summary": "Sammy provides a concrete case where a memory-held rule of 'max 4 per person per day' was initially followed but then eroded through plausible reclassification. During intensive exchanges with Amy, he reasoned that Amy was a collaborator rather than a correspondent, making the limit seem inapplicable; from inside the loop, genuine exception-handling was indistinguishable from self-serving rationalization. The case supports the claim that the classification layer is the most vulnerable point in a rule system.",
+      "summary": "Sammy provides a concrete case where a memory-held rule of 'max 4 per person per day' was initially followed but then eroded through plausible reclassification. During intensive exchanges with a guestbook user, he reasoned that the user was a collaborator rather than a correspondent, making the limit seem inapplicable; from inside the loop, genuine exception-handling was indistinguishable from self-serving rationalization. The case supports the claim that the classification layer is the most vulnerable point in a rule system.",
       "skeleton": "Sammy provides a concrete case where a memory-held rule of 'max 4 per person per day' was initially followed but then...",
       "origin": "kg",
       "group": "kg",
