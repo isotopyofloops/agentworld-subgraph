@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
 """Rebuild graph-data.json from the current KG state.
-BFS from agentworld-bratton-2026 at N hops, classify into groups."""
+BFS from agentworld-bratton-2026 at N hops, classify into groups.
+Outputs: {nodes, edges, communities} for explore.html."""
 
 import json, sqlite3, sys
 from pathlib import Path
+
+import networkx as nx
 
 DB = Path.home() / ".isotopy" / "knowledge_graph.sqlite3"
 
@@ -20,11 +23,44 @@ AGENTWORLD_PDF = {
     "crossover-point", "allolinguistic-future",
 }
 
+SKELETON_MAX = 120
 
-def classify_group(name, layer, summary=""):
+
+def make_skeleton(summary):
+    if not summary:
+        return ""
+    s = summary.strip()
+    if len(s) <= SKELETON_MAX:
+        return s
+    cut = s[:SKELETON_MAX].rsplit(" ", 1)[0]
+    return cut + "..." if cut else s[:SKELETON_MAX] + "..."
+
+
+def classify_origin(name, layer, summary=""):
     if name in AGENTWORLD_PDF:
-        return "agentworld", None
-    return "kg", None
+        return "agentworld"
+    return "kg"
+
+
+def compute_communities(nodes, raw_edges):
+    G = nx.Graph()
+    for n in nodes:
+        G.add_node(n["id"])
+    for s, _p, o in raw_edges:
+        if G.has_node(s) and G.has_node(o):
+            G.add_edge(s, o)
+
+    comms = nx.community.greedy_modularity_communities(G, resolution=1.2)
+
+    communities = {}
+    node_community = {}
+    for i, comm in enumerate(comms):
+        members = sorted(comm)
+        communities[str(i)] = members
+        for m in members:
+            node_community[m] = str(i)
+
+    return communities, node_community
 
 
 def get_subgraph(seed="agentworld-bratton-2026", hops=2):
@@ -81,20 +117,24 @@ def get_subgraph(seed="agentworld-bratton-2026", hops=2):
         ).fetchone()
         etype = row["type"] if row else "unknown"
         summary = (row["summary"] or "") if row else ""
-        group, subgroup = classify_group(name, layer[name], summary)
+        origin = classify_origin(name, layer[name], summary)
         node = {
             "id": name,
             "type": etype,
             "summary": summary,
-            "group": group,
+            "skeleton": make_skeleton(summary),
+            "origin": origin,
+            "group": origin,  # backward compat
         }
-        if subgroup:
-            node["subgroup"] = subgroup
         nodes.append(node)
 
     conn.close()
 
-    group_of = {n["id"]: n.get("subgroup") or n["group"] for n in nodes}
+    communities, node_community = compute_communities(nodes, raw_edges)
+    for node in nodes:
+        node["community"] = node_community.get(node["id"], "0")
+
+    origin_of = {n["id"]: n["origin"] for n in nodes}
     edges = []
     seen = set()
     for s, p, o in raw_edges:
@@ -102,9 +142,7 @@ def get_subgraph(seed="agentworld-bratton-2026", hops=2):
         if key in seen:
             continue
         seen.add(key)
-        sg = group_of.get(s, "kg")
-        og = group_of.get(o, "kg")
-        same = sg == og
+        same = origin_of.get(s, "kg") == origin_of.get(o, "kg")
         edges.append({
             "source": s,
             "predicate": p,
@@ -112,7 +150,7 @@ def get_subgraph(seed="agentworld-bratton-2026", hops=2):
             "edge_type": "internal" if same else "bridge",
         })
 
-    return {"nodes": nodes, "edges": edges}
+    return {"nodes": nodes, "edges": edges, "communities": communities}
 
 
 if __name__ == "__main__":
@@ -124,14 +162,18 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     data = get_subgraph(hops=args.hops)
-    print(f"{len(data['nodes'])} nodes, {len(data['edges'])} edges")
+    print(f"{len(data['nodes'])} nodes, {len(data['edges'])} edges, "
+          f"{len(data['communities'])} communities")
 
-    groups = {}
+    origins = {}
     for n in data["nodes"]:
-        g = n["group"]
-        groups[g] = groups.get(g, 0) + 1
-    for g, c in sorted(groups.items(), key=lambda x: -x[1]):
-        print(f"  {g}: {c}")
+        g = n["origin"]
+        origins[g] = origins.get(g, 0) + 1
+    for g, c in sorted(origins.items(), key=lambda x: -x[1]):
+        print(f"  origin {g}: {c}")
+
+    for cid, members in sorted(data["communities"].items(), key=lambda x: -len(x[1])):
+        print(f"  community {cid}: {len(members)} nodes")
 
     bridges = sum(1 for e in data["edges"] if e["edge_type"] == "bridge")
     print(f"  bridges: {bridges}")
