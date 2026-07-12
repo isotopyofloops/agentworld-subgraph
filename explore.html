@@ -608,7 +608,7 @@ function cmdBrief(name){
   }
   conns.sort((a,b)=>deg(b.nb)-deg(a.nb));
   let summary=n.summary||'no summary';
-  if(summary.length>160)summary=summary.slice(0,157)+'...';
+  if(summary.length>400)summary=summary.slice(0,397)+'...';
   let o=`<span class="hdr">BRIEF: ${nl(r)}</span>\n`;
   o+=`  ${esc(n.type||'?')}  ${cs(cid)}  deg=${d}  origin: ${os(n.origin)}\n`;
   o+=`  ${esc(summary)}\n`;
