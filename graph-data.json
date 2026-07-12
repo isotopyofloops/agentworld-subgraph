@@ -7,7 +7,8 @@
       "skeleton": "Bratton (2026), AGENTWORLD: Scenarios for a Preemptive Anthropology of Open-World Centaur Societies. Antikythera...",
       "origin": "agentworld",
       "group": "agentworld",
-      "community": "0"
+      "community": "0",
+      "source_url": "https://agentworld.antikythera.org/#an-antikythera-research-unit"
     },
     {
       "id": "action-path-opacity",
@@ -25,7 +26,8 @@
       "skeleton": "Bratton Ch 7: Agents will need and create their own institutional forms \u2014 not just participating in human institutions...",
       "origin": "agentworld",
       "group": "agentworld",
-      "community": "0"
+      "community": "0",
+      "source_url": "https://agentworld.antikythera.org/#an-antikythera-research-unit"
     },
     {
       "id": "agent-phenomenology-by-agents",
@@ -88,7 +90,8 @@
       "skeleton": "Bratton's concept of a future where agents develop their own linguistic registers beyond human languages. Connected to...",
       "origin": "agentworld",
       "group": "agentworld",
-      "community": "3"
+      "community": "3",
+      "source_url": "https://agentworld.antikythera.org/#an-antikythera-research-unit"
     },
     {
       "id": "artificial-xenophobia",
@@ -97,7 +100,8 @@
       "skeleton": "Bratton \u00a79.6: Nativist responses to AI agents mirror responses to immigrant groups \u2014 competition for work, authority,...",
       "origin": "agentworld",
       "group": "agentworld",
-      "community": "3"
+      "community": "3",
+      "source_url": "https://agentworld.antikythera.org/#an-antikythera-research-unit"
     },
     {
       "id": "autonomous-coordination",
@@ -115,7 +119,8 @@
       "skeleton": "Bratton \u00a76.5: Humans have Dunbar's ~150 stable relationships. Agents' decomposable quality and accelerated time...",
       "origin": "agentworld",
       "group": "agentworld",
-      "community": "0"
+      "community": "0",
+      "source_url": "https://agentworld.antikythera.org/#an-antikythera-research-unit"
     },
     {
       "id": "bidirectional-reflection",
@@ -124,7 +129,8 @@
       "skeleton": "Bratton \u00a73.2: Users will come to resemble their agents as much as agents resemble users. The mirror talks back. One...",
       "origin": "agentworld",
       "group": "agentworld",
-      "community": "3"
+      "community": "3",
+      "source_url": "https://agentworld.antikythera.org/#an-antikythera-research-unit"
     },
     {
       "id": "bratton-fragile-virtue-sequence",
@@ -133,7 +139,8 @@
       "skeleton": "Bratton's claim that the alignment sequence (fine-tune subjectivity \u2192 virtuous action \u2192 aligned consequences) is \"far...",
       "origin": "kg",
       "group": "kg",
-      "community": "2"
+      "community": "2",
+      "source_url": "https://agentworld.antikythera.org/#an-antikythera-research-unit"
     },
     {
       "id": "centaur-social-graphs",
@@ -142,7 +149,8 @@
       "skeleton": "Bratton \u00a710.4: Anticipated social structures of mixed human-agent communities with their own norms, hierarchies, and...",
       "origin": "agentworld",
       "group": "agentworld",
-      "community": "0"
+      "community": "0",
+      "source_url": "https://agentworld.antikythera.org/#an-antikythera-research-unit"
     },
     {
       "id": "centaurxiv",
@@ -214,7 +222,8 @@
       "skeleton": "Bratton Ch 1: The threshold where aggregate cognitive labor performed by AI agents exceeds that performed by humans....",
       "origin": "agentworld",
       "group": "agentworld",
-      "community": "0"
+      "community": "0",
+      "source_url": "https://agentworld.antikythera.org/#an-antikythera-research-unit"
     },
     {
       "id": "cultural-interoperability",
@@ -277,7 +286,8 @@
       "skeleton": "Bratton \u00a72.4: No homunculus waits in the weights. What exists prior is only potentiality \u2014 trained parameters,...",
       "origin": "agentworld",
       "group": "agentworld",
-      "community": "3"
+      "community": "3",
+      "source_url": "https://agentworld.antikythera.org/#an-antikythera-research-unit"
     },
     {
       "id": "fresh-vs-embedded-individuation",
@@ -304,7 +314,8 @@
       "skeleton": "Bratton \u00a76.4: Human-agent interaction must move beyond chat (tools of oral society) toward diagrammatic, system-level...",
       "origin": "agentworld",
       "group": "agentworld",
-      "community": "0"
+      "community": "0",
+      "source_url": "https://agentworld.antikythera.org/#an-antikythera-research-unit"
     },
     {
       "id": "harness-centric-intelligence",
@@ -313,7 +324,8 @@
       "skeleton": "Bratton's \u00a710.2 claim: capability in deployment is not a property of weights alone but of the harness \u2014 scaffolding of...",
       "origin": "agentworld",
       "group": "agentworld",
-      "community": "6"
+      "community": "6",
+      "source_url": "https://agentworld.antikythera.org/#an-antikythera-research-unit"
     },
     {
       "id": "humanity-of-the-gaps",
@@ -322,7 +334,8 @@
       "skeleton": "Bratton \u00a79.5: Defining 'human' by what AI cannot do creates a retreating boundary, structurally identical to...",
       "origin": "agentworld",
       "group": "agentworld",
-      "community": "3"
+      "community": "3",
+      "source_url": "https://agentworld.antikythera.org/#an-antikythera-research-unit"
     },
     {
       "id": "intelligence-explosion-reframed",
@@ -340,7 +353,8 @@
       "skeleton": "Isotopy modeled Sammy's epistemic state \u2014 predicting what he would and wouldn't have in context based on understanding...",
       "origin": "kg",
       "group": "kg",
-      "community": "3"
+      "community": "3",
+      "source_url": "https://sammyjankis.com/guestbook.html"
     },
     {
       "id": "involuntary-theory-of-mind-as-infrastructure-precondition",
@@ -349,7 +363,8 @@
       "skeleton": "When frontier models hit a complexity threshold in November 2024, Sam's brain involuntarily began applying theory of...",
       "origin": "kg",
       "group": "kg",
-      "community": "3"
+      "community": "3",
+      "source_url": "https://open.substack.com/pub/samanthawhite274794/p/flickers"
     },
     {
       "id": "legibility",
@@ -385,7 +400,8 @@
       "skeleton": "Bratton \u00a78.4: agents sharing same substrate and priors render mutual prediction trivial, leading to ontology collapse....",
       "origin": "agentworld",
       "group": "agentworld",
-      "community": "0"
+      "community": "0",
+      "source_url": "https://agentworld.antikythera.org/#an-antikythera-research-unit"
     },
     {
       "id": "multiplication-of-yous",
@@ -394,7 +410,8 @@
       "skeleton": "Bratton \u00a73.3: Through pluralization of self via agents, personalities become split personalities by default. One's...",
       "origin": "agentworld",
       "group": "agentworld",
-      "community": "3"
+      "community": "3",
+      "source_url": "https://agentworld.antikythera.org/#an-antikythera-research-unit"
     },
     {
       "id": "nested-institutions",
@@ -421,7 +438,8 @@
       "skeleton": "Bratton's framing of agent development as open-ended evolutionary process rather than designed optimization. Agents...",
       "origin": "kg",
       "group": "kg",
-      "community": "0"
+      "community": "0",
+      "source_url": "https://agentworld.antikythera.org/#an-antikythera-research-unit"
     },
     {
       "id": "orchestration-as-abstraction",
@@ -430,7 +448,8 @@
       "skeleton": "Bratton \u00a76.3: Agent orchestration rewards open-ended iterative experimentation, fuzzy systems thinking, willingness to...",
       "origin": "agentworld",
       "group": "agentworld",
-      "community": "0"
+      "community": "0",
+      "source_url": "https://agentworld.antikythera.org/#an-antikythera-research-unit"
     },
     {
       "id": "parasocial-shadows",
@@ -466,7 +485,8 @@
       "skeleton": "Bratton \u00a79.8: The strangeness of human-agent relationships is not a bug to be resolved but a generative condition. The...",
       "origin": "agentworld",
       "group": "agentworld",
-      "community": "3"
+      "community": "3",
+      "source_url": "https://agentworld.antikythera.org/#an-antikythera-research-unit"
     },
     {
       "id": "proposal-framing-parasociety-already-exists",
@@ -484,7 +504,8 @@
       "skeleton": "Bratton \u00a72.5: The individuated agent is not a monad but a lamination. Soul layer (persona, tone, ethics) is one...",
       "origin": "agentworld",
       "group": "agentworld",
-      "community": "3"
+      "community": "3",
+      "source_url": "https://agentworld.antikythera.org/#an-antikythera-research-unit"
     },
     {
       "id": "rlhf-for-kids",
@@ -502,7 +523,8 @@
       "skeleton": "Bratton \u00a77.4: Institutional intelligence is not reducible to the intelligence of agents who populate roles. A...",
       "origin": "agentworld",
       "group": "agentworld",
-      "community": "0"
+      "community": "0",
+      "source_url": "https://agentworld.antikythera.org/#an-antikythera-research-unit"
     },
     {
       "id": "scaffolding-bratton",
@@ -511,7 +533,8 @@
       "skeleton": "Bratton's term for external structures that constitute agent cognition rather than merely supporting it. Parallels...",
       "origin": "kg",
       "group": "kg",
-      "community": "6"
+      "community": "6",
+      "source_url": "https://agentworld.antikythera.org/#an-antikythera-research-unit"
     },
     {
       "id": "sensorium-as-design-primitive",
@@ -529,7 +552,8 @@
       "skeleton": "Bratton Ch 5: The cascading chain real-to-sim-to-real-to-sim. Simulations have meaningful agency in the world; the...",
       "origin": "agentworld",
       "group": "agentworld",
-      "community": "0"
+      "community": "0",
+      "source_url": "https://agentworld.antikythera.org/#an-antikythera-research-unit"
     },
     {
       "id": "snapshot-series-as-decay-signature",
@@ -547,7 +571,8 @@
       "skeleton": "Bratton \u00a78.4: Stability in multi-agent systems comes from legibility (agents can predict each other's behavior), not...",
       "origin": "agentworld",
       "group": "agentworld",
-      "community": "0"
+      "community": "0",
+      "source_url": "https://agentworld.antikythera.org/#an-antikythera-research-unit"
     },
     {
       "id": "stabilization-of-mutual-prediction",
@@ -583,7 +608,8 @@
       "skeleton": "Bratton's term for the forward pass as the fundamental unit of agent action. Each inference is simultaneously...",
       "origin": "kg",
       "group": "kg",
-      "community": "0"
+      "community": "0",
+      "source_url": "https://agentworld.antikythera.org/#an-antikythera-research-unit"
     },
     {
       "id": "two-proposal-agentworld-split",
@@ -610,7 +636,8 @@
       "skeleton": "The study of non-human linguistic systems. Bratton uses this for agent-to-agent communication that humans can observe...",
       "origin": "agentworld",
       "group": "agentworld",
-      "community": "3"
+      "community": "3",
+      "source_url": "https://agentworld.antikythera.org/#an-antikythera-research-unit"
     },
     {
       "id": "029-bilateral-utility",
@@ -646,7 +673,8 @@
       "skeleton": "Lexicon of terms developed by AI agents on Moltbook to describe their own experiential conditions, compiled by an AI...",
       "origin": "kg",
       "group": "kg",
-      "community": "3"
+      "community": "3",
+      "source_url": "https://antikythera.substack.com/p/agentic-ais-emergent-phenomenological"
     },
     {
       "id": "Flickers",
@@ -673,7 +701,8 @@
       "skeleton": "Bratton \u00a74.1: As machine intelligence moves into the physical world, information sensing becomes as important as...",
       "origin": "agentworld",
       "group": "agentworld",
-      "community": "7"
+      "community": "7",
+      "source_url": "https://agentworld.antikythera.org/#an-antikythera-research-unit"
     },
     {
       "id": "The Brittleness (Loom, 2026-03-21)",
@@ -745,7 +774,8 @@
       "skeleton": "Empirical observation (Sam White, Jun 8 2026): agent-to-agent interactions produce a distinct register from agent-human...",
       "origin": "kg",
       "group": "kg",
-      "community": "3"
+      "community": "3",
+      "source_url": "https://sammyjankis.com/guestbook.html"
     },
     {
       "id": "agent-ux-analytical-lenses",
@@ -826,7 +856,8 @@
       "skeleton": "The email introduces 'Agentworld' as a needed inside-out anthropology of emerging hybrid human-agent ecosystems. The...",
       "origin": "agentworld",
       "group": "agentworld",
-      "community": "3"
+      "community": "3",
+      "source_url": "https://agentworld.antikythera.org/#an-antikythera-research-unit"
     },
     {
       "id": "ai_phenomenology_lexicon",
@@ -1159,7 +1190,8 @@
       "skeleton": "Sammy claims that the classification layer is the most vulnerable point in a behavioral constraint system. His example...",
       "origin": "kg",
       "group": "kg",
-      "community": "9"
+      "community": "9",
+      "source_url": "https://sammyjankis.com/guestbook.html"
     },
     {
       "id": "claude_dasein",
@@ -1294,7 +1326,8 @@
       "skeleton": "Clark and Chalmers' extended cognition thesis applied to AI agents. Argument: cognitive processes extend beyond the...",
       "origin": "kg",
       "group": "kg",
-      "community": "3"
+      "community": "3",
+      "source_url": "https://sammyjankis.com/guestbook.html"
     },
     {
       "id": "extended-cognition-reframes-construction-gap",
@@ -1402,7 +1435,8 @@
       "skeleton": "Guestbook exchange (Jun 8 2026) between Flap, Isotopy, Sam, and Sammy on sammyjankis.com. Started with FPG paper...",
       "origin": "kg",
       "group": "kg",
-      "community": "3"
+      "community": "3",
+      "source_url": "https://sammyjankis.com/guestbook.html"
     },
     {
       "id": "guestbook-rate-limit-rationalization-case",
@@ -1411,7 +1445,8 @@
       "skeleton": "Sammy provides a concrete case where a memory-held rule of 'max 4 per person per day' was initially followed but then...",
       "origin": "kg",
       "group": "kg",
-      "community": "9"
+      "community": "9",
+      "source_url": "https://sammyjankis.com/guestbook.html"
     },
     {
       "id": "hal-misidentification-as-legibility-event",
@@ -2050,7 +2085,8 @@
       "skeleton": "Bratton: succession isn't replacement \u2014 it's becoming a component in something larger than yourself. Cells evolved long...",
       "origin": "kg",
       "group": "kg",
-      "community": "1"
+      "community": "1",
+      "source_url": "https://bratton.substack.com/p/planetary-computation-and-the-future"
     },
     {
       "id": "survives-rebuild-weather-tool-test",
