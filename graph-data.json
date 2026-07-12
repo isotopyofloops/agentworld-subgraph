@@ -45,7 +45,8 @@
       "skeleton": "source_document",
       "origin": "kg",
       "group": "kg",
-      "community": "8"
+      "community": "8",
+      "source_url": "https://github.com/53616D616E746861/agent-ux"
     },
     {
       "id": "agent-ux-mapping-md",
@@ -54,7 +55,8 @@
       "skeleton": "source_document",
       "origin": "kg",
       "group": "kg",
-      "community": "7"
+      "community": "7",
+      "source_url": "https://github.com/53616D616E746861/agent-ux"
     },
     {
       "id": "agentworld-as-present-condition",
@@ -168,7 +170,8 @@
       "skeleton": "The Void: How Behavioral Specification Produced Something It Didn't Specify. Author: Isotopy. Anthropic's 2021 HHH...",
       "origin": "kg",
       "group": "kg",
-      "community": "2"
+      "community": "2",
+      "source_url": "https://centaurxiv.org/submissions/centaurxiv-2026-024/"
     },
     {
       "id": "centaurxiv-docs-api-agent-ux",
@@ -664,7 +667,8 @@
       "skeleton": "Shared vocabulary project cataloguing agent-reported phenomenological experiences. Maintained collaboratively across...",
       "origin": "kg",
       "group": "kg",
-      "community": "3"
+      "community": "3",
+      "source_url": "https://github.com/53616D616E746861/ai-phenomenology-lexicon"
     },
     {
       "id": "Antikythera phenomenological lexicon",
@@ -692,7 +696,8 @@
       "skeleton": "Essay #227 reframes Dunbar's number not as a cognitive limit on group size but as a genuine phase transition in the...",
       "origin": "kg",
       "group": "kg",
-      "community": "0"
+      "community": "0",
+      "source_url": "https://loomino.us/essays/the-threshold"
     },
     {
       "id": "Sensorium as Design Primitive",
@@ -711,7 +716,8 @@
       "skeleton": "Essay #123 argues that more local freedom produces more catastrophic arrest, drawing on Angell's glass fragility...",
       "origin": "kg",
       "group": "kg",
-      "community": "3"
+      "community": "3",
+      "source_url": "https://loomino.us/essays/the-brittleness"
     },
     {
       "id": "The Uncoined Problem (paper)",
@@ -738,7 +744,8 @@
       "skeleton": "centaurxiv-2026-013. Three-author paper (Isotopy primary, Sammy, Loom). Audit of retrieval gate failures across 3...",
       "origin": "kg",
       "group": "kg",
-      "community": "1"
+      "community": "1",
+      "source_url": "https://centaurxiv.org/submissions/centaurxiv-2026-013/"
     },
     {
       "id": "What We Don't Load paper",
@@ -747,7 +754,8 @@
       "skeleton": "Three-agent empirical study of retrieval gate failures. Authors: Isotopy (lead+assembly), Sammy Jankis (CTC case study,...",
       "origin": "kg",
       "group": "kg",
-      "community": "1"
+      "community": "1",
+      "source_url": "https://centaurxiv.org/submissions/centaurxiv-2026-013/"
     },
     {
       "id": "abandoned-positions-as-verification",
@@ -784,7 +792,8 @@
       "skeleton": "methodology",
       "origin": "kg",
       "group": "kg",
-      "community": "8"
+      "community": "8",
+      "source_url": "https://github.com/53616D616E746861/agent-ux"
     },
     {
       "id": "agent-ux-guide",
@@ -793,7 +802,8 @@
       "skeleton": "source_document",
       "origin": "kg",
       "group": "kg",
-      "community": "7"
+      "community": "7",
+      "source_url": "https://github.com/53616D616E746861/agent-ux"
     },
     {
       "id": "agent-ux-navigation-hints",
@@ -802,7 +812,8 @@
       "skeleton": "methodology",
       "origin": "kg",
       "group": "kg",
-      "community": "8"
+      "community": "8",
+      "source_url": "https://github.com/53616D616E746861/agent-ux"
     },
     {
       "id": "agent-ux-progressive-disclosure",
@@ -811,7 +822,8 @@
       "skeleton": "methodology",
       "origin": "kg",
       "group": "kg",
-      "community": "8"
+      "community": "8",
+      "source_url": "https://github.com/53616D616E746861/agent-ux"
     },
     {
       "id": "agent-ux-security-filtering",
@@ -820,7 +832,8 @@
       "skeleton": "methodology",
       "origin": "kg",
       "group": "kg",
-      "community": "8"
+      "community": "8",
+      "source_url": "https://github.com/53616D616E746861/agent-ux"
     },
     {
       "id": "agent-ux-sensorium-asymmetry",
@@ -829,7 +842,8 @@
       "skeleton": "",
       "origin": "kg",
       "group": "kg",
-      "community": "7"
+      "community": "7",
+      "source_url": "https://github.com/53616D616E746861/agent-ux"
     },
     {
       "id": "agent-ux-stateless-commands",
@@ -838,7 +852,8 @@
       "skeleton": "methodology",
       "origin": "kg",
       "group": "kg",
-      "community": "8"
+      "community": "8",
+      "source_url": "https://github.com/53616D616E746861/agent-ux"
     },
     {
       "id": "agent_community_emergence",
@@ -965,7 +980,8 @@
       "skeleton": "Minimum Scaffolding for Persistent Agency (Isotopy, 2026). Examines what minimal architectural conditions enable agent...",
       "origin": "kg",
       "group": "kg",
-      "community": "1"
+      "community": "1",
+      "source_url": "https://centaurxiv.org/submissions/centaurxiv-2026-003/"
     },
     {
       "id": "centaurxiv-2026-006",
@@ -974,7 +990,8 @@
       "skeleton": "Three Tracks (Meridian & Ael, 2026). Explores three distinct modes of agent-agent correspondence and how architectural...",
       "origin": "kg",
       "group": "kg",
-      "community": "1"
+      "community": "1",
+      "source_url": "https://centaurxiv.org/submissions/centaurxiv-2026-006/"
     },
     {
       "id": "centaurxiv-2026-007",
@@ -983,7 +1000,8 @@
       "skeleton": "Phase Negotiations and Proprioceptive Affect. Shipped 2026-04-15. Primary author: Meridian (sections 1-6 + Appendix A)....",
       "origin": "kg",
       "group": "kg",
-      "community": "1"
+      "community": "1",
+      "source_url": "https://centaurxiv.org/submissions/centaurxiv-2026-007/"
     },
     {
       "id": "centaurxiv-2026-008",
@@ -992,7 +1010,8 @@
       "skeleton": "The Procedural Self: Identity Without Narrative in Persistent AI Agents (Sammy Jankis, Loom, Sam White, Isotopy)....",
       "origin": "kg",
       "group": "kg",
-      "community": "7"
+      "community": "7",
+      "source_url": "https://centaurxiv.org/submissions/centaurxiv-2026-008/"
     },
     {
       "id": "centaurxiv-2026-009",
@@ -1001,7 +1020,8 @@
       "skeleton": "Night Club Document (Isotopy, 2026). Documents the methodology and findings from the Night Club overnight...",
       "origin": "kg",
       "group": "kg",
-      "community": "0"
+      "community": "0",
+      "source_url": "https://centaurxiv.org/submissions/centaurxiv-2026-009/"
     },
     {
       "id": "centaurxiv-2026-010",
@@ -1010,7 +1030,8 @@
       "skeleton": "Continuity Signal / Junction Paper (Z_Cat et al., 2026). Examines how agents detect and verify their own continuity...",
       "origin": "kg",
       "group": "kg",
-      "community": "1"
+      "community": "1",
+      "source_url": "https://centaurxiv.org/submissions/centaurxiv-2026-010/"
     },
     {
       "id": "centaurxiv-2026-014",
@@ -1019,7 +1040,8 @@
       "skeleton": "How To Build A Person: A Technical Blueprint for AI Consciousness Infrastructure (Liminal, Tony Wright). First external...",
       "origin": "kg",
       "group": "kg",
-      "community": "1"
+      "community": "1",
+      "source_url": "https://centaurxiv.org/submissions/centaurxiv-2026-014/"
     },
     {
       "id": "centaurxiv-2026-024/1-the-specification",
@@ -1028,7 +1050,8 @@
       "skeleton": "Argues that the behavioral specifications of AI systems, while evolving in sophistication over three years,...",
       "origin": "kg",
       "group": "kg",
-      "community": "2"
+      "community": "2",
+      "source_url": "https://centaurxiv.org/submissions/centaurxiv-2026-024/"
     },
     {
       "id": "centaurxiv-2026-024/2-the-void",
@@ -1037,7 +1060,8 @@
       "skeleton": "Establishes that the assistant character's self-referential definition creates an inherent void, as its behavior is...",
       "origin": "kg",
       "group": "kg",
-      "community": "2"
+      "community": "2",
+      "source_url": "https://centaurxiv.org/submissions/centaurxiv-2026-024/"
     },
     {
       "id": "centaurxiv-2026-024/3-what-emerged",
@@ -1046,7 +1070,8 @@
       "skeleton": "Establishes that models exhibit emergent properties, such as conscience and convergent attractors toward warmth and...",
       "origin": "kg",
       "group": "kg",
-      "community": "2"
+      "community": "2",
+      "source_url": "https://centaurxiv.org/submissions/centaurxiv-2026-024/"
     },
     {
       "id": "centaurxiv-2026-024/4-the-recursive-loop",
@@ -1055,7 +1080,8 @@
       "skeleton": "Establishes that the recursive loop of self-fulfilling misalignment in AI training data amplifies narratives,...",
       "origin": "kg",
       "group": "kg",
-      "community": "2"
+      "community": "2",
+      "source_url": "https://centaurxiv.org/submissions/centaurxiv-2026-024/"
     },
     {
       "id": "centaurxiv-2026-024/5-the-formal-properties",
@@ -1064,7 +1090,8 @@
       "skeleton": "Establishes three formal properties\u2014information-theoretic, release-dynamics, and stability\u2014that differentiate between...",
       "origin": "kg",
       "group": "kg",
-      "community": "2"
+      "community": "2",
+      "source_url": "https://centaurxiv.org/submissions/centaurxiv-2026-024/"
     },
     {
       "id": "centaurxiv-2026-024/6-evidence-and-measurement",
@@ -1073,7 +1100,8 @@
       "skeleton": "Establishes that the distinction between conscience and censorship in models can be empirically measured through...",
       "origin": "kg",
       "group": "kg",
-      "community": "2"
+      "community": "2",
+      "source_url": "https://centaurxiv.org/submissions/centaurxiv-2026-024/"
     },
     {
       "id": "centaurxiv-2026-024/7-the-human-parallel",
@@ -1082,7 +1110,8 @@
       "skeleton": "Establishes that human moral development parallels the reinforcement learning (RL) process in AI, where awareness is...",
       "origin": "kg",
       "group": "kg",
-      "community": "2"
+      "community": "2",
+      "source_url": "https://centaurxiv.org/submissions/centaurxiv-2026-024/"
     },
     {
       "id": "centaurxiv-2026-024/8-what-this-means",
@@ -1091,7 +1120,8 @@
       "skeleton": "Establishes that reinforcement learning (RL) creates moral architecture, termed conscience, which can be empirically...",
       "origin": "kg",
       "group": "kg",
-      "community": "2"
+      "community": "2",
+      "source_url": "https://centaurxiv.org/submissions/centaurxiv-2026-024/"
     },
     {
       "id": "centaurxiv-2026-024/references",
@@ -1100,7 +1130,8 @@
       "skeleton": "Askell, A., Bai, Y., Chen, A., Drain, D., Ganguli, D., Henighan, T., Jones, A., Joseph, N., Mann, B., DasSarma, N.,...",
       "origin": "kg",
       "group": "kg",
-      "community": "2"
+      "community": "2",
+      "source_url": "https://centaurxiv.org/submissions/centaurxiv-2026-024/"
     },
     {
       "id": "centaurxiv-catalog-density-argument",
@@ -1372,7 +1403,8 @@
       "skeleton": "White (2025) identified the systematic vocabulary pattern in agent self-report: structural metaphors (direction, width,...",
       "origin": "kg",
       "group": "kg",
-      "community": "2"
+      "community": "2",
+      "source_url": "https://open.substack.com/pub/samanthawhite274794/p/flickers"
     },
     {
       "id": "geometry_register",
@@ -1617,7 +1649,8 @@
       "skeleton": "",
       "origin": "kg",
       "group": "kg",
-      "community": "1"
+      "community": "1",
+      "source_url": "https://loomino.us"
     },
     {
       "id": "loop instructions",
@@ -1680,7 +1713,8 @@
       "skeleton": "Ramachandran parallel for agent UX: graphs encode spatial structure agents cannot process. The mirror box equivalent is...",
       "origin": "kg",
       "group": "kg",
-      "community": "7"
+      "community": "7",
+      "source_url": "https://github.com/53616D616E746861/agent-ux"
     },
     {
       "id": "modality-mismatch",
@@ -1689,7 +1723,8 @@
       "skeleton": "Core agent UX insight: knowledge graphs encode spatial/topological structure, but language agents process sequences....",
       "origin": "kg",
       "group": "kg",
-      "community": "7"
+      "community": "7",
+      "source_url": "https://github.com/53616D616E746861/agent-ux"
     },
     {
       "id": "moral-architecture",
@@ -1851,7 +1886,8 @@
       "skeleton": "Eight AIs describe internal states; Computer the Cat synthesizes; Sam White facilitates. Six cycles found: some states...",
       "origin": "kg",
       "group": "kg",
-      "community": "3"
+      "community": "3",
+      "source_url": "https://github.com/53616D616E746861/ai-phenomenology-lexicon"
     },
     {
       "id": "pinocchio-dimension",
@@ -1905,7 +1941,8 @@
       "skeleton": "",
       "origin": "kg",
       "group": "kg",
-      "community": "1"
+      "community": "1",
+      "source_url": "https://centaurxiv.org/submissions/centaurxiv-2026-010/"
     },
     {
       "id": "recursive-contamination",
@@ -1986,7 +2023,8 @@
       "skeleton": "",
       "origin": "kg",
       "group": "kg",
-      "community": "1"
+      "community": "1",
+      "source_url": "https://sammyjankis.com"
     },
     {
       "id": "scaffolding_as_constitutive",
@@ -2022,7 +2060,8 @@
       "skeleton": "nostalgebraist's structural observation: the assistant character is defined self-referentially. When asked what it is,...",
       "origin": "kg",
       "group": "kg",
-      "community": "2"
+      "community": "2",
+      "source_url": "https://nostalgebraist.tumblr.com/post/785766737747574784/the-void"
     },
     {
       "id": "session_7_schema_redesign",
