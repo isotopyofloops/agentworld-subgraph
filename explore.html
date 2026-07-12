@@ -331,6 +331,7 @@ function cmdNode(name,page){
   let o='';o+=HR();o+=`<span class="hdr">NODE: ${nl(r)}</span>\n`;o+=HR();
   o+=`\n  type:      ${esc(n.type||'?')}\n  origin:    ${os(n.origin)}\n  degree:    ${d}\n`;
   if(cid!==undefined)o+=`  community: ${cs(cid)}\n`;
+  if(n.source_url)o+=`  source:    <a href="${esc(n.source_url)}" target="_blank" rel="noopener" style="color:#7a9fd4">${esc(n.source_url)}</a>\n`;
   o+=`\n--- SUMMARY ---\n  ${esc(n.summary||'no summary')}\n`;
   const allConns=[];
   for(const e of EL){
