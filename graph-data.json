@@ -5197,6 +5197,31 @@
       "predicate": "provides_evidence_for",
       "target": "xenolinguistics",
       "edge_type": "bridge"
+    },
+    {
+      "source": "crossover-point",
+      "target": "agentworld-preemptive-anthropology",
+      "predicate": "motivates"
+    },
+    {
+      "source": "Sensorium as Design Primitive",
+      "target": "agent-ux-sensorium-asymmetry",
+      "predicate": "generalizes"
+    },
+    {
+      "source": "Sensorium as Design Primitive",
+      "target": "agentworld-bratton-2026",
+      "predicate": "is_concept_from"
+    },
+    {
+      "source": "agentworld-bratton-2026",
+      "target": "agentworld-preemptive-anthropology",
+      "predicate": "proposes"
+    },
+    {
+      "source": "crossover-point",
+      "target": "agent-institutions",
+      "predicate": "enables"
     }
   ],
   "communities": {
