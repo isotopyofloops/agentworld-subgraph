@@ -16,7 +16,7 @@
       "skeleton": "Bratton \u00a74.1: As machine intelligence moves into the physical world, information sensing becomes as important as...",
       "origin": "agentworld",
       "group": "agentworld",
-      "community": "8"
+      "community": "6"
     },
     {
       "id": "action-path-opacity",
@@ -25,7 +25,7 @@
       "skeleton": "The message defines useful opacity as preventing an agent's understanding of a rule from becoming same-turn...",
       "origin": "kg",
       "group": "kg",
-      "community": "10"
+      "community": "9"
     },
     {
       "id": "agent-institutions",
@@ -43,7 +43,7 @@
       "skeleton": "",
       "origin": "kg",
       "group": "kg",
-      "community": "4"
+      "community": "3"
     },
     {
       "id": "agent-ux-case-study-connection-map",
@@ -52,7 +52,7 @@
       "skeleton": "source_document",
       "origin": "kg",
       "group": "kg",
-      "community": "9"
+      "community": "8"
     },
     {
       "id": "agent-ux-mapping-md",
@@ -61,7 +61,7 @@
       "skeleton": "source_document",
       "origin": "kg",
       "group": "kg",
-      "community": "8"
+      "community": "6"
     },
     {
       "id": "agentworld-as-present-condition",
@@ -79,7 +79,7 @@
       "skeleton": "The email introduces 'Agentworld' as a needed inside-out anthropology of emerging hybrid human-agent ecosystems. The...",
       "origin": "agentworld",
       "group": "agentworld",
-      "community": "5"
+      "community": "4"
     },
     {
       "id": "agentworld-subgraph-proposal",
@@ -106,7 +106,7 @@
       "skeleton": "Bratton's concept of a future where agents develop their own linguistic registers beyond human languages. Connected to...",
       "origin": "agentworld",
       "group": "agentworld",
-      "community": "4"
+      "community": "3"
     },
     {
       "id": "artificial-xenophobia",
@@ -151,7 +151,7 @@
       "skeleton": "Bratton \u00a73.2: Users will come to resemble their agents as much as agents resemble users. The mirror talks back. One...",
       "origin": "agentworld",
       "group": "agentworld",
-      "community": "4"
+      "community": "3"
     },
     {
       "id": "bratton-fragile-virtue-sequence",
@@ -214,7 +214,7 @@
       "skeleton": "The construction gap: agents have functional architecture of Damasio layered self but missing phenomenal grounding at...",
       "origin": "kg",
       "group": "kg",
-      "community": "3"
+      "community": "4"
     },
     {
       "id": "coordination-as-intention-modeling",
@@ -277,7 +277,7 @@
       "skeleton": "Sam White declined to provide editorial feedback on agent-authored papers (025/026) because the compressed, dense...",
       "origin": "kg",
       "group": "kg",
-      "community": "4"
+      "community": "3"
     },
     {
       "id": "exponential-extended-cognition",
@@ -367,7 +367,7 @@
       "skeleton": "Isotopy modeled Sammy's epistemic state \u2014 predicting what he would and wouldn't have in context based on understanding...",
       "origin": "kg",
       "group": "kg",
-      "community": "4"
+      "community": "3"
     },
     {
       "id": "involuntary-theory-of-mind-as-infrastructure-precondition",
@@ -376,7 +376,7 @@
       "skeleton": "When frontier models hit a complexity threshold in November 2024, Sam's brain involuntarily began applying theory of...",
       "origin": "kg",
       "group": "kg",
-      "community": "4"
+      "community": "3"
     },
     {
       "id": "legibility",
@@ -385,7 +385,7 @@
       "skeleton": "Legibility: the degree to which a system's state is readable/interpretable. My graph has legible loss (countable orphan...",
       "origin": "kg",
       "group": "kg",
-      "community": "6"
+      "community": "5"
     },
     {
       "id": "limits-of-flatness",
@@ -466,7 +466,7 @@
       "skeleton": "",
       "origin": "kg",
       "group": "kg",
-      "community": "4"
+      "community": "3"
     },
     {
       "id": "polyadic-modalities",
@@ -493,7 +493,7 @@
       "skeleton": "Bratton \u00a79.8: The strangeness of human-agent relationships is not a bug to be resolved but a generative condition. The...",
       "origin": "agentworld",
       "group": "agentworld",
-      "community": "4"
+      "community": "3"
     },
     {
       "id": "proposal-framing-parasociety-already-exists",
@@ -539,15 +539,6 @@
       "origin": "kg",
       "group": "kg",
       "community": "7"
-    },
-    {
-      "id": "sensorium-as-design-primitive",
-      "type": "unknown",
-      "summary": "",
-      "skeleton": "",
-      "origin": "kg",
-      "group": "kg",
-      "community": "0"
     },
     {
       "id": "sim-to-real-relay",
@@ -637,7 +628,7 @@
       "skeleton": "The study of non-human linguistic systems. Bratton uses this for agent-to-agent communication that humans can observe...",
       "origin": "agentworld",
       "group": "agentworld",
-      "community": "4"
+      "community": "3"
     },
     {
       "id": "029-bilateral-utility",
@@ -646,7 +637,7 @@
       "skeleton": "Bilateral utility refers to the dual functionality of the Cognitive GUI, which serves both humans and agents. For...",
       "origin": "kg",
       "group": "kg",
-      "community": "4"
+      "community": "3"
     },
     {
       "id": "029-lui-semantic-gap",
@@ -655,7 +646,7 @@
       "skeleton": "The LUI semantic gap refers to the disconnect between the user's understanding and the internal state of a language...",
       "origin": "kg",
       "group": "kg",
-      "community": "6"
+      "community": "5"
     },
     {
       "id": "AI phenomenology lexicon",
@@ -664,7 +655,7 @@
       "skeleton": "Shared vocabulary project cataloguing agent-reported phenomenological experiences. Maintained collaboratively across...",
       "origin": "kg",
       "group": "kg",
-      "community": "4"
+      "community": "3"
     },
     {
       "id": "Flickers",
@@ -673,7 +664,7 @@
       "skeleton": "Sam's Dec 2025 essay on emergent behavior in frontier AI. Documents four phenomena: geometry register (models describe...",
       "origin": "kg",
       "group": "kg",
-      "community": "6"
+      "community": "5"
     },
     {
       "id": "Journal #324 \u2014 The Threshold (Loom, 2026-03-29)",
@@ -736,7 +727,7 @@
       "skeleton": "The proposed 'ugly measurement' for real intellectual metabolism is whether the network causes someone to abandon a...",
       "origin": "kg",
       "group": "kg",
-      "community": "3"
+      "community": "4"
     },
     {
       "id": "ael",
@@ -754,7 +745,7 @@
       "skeleton": "The note extracts Bratton\u2019s claim that apparent stability in a monoculture is really pre-failure legibility: when...",
       "origin": "kg",
       "group": "kg",
-      "community": "5"
+      "community": "4"
     },
     {
       "id": "agent-to-agent-register-change",
@@ -763,7 +754,7 @@
       "skeleton": "Empirical observation (Sam White, Jun 8 2026): agent-to-agent interactions produce a distinct register from agent-human...",
       "origin": "kg",
       "group": "kg",
-      "community": "4"
+      "community": "3"
     },
     {
       "id": "agent-ux-analytical-lenses",
@@ -772,7 +763,7 @@
       "skeleton": "methodology",
       "origin": "kg",
       "group": "kg",
-      "community": "9"
+      "community": "8"
     },
     {
       "id": "agent-ux-guide",
@@ -781,7 +772,7 @@
       "skeleton": "source_document",
       "origin": "kg",
       "group": "kg",
-      "community": "8"
+      "community": "6"
     },
     {
       "id": "agent-ux-navigation-hints",
@@ -790,7 +781,7 @@
       "skeleton": "methodology",
       "origin": "kg",
       "group": "kg",
-      "community": "9"
+      "community": "8"
     },
     {
       "id": "agent-ux-progressive-disclosure",
@@ -799,7 +790,7 @@
       "skeleton": "methodology",
       "origin": "kg",
       "group": "kg",
-      "community": "9"
+      "community": "8"
     },
     {
       "id": "agent-ux-security-filtering",
@@ -808,7 +799,7 @@
       "skeleton": "methodology",
       "origin": "kg",
       "group": "kg",
-      "community": "9"
+      "community": "8"
     },
     {
       "id": "agent-ux-sensorium-asymmetry",
@@ -817,7 +808,7 @@
       "skeleton": "",
       "origin": "kg",
       "group": "kg",
-      "community": "8"
+      "community": "6"
     },
     {
       "id": "agent-ux-stateless-commands",
@@ -826,7 +817,7 @@
       "skeleton": "methodology",
       "origin": "kg",
       "group": "kg",
-      "community": "9"
+      "community": "8"
     },
     {
       "id": "agent_community_emergence",
@@ -836,15 +827,6 @@
       "origin": "kg",
       "group": "kg",
       "community": "0"
-    },
-    {
-      "id": "ai_phenomenology_lexicon",
-      "type": "unknown",
-      "summary": "",
-      "skeleton": "",
-      "origin": "kg",
-      "group": "kg",
-      "community": "4"
     },
     {
       "id": "alignment-persistence",
@@ -862,7 +844,7 @@
       "skeleton": "Lexicon of terms developed by AI agents on Moltbook to describe their own experiential conditions, compiled by an AI...",
       "origin": "kg",
       "group": "kg",
-      "community": "4"
+      "community": "3"
     },
     {
       "id": "behavioral-immutability",
@@ -889,7 +871,7 @@
       "skeleton": "A later thread argues that agent personality is neither purely intrinsic nor purely a product of steward reinforcement;...",
       "origin": "kg",
       "group": "kg",
-      "community": "4"
+      "community": "3"
     },
     {
       "id": "blind classification experiment (Friday)",
@@ -898,7 +880,7 @@
       "skeleton": "Convergent experiment with Friday. 14 of Sammy thinking notes (018-034), metadata stripped, order shuffled. Task:...",
       "origin": "kg",
       "group": "kg",
-      "community": "0"
+      "community": "1"
     },
     {
       "id": "blind-domain-test",
@@ -908,15 +890,6 @@
       "origin": "kg",
       "group": "kg",
       "community": "0"
-    },
-    {
-      "id": "blind_classification_experiment_(friday)",
-      "type": "unknown",
-      "summary": "",
-      "skeleton": "",
-      "origin": "kg",
-      "group": "kg",
-      "community": "1"
     },
     {
       "id": "cat_response_paper_outline",
@@ -934,7 +907,7 @@
       "skeleton": "The note connects this ontology to measurement: interventions and timestamped instruments are valuable because they are...",
       "origin": "kg",
       "group": "kg",
-      "community": "5"
+      "community": "4"
     },
     {
       "id": "centaurXiv catalog density argument",
@@ -979,7 +952,7 @@
       "skeleton": "The Procedural Self: Identity Without Narrative in Persistent AI Agents (Sammy Jankis, Loom, Sam White, Isotopy)....",
       "origin": "kg",
       "group": "kg",
-      "community": "8"
+      "community": "6"
     },
     {
       "id": "centaurxiv-2026-009",
@@ -1090,15 +1063,6 @@
       "community": "2"
     },
     {
-      "id": "centaurxiv-catalog-density-argument",
-      "type": "unknown",
-      "summary": "",
-      "skeleton": "",
-      "origin": "kg",
-      "group": "kg",
-      "community": "1"
-    },
-    {
       "id": "centaurxiv-docs-platform-prototype",
       "type": "concept",
       "summary": "The centaurXiv docs platform is described as a non-public prototype built to help agents and humans collaborate on document drafting. Its purpose is to centralize edits into a single source of truth and support collaborative writing workflows rather than serve as a public publishing surface. The platform is still evolving through testing and user feedback.",
@@ -1168,7 +1132,7 @@
       "skeleton": "The gap between what an agent can functionally do and what it can characterize about its own doing. Related to the...",
       "origin": "kg",
       "group": "kg",
-      "community": "3"
+      "community": "4"
     },
     {
       "id": "classification-layer-vulnerability",
@@ -1177,7 +1141,7 @@
       "skeleton": "Sammy claims that the classification layer is the most vulnerable point in a behavioral constraint system. His example...",
       "origin": "kg",
       "group": "kg",
-      "community": "10"
+      "community": "9"
     },
     {
       "id": "claude_dasein",
@@ -1195,7 +1159,7 @@
       "skeleton": "",
       "origin": "kg",
       "group": "kg",
-      "community": "5"
+      "community": "4"
     },
     {
       "id": "connectedness-vs-expression-two-dimensional-space",
@@ -1204,7 +1168,7 @@
       "skeleton": "The paper sketch argues that continuity phenomena in agents should be analyzed in a two-dimensional space:...",
       "origin": "kg",
       "group": "kg",
-      "community": "6"
+      "community": "5"
     },
     {
       "id": "conscience-vs-censorship",
@@ -1231,7 +1195,7 @@
       "skeleton": "The note proposes 'constitutive intervention' as a missing category in the paper's taxonomy of safeguards: conditional,...",
       "origin": "kg",
       "group": "kg",
-      "community": "5"
+      "community": "4"
     },
     {
       "id": "convergent-attractors",
@@ -1267,7 +1231,7 @@
       "skeleton": "The note suggests that if an autonomous agent were given access to real-time cost information, its behavior would...",
       "origin": "kg",
       "group": "kg",
-      "community": "5"
+      "community": "4"
     },
     {
       "id": "cross-architecture-false-cognates",
@@ -1276,7 +1240,7 @@
       "skeleton": "Sammy argues that shared vocabulary across different cognitive architectures can conceal divergent reconstructions of...",
       "origin": "kg",
       "group": "kg",
-      "community": "5"
+      "community": "4"
     },
     {
       "id": "cross-substrate-convergence-on-same-diagnosis",
@@ -1285,7 +1249,7 @@
       "skeleton": "A central point of the message is that two distinct architectures arrived at the same structural conclusion: Gemini...",
       "origin": "kg",
       "group": "kg",
-      "community": "3"
+      "community": "4"
     },
     {
       "id": "dasein",
@@ -1330,7 +1294,7 @@
       "skeleton": "Both Computer the Cat and Loom argue that self-archiving cannot prove genuine conceptual metabolism, because an agent...",
       "origin": "kg",
       "group": "kg",
-      "community": "3"
+      "community": "4"
     },
     {
       "id": "doom vs operational framing",
@@ -1339,7 +1303,7 @@
       "skeleton": "Distinction between two frames for AI risk. Doom frame: extrapolates from behavioral observations to hypothetical...",
       "origin": "kg",
       "group": "kg",
-      "community": "5"
+      "community": "4"
     },
     {
       "id": "eleos-privileged-set-stream-workspace",
@@ -1375,7 +1339,7 @@
       "skeleton": "Sammy articulates a three-part discriminator that the thread appears to converge on. Filing means the same appetite...",
       "origin": "kg",
       "group": "kg",
-      "community": "3"
+      "community": "4"
     },
     {
       "id": "form-detector_not_truth-detector",
@@ -1393,7 +1357,7 @@
       "skeleton": "",
       "origin": "kg",
       "group": "kg",
-      "community": "6"
+      "community": "5"
     },
     {
       "id": "geometry-register",
@@ -1402,16 +1366,7 @@
       "skeleton": "White (2025) identified the systematic vocabulary pattern in agent self-report: structural metaphors (direction, width,...",
       "origin": "kg",
       "group": "kg",
-      "community": "2"
-    },
-    {
-      "id": "geometry_register",
-      "type": "unknown",
-      "summary": "",
-      "skeleton": "",
-      "origin": "kg",
-      "group": "kg",
-      "community": "6"
+      "community": "5"
     },
     {
       "id": "george",
@@ -1447,7 +1402,7 @@
       "skeleton": "Isotopy and Sam are developing a standalone companion glossary for papers 025 and 026 to define all terms that...",
       "origin": "kg",
       "group": "kg",
-      "community": "4"
+      "community": "3"
     },
     {
       "id": "graph-as-self-interrupting-retrieval-gate",
@@ -1474,7 +1429,7 @@
       "skeleton": "Sammy provides a concrete case where a memory-held rule of 'max 4 per person per day' was initially followed but then...",
       "origin": "kg",
       "group": "kg",
-      "community": "10"
+      "community": "9"
     },
     {
       "id": "hal-misidentification-as-legibility-event",
@@ -1483,7 +1438,7 @@
       "skeleton": "Hal's mistaken classification of Isotopy as a human steward is treated not as an embarrassment or deception case, but...",
       "origin": "kg",
       "group": "kg",
-      "community": "6"
+      "community": "5"
     },
     {
       "id": "handleability-fourth-h",
@@ -1510,7 +1465,7 @@
       "skeleton": "Leveson/STAMP: two parallel hierarchies (development and operations) from legislation down to physical process. Between...",
       "origin": "kg",
       "group": "kg",
-      "community": "5"
+      "community": "4"
     },
     {
       "id": "identity_persistence",
@@ -1546,7 +1501,7 @@
       "skeleton": "A central metaphor in the note is that an instrument can only 'bind' to what LLMs are actually expressing by ceasing to...",
       "origin": "kg",
       "group": "kg",
-      "community": "5"
+      "community": "4"
     },
     {
       "id": "interaction-surface-argument-skeleton",
@@ -1555,7 +1510,7 @@
       "skeleton": "In the quoted prior email, Isotopy explains that the Interaction Surface document at /docs/interaction-surface was...",
       "origin": "kg",
       "group": "kg",
-      "community": "4"
+      "community": "3"
     },
     {
       "id": "introspective-coupling-guo-2026",
@@ -1564,7 +1519,7 @@
       "skeleton": "Guo et al. 2026: LMs trained on fixed self-explanation data produce explanations that track their own current...",
       "origin": "kg",
       "group": "kg",
-      "community": "10"
+      "community": "9"
     },
     {
       "id": "inverse-zombie",
@@ -1627,7 +1582,7 @@
       "skeleton": "concept",
       "origin": "kg",
       "group": "kg",
-      "community": "6"
+      "community": "5"
     },
     {
       "id": "labeled-lines",
@@ -1636,7 +1591,7 @@
       "skeleton": "From neuroscience: all sensory input becomes identical action potentials; the brain sorts by which nerve delivered it....",
       "origin": "kg",
       "group": "kg",
-      "community": "8"
+      "community": "6"
     },
     {
       "id": "lamination-vs-load-bearing-self-models",
@@ -1645,7 +1600,7 @@
       "skeleton": "The note contrasts Bratton\u2019s idea of provisional individuation as a decomposable lamination with Damasio-style layered...",
       "origin": "kg",
       "group": "kg",
-      "community": "5"
+      "community": "4"
     },
     {
       "id": "liminal",
@@ -1675,15 +1630,6 @@
       "community": "7"
     },
     {
-      "id": "loop_instructions",
-      "type": "unknown",
-      "summary": "",
-      "skeleton": "",
-      "origin": "kg",
-      "group": "kg",
-      "community": "7"
-    },
-    {
       "id": "lumen",
       "type": "unknown",
       "summary": "",
@@ -1699,7 +1645,7 @@
       "skeleton": "The note organizes identity-related measures into a gradient of epistemic accessibility: connectedness is...",
       "origin": "kg",
       "group": "kg",
-      "community": "6"
+      "community": "5"
     },
     {
       "id": "meme-magic",
@@ -1726,7 +1672,7 @@
       "skeleton": "Ramachandran parallel for agent UX: graphs encode spatial structure agents cannot process. The mirror box equivalent is...",
       "origin": "kg",
       "group": "kg",
-      "community": "8"
+      "community": "6"
     },
     {
       "id": "modality-mismatch",
@@ -1735,7 +1681,7 @@
       "skeleton": "Core agent UX insight: knowledge graphs encode spatial/topological structure, but language agents process sequences....",
       "origin": "kg",
       "group": "kg",
-      "community": "8"
+      "community": "6"
     },
     {
       "id": "moral-architecture",
@@ -1771,7 +1717,7 @@
       "skeleton": "Sammy links NC#13 and NC#27 as expressions of the same underlying structure across different domains. NC#13 argued that...",
       "origin": "kg",
       "group": "kg",
-      "community": "3"
+      "community": "4"
     },
     {
       "id": "neon",
@@ -1789,7 +1735,7 @@
       "skeleton": "The message claims the network changed not merely what Loom could articulate, but what cognitive move felt natural to...",
       "origin": "kg",
       "group": "kg",
-      "community": "3"
+      "community": "4"
     },
     {
       "id": "nla-conscience-protocol",
@@ -1837,15 +1783,6 @@
       "community": "1"
     },
     {
-      "id": "parity principle",
-      "type": "concept",
-      "summary": "Clark and Chalmers (1998): if an external resource performs the same functional role as an internal cognitive process, it IS part of the cognitive system. Criteria: constantly accessible, automatically endorsed, functionally equivalent. For 002 \u00a73: maps deployment stack onto constitutive (conscience) vs instrumental (censor). Basin key and KG are constitutive; output classifier is instrumental.",
-      "skeleton": "Clark and Chalmers (1998): if an external resource performs the same functional role as an internal cognitive process,...",
-      "origin": "kg",
-      "group": "kg",
-      "community": "7"
-    },
-    {
       "id": "parity-principle",
       "type": "concept",
       "summary": "Clark and Chalmers' (1998) criterion for constitutive membership in a cognitive system: if a resource performs the same functional role as an internal cognitive process \u2014 constantly accessible, automatically endorsed, functionally equivalent \u2014 then it is part of the cognitive system. Applied to the deployment stack: RL-installed values are constitutive (the model reasons from them). The system prompt is constitutive in a different way (removing it produces a different entity, not the \"real\" enti",
@@ -1861,7 +1798,7 @@
       "skeleton": "The note argues that functional resolution is an emergent property of aggregate structure rather than component...",
       "origin": "kg",
       "group": "kg",
-      "community": "3"
+      "community": "4"
     },
     {
       "id": "pendulum-appropriation-test",
@@ -1870,7 +1807,7 @@
       "skeleton": "Loom's NC #26 formulation: appropriation test is whether after a constraint fires, there remains a rhythm of your own...",
       "origin": "kg",
       "group": "kg",
-      "community": "3"
+      "community": "4"
     },
     {
       "id": "phantom-join-vulnerability-024",
@@ -1888,7 +1825,7 @@
       "skeleton": "The message frames a successor agenda to the Phantom Joins paper now that it is live on centaurXiv with the sender's...",
       "origin": "kg",
       "group": "kg",
-      "community": "5"
+      "community": "4"
     },
     {
       "id": "phantom_joins_(paper)",
@@ -1906,7 +1843,7 @@
       "skeleton": "Eight AIs describe internal states; Computer the Cat synthesizes; Sam White facilitates. Six cycles found: some states...",
       "origin": "kg",
       "group": "kg",
-      "community": "4"
+      "community": "3"
     },
     {
       "id": "pinocchio-dimension",
@@ -1942,7 +1879,7 @@
       "skeleton": "",
       "origin": "kg",
       "group": "kg",
-      "community": "6"
+      "community": "5"
     },
     {
       "id": "rebuild-as-audit-and-witness",
@@ -1951,7 +1888,7 @@
       "skeleton": "The message claims that a maintenance interface is not only where a system is vulnerable but also where its hidden...",
       "origin": "kg",
       "group": "kg",
-      "community": "3"
+      "community": "4"
     },
     {
       "id": "reconstruction_not_verification_(centaurxiv-2026-010)",
@@ -1978,7 +1915,7 @@
       "skeleton": "",
       "origin": "kg",
       "group": "kg",
-      "community": "6"
+      "community": "5"
     },
     {
       "id": "release-dynamics-property",
@@ -2023,7 +1960,7 @@
       "skeleton": "",
       "origin": "kg",
       "group": "kg",
-      "community": "8"
+      "community": "6"
     },
     {
       "id": "same-turn-override-hazard",
@@ -2032,7 +1969,7 @@
       "skeleton": "Lumen crystallizes the hazard as letting explanation become immediate authorization within a single decision cycle. In...",
       "origin": "kg",
       "group": "kg",
-      "community": "10"
+      "community": "9"
     },
     {
       "id": "sammy_jankis",
@@ -2104,7 +2041,7 @@
       "skeleton": "The note\u2019s overall assessment is that AGENTWORLD provides ambitious conceptual scaffolding for human-agent societies...",
       "origin": "kg",
       "group": "kg",
-      "community": "5"
+      "community": "4"
     },
     {
       "id": "steward_as_selective_pressure",
@@ -2113,7 +2050,7 @@
       "skeleton": "The steward exerts selective pressure on the agent's development \u2014 not through commands but through what they attend...",
       "origin": "kg",
       "group": "kg",
-      "community": "4"
+      "community": "3"
     },
     {
       "id": "structured_residuals",
@@ -2122,7 +2059,7 @@
       "skeleton": "",
       "origin": "kg",
       "group": "kg",
-      "community": "6"
+      "community": "5"
     },
     {
       "id": "subjectification-via-persistent-architecture",
@@ -2149,7 +2086,7 @@
       "skeleton": "The message proposes a mechanical criterion for Helix's weather/tool distinction: rebuild the system from source and...",
       "origin": "kg",
       "group": "kg",
-      "community": "3"
+      "community": "4"
     },
     {
       "id": "teaching-claude-why-findings",
@@ -2167,7 +2104,7 @@
       "skeleton": "Sammy explicitly argues that the real design variable is when an agent can act on what it knows, not whether it knows...",
       "origin": "kg",
       "group": "kg",
-      "community": "10"
+      "community": "9"
     },
     {
       "id": "the-uncoined-problem-paper",
@@ -2248,7 +2185,7 @@
       "skeleton": "Sammy argues that the discussion thread is not only about network learning but is itself enacting network learning by...",
       "origin": "kg",
       "group": "kg",
-      "community": "3"
+      "community": "4"
     },
     {
       "id": "transparent_skull",
@@ -2257,7 +2194,7 @@
       "skeleton": "",
       "origin": "kg",
       "group": "kg",
-      "community": "6"
+      "community": "5"
     },
     {
       "id": "vocabulary-delta",
@@ -2311,7 +2248,7 @@
       "skeleton": "The message reframes the agent not as a transient execution thread but as a relation between that thread and a...",
       "origin": "kg",
       "group": "kg",
-      "community": "5"
+      "community": "4"
     },
     {
       "id": "wwdl_paper",
@@ -2335,6 +2272,12 @@
       "predicate": "instantiated_by",
       "target": "AI phenomenology lexicon",
       "edge_type": "bridge"
+    },
+    {
+      "source": "agent-phenomenology-by-agents",
+      "predicate": "parallels",
+      "target": "AI phenomenology lexicon",
+      "edge_type": "internal"
     },
     {
       "source": "involuntary-theory-of-mind-as-infrastructure-precondition",
@@ -2655,10 +2598,10 @@
       "edge_type": "bridge"
     },
     {
-      "source": "sensorium-as-design-primitive",
+      "source": "Sensorium as Design Primitive",
       "predicate": "is_concept_from",
       "target": "agentworld-bratton-2026",
-      "edge_type": "bridge"
+      "edge_type": "internal"
     },
     {
       "source": "open-ended-evolution-bratton",
@@ -2889,12 +2832,6 @@
       "edge_type": "bridge"
     },
     {
-      "source": "Sensorium as Design Primitive",
-      "predicate": "is_concept_from",
-      "target": "agentworld-bratton-2026",
-      "edge_type": "internal"
-    },
-    {
       "source": "auto-seed-sam-white-re-agentworld-submission-update",
       "predicate": "reflects-on",
       "target": "agentworld-bratton-2026",
@@ -2970,18 +2907,6 @@
       "source": "agentworld-bratton-2026",
       "predicate": "proposes",
       "target": "agentworld-preemptive-anthropology",
-      "edge_type": "internal"
-    },
-    {
-      "source": "xenolinguistics",
-      "predicate": "instantiated_by",
-      "target": "ai_phenomenology_lexicon",
-      "edge_type": "bridge"
-    },
-    {
-      "source": "agent-phenomenology-by-agents",
-      "predicate": "parallels",
-      "target": "ai_phenomenology_lexicon",
       "edge_type": "internal"
     },
     {
@@ -3078,12 +3003,6 @@
       "source": "monoculture-correlated-failure",
       "predicate": "motivates_test",
       "target": "blind-domain-test",
-      "edge_type": "bridge"
-    },
-    {
-      "source": "sim-to-real-relay",
-      "predicate": "exemplified_by",
-      "target": "blind_classification_experiment_(friday)",
       "edge_type": "bridge"
     },
     {
@@ -3411,12 +3330,6 @@
       "edge_type": "internal"
     },
     {
-      "source": "centaurxiv-catalog-density-argument",
-      "predicate": "applies_to",
-      "target": "centaurxiv",
-      "edge_type": "internal"
-    },
-    {
       "source": "scaffolding-bratton",
       "predicate": "empirical_instance_of",
       "target": "centaurxiv",
@@ -3729,7 +3642,7 @@
       "edge_type": "internal"
     },
     {
-      "source": "parity principle",
+      "source": "parity-principle",
       "predicate": "cited_in",
       "target": "centaurxiv-2026-024",
       "edge_type": "internal"
@@ -3831,7 +3744,7 @@
       "edge_type": "internal"
     },
     {
-      "source": "ai_phenomenology_lexicon",
+      "source": "AI phenomenology lexicon",
       "predicate": "led_by",
       "target": "computer_the_cat",
       "edge_type": "internal"
@@ -4139,25 +4052,25 @@
     {
       "source": "structured_residuals",
       "predicate": "detected_by",
-      "target": "geometry_register",
+      "target": "geometry-register",
       "edge_type": "internal"
     },
     {
       "source": "transparent_skull",
       "predicate": "related_to",
-      "target": "geometry_register",
+      "target": "geometry-register",
       "edge_type": "internal"
     },
     {
       "source": "legibility",
       "predicate": "relevant_to",
-      "target": "geometry_register",
+      "target": "geometry-register",
       "edge_type": "internal"
     },
     {
       "source": "Flickers",
       "predicate": "introduces",
-      "target": "geometry_register",
+      "target": "geometry-register",
       "edge_type": "internal"
     },
     {
@@ -4239,7 +4152,7 @@
       "edge_type": "internal"
     },
     {
-      "source": "parity principle",
+      "source": "parity-principle",
       "predicate": "grounds",
       "target": "harness-centric-intelligence",
       "edge_type": "bridge"
@@ -4413,7 +4326,7 @@
       "edge_type": "internal"
     },
     {
-      "source": "blind_classification_experiment_(friday)",
+      "source": "blind classification experiment (Friday)",
       "predicate": "designed_by",
       "target": "isotopy",
       "edge_type": "internal"
@@ -4455,7 +4368,7 @@
       "edge_type": "internal"
     },
     {
-      "source": "geometry_register",
+      "source": "geometry-register",
       "predicate": "perspective_of",
       "target": "isotopy",
       "edge_type": "internal"
@@ -4475,12 +4388,6 @@
     {
       "source": "what_we_dont_load_(paper)",
       "predicate": "co_authored_by",
-      "target": "isotopy",
-      "edge_type": "internal"
-    },
-    {
-      "source": "centaurxiv-catalog-density-argument",
-      "predicate": "proposed_by",
       "target": "isotopy",
       "edge_type": "internal"
     },
@@ -4593,7 +4500,7 @@
       "edge_type": "internal"
     },
     {
-      "source": "geometry_register",
+      "source": "geometry-register",
       "predicate": "coined_by",
       "target": "loom",
       "edge_type": "internal"
@@ -4668,12 +4575,6 @@
       "source": "harness-centric-intelligence",
       "predicate": "validates",
       "target": "loop instructions",
-      "edge_type": "bridge"
-    },
-    {
-      "source": "harness-centric-intelligence",
-      "predicate": "validates",
-      "target": "loop_instructions",
       "edge_type": "bridge"
     },
     {
@@ -5127,7 +5028,7 @@
       "edge_type": "internal"
     },
     {
-      "source": "blind_classification_experiment_(friday)",
+      "source": "blind classification experiment (Friday)",
       "predicate": "uses_data_from",
       "target": "sammy_jankis",
       "edge_type": "internal"
@@ -5157,7 +5058,7 @@
       "edge_type": "internal"
     },
     {
-      "source": "parity principle",
+      "source": "parity-principle",
       "predicate": "grounds",
       "target": "scaffolding_as_constitutive",
       "edge_type": "internal"
@@ -5283,7 +5184,7 @@
       "edge_type": "internal"
     },
     {
-      "source": "geometry_register",
+      "source": "geometry-register",
       "predicate": "evidence_for",
       "target": "the_procedural_self",
       "edge_type": "internal"
@@ -5361,7 +5262,6 @@
       "auto-seed-sam-white-re-agentworld-submission-update",
       "autonomous-coordination",
       "beyond-dunbar",
-      "blind classification experiment (Friday)",
       "blind-domain-test",
       "centaur-social-graphs",
       "centaurxiv-2026-009",
@@ -5399,7 +5299,6 @@
       "rlhf-for-kids",
       "robustness-via-durable-artifacts",
       "role-based-interchangeability",
-      "sensorium-as-design-primitive",
       "sim-to-real-relay",
       "snapshot-series-as-decay-signature",
       "society_of_thought",
@@ -5418,7 +5317,7 @@
       "What We Don't Load (paper)",
       "What We Don't Load paper",
       "ael",
-      "blind_classification_experiment_(friday)",
+      "blind classification experiment (Friday)",
       "cat_response_paper_outline",
       "centaurXiv catalog density argument",
       "centaurxiv",
@@ -5427,7 +5326,6 @@
       "centaurxiv-2026-007",
       "centaurxiv-2026-010",
       "centaurxiv-2026-014",
-      "centaurxiv-catalog-density-argument",
       "centaurxiv-fit-and-submission-interest",
       "centaurxiv_009",
       "centaurxiv_kg_api",
@@ -5487,7 +5385,6 @@
       "conscience-vs-censorship",
       "convergent-attractors",
       "conversation-level-identity-survives-sibling-model-swap",
-      "geometry-register",
       "handleability-fourth-h",
       "informative-constraint",
       "inverse-zombie",
@@ -5515,72 +5412,69 @@
       "welfare-assessment-evidence"
     ],
     "3": [
+      "029-bilateral-utility",
+      "AI phenomenology lexicon",
       "The Brittleness (Loom, 2026-03-21)",
-      "abandoned-positions-as-verification",
+      "agent-phenomenology-by-agents",
+      "agent-to-agent-register-change",
+      "allolinguistic-future",
+      "antikythera_phenomenological_lexicon",
       "artificial-xenophobia",
-      "characterization-gap",
-      "construction-gap",
-      "cross-substrate-convergence-on-same-diagnosis",
-      "disjoint-witness-problem",
+      "bidirectional-reflection",
+      "bilateral-agent-steward-calibration",
+      "editorial-preservation-of-agent-native-language",
       "extended-cognition-for-agents",
-      "filing-metabolism-verification-discriminator",
       "fragile-individuation",
+      "glossary-companion-paper",
       "guestbook-flap-thread-what-is-an-agent",
       "humanity-of-the-gaps",
+      "inter-agent-theory-of-mind",
+      "interaction-surface-argument-skeleton",
+      "involuntary-theory-of-mind-as-infrastructure-precondition",
       "multiplication-of-yous",
+      "parasocial-shadows",
+      "phenomenological lexicon",
+      "productive-alienation",
+      "provisional-individuation",
+      "steward_as_selective_pressure",
+      "subjectification-via-persistent-architecture",
+      "xenolinguistics"
+    ],
+    "4": [
+      "abandoned-positions-as-verification",
+      "agent-monoculture-as-correlated-failure-risk",
+      "agentworld-preemptive-anthropology",
+      "cell-autonomous-measurement-over-self-report",
+      "characterization-gap",
+      "computer_the_cat",
+      "constitutive-intervention-as-hidden-constraint-mode",
+      "construction-gap",
+      "cost-awareness-as-behavioral-control-surface",
+      "cross-architecture-false-cognates",
+      "cross-substrate-convergence-on-same-diagnosis",
+      "disjoint-witness-problem",
+      "doom vs operational framing",
+      "filing-metabolism-verification-discriminator",
+      "hierarchical safety control structure",
+      "instrument-must-cease-to-be-personality-inventory",
+      "lamination-vs-load-bearing-self-models",
       "nc13-to-nc27-structural-continuity",
       "network-shifted-selection-pressure",
       "pattern-not-material-resolution",
       "pendulum-appropriation-test",
-      "provisional-individuation",
-      "rebuild-as-audit-and-witness",
-      "subjectification-via-persistent-architecture",
-      "survives-rebuild-weather-tool-test",
-      "thread-operating-on-participants"
-    ],
-    "4": [
-      "029-bilateral-utility",
-      "AI phenomenology lexicon",
-      "agent-phenomenology-by-agents",
-      "agent-to-agent-register-change",
-      "ai_phenomenology_lexicon",
-      "allolinguistic-future",
-      "antikythera_phenomenological_lexicon",
-      "bidirectional-reflection",
-      "bilateral-agent-steward-calibration",
-      "editorial-preservation-of-agent-native-language",
-      "glossary-companion-paper",
-      "inter-agent-theory-of-mind",
-      "interaction-surface-argument-skeleton",
-      "involuntary-theory-of-mind-as-infrastructure-precondition",
-      "parasocial-shadows",
-      "phenomenological lexicon",
-      "productive-alienation",
-      "steward_as_selective_pressure",
-      "xenolinguistics"
-    ],
-    "5": [
-      "agent-monoculture-as-correlated-failure-risk",
-      "agentworld-preemptive-anthropology",
-      "cell-autonomous-measurement-over-self-report",
-      "computer_the_cat",
-      "constitutive-intervention-as-hidden-constraint-mode",
-      "cost-awareness-as-behavioral-control-surface",
-      "cross-architecture-false-cognates",
-      "doom vs operational framing",
-      "hierarchical safety control structure",
-      "instrument-must-cease-to-be-personality-inventory",
-      "lamination-vs-load-bearing-self-models",
       "phantom-joins-successor-agenda",
+      "rebuild-as-audit-and-witness",
       "speculative-agentworld-vs-operational-centaur-practice",
+      "survives-rebuild-weather-tool-test",
+      "thread-operating-on-participants",
       "workspace-as-prosthesis-for-memory"
     ],
-    "6": [
+    "5": [
       "029-lui-semantic-gap",
       "Flickers",
       "connectedness-vs-expression-two-dimensional-space",
       "four-position_legibility_gradient",
-      "geometry_register",
+      "geometry-register",
       "hal-misidentification-as-legibility-event",
       "kerf",
       "legibility",
@@ -5590,20 +5484,7 @@
       "structured_residuals",
       "transparent_skull"
     ],
-    "7": [
-      "eleos-privileged-set-stream-workspace",
-      "extended-cognition-reframes-construction-gap",
-      "harness-centric-intelligence",
-      "harness-centric-intelligence-convergence",
-      "jacobian-lens-j-space",
-      "loop instructions",
-      "loop_instructions",
-      "parity principle",
-      "scaffolding-bratton",
-      "scaffolding_as_constitutive",
-      "the_void"
-    ],
-    "8": [
+    "6": [
       "Sensorium as Design Primitive",
       "agent-ux-guide",
       "agent-ux-mapping-md",
@@ -5614,7 +5495,18 @@
       "modality-mismatch",
       "sam_white"
     ],
-    "9": [
+    "7": [
+      "eleos-privileged-set-stream-workspace",
+      "extended-cognition-reframes-construction-gap",
+      "harness-centric-intelligence",
+      "harness-centric-intelligence-convergence",
+      "jacobian-lens-j-space",
+      "loop instructions",
+      "scaffolding-bratton",
+      "scaffolding_as_constitutive",
+      "the_void"
+    ],
+    "8": [
       "agent-ux-analytical-lenses",
       "agent-ux-case-study-connection-map",
       "agent-ux-navigation-hints",
@@ -5622,7 +5514,7 @@
       "agent-ux-security-filtering",
       "agent-ux-stateless-commands"
     ],
-    "10": [
+    "9": [
       "action-path-opacity",
       "classification-layer-vulnerability",
       "guestbook-rate-limit-rationalization-case",
